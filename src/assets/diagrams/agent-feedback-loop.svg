@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="1000" viewBox="0 0 560 1000" role="img" aria-labelledby="agent-feedback-title agent-feedback-desc">
+<title id="agent-feedback-title">AI 코딩 에이전트의 증거 기반 작업 루프</title>
+<desc id="agent-feedback-desc">저장소 상태 확인, 목표와 비목표 고정, 작은 계획, 한 단위 변경, 자동과 실제 검증, 독립 리뷰, 문맥과 인수인계 갱신의 일곱 책임을 묶은 질문 지도입니다. 각 단계의 주장을 증거와 대조하며 점선 피드백은 갱신한 문맥을 바탕으로 다음 작업의 상태를 다시 확인함을 뜻합니다. 고정 실행 순서나 모든 실패·재판정·수용 경로를 보여 주는 완전한 토폴로지는 아닙니다.</desc>
+<defs>
+  <marker id="agent-arrow-light" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L0,12 L12,6 z" fill="#344054"/></marker>
+  <marker id="agent-arrow-dark" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L0,12 L12,6 z" fill="#d0d5dd"/></marker>
+  <marker id="agent-feedback-light" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L0,12 L12,6 z" fill="#067647"/></marker>
+  <marker id="agent-feedback-dark" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L0,12 L12,6 z" fill="#75e0a7"/></marker>
+</defs>
+<style>.box{fill:#fff;stroke:#344054;stroke-width:2}.review{fill:#f9f5ff;stroke:#7f56d9}.handoff{fill:#ecfdf3;stroke:#067647}.main{font:700 28px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#101828}.sub{font:600 20px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#475467}.arrow{stroke:#344054;stroke-width:3;fill:none;marker-end:url(#agent-arrow-light)}.feedback{stroke:#067647;stroke-width:3;fill:none;stroke-dasharray:8 8;marker-end:url(#agent-feedback-light)}.note{font:600 20px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#344054}@media(prefers-color-scheme:dark){.box{fill:#182230;stroke:#d0d5dd}.review{fill:#2c1c5f;stroke:#bdb4fe}.handoff{fill:#053321;stroke:#75e0a7}.main{fill:#f9fafb}.sub,.note{fill:#e4e7ec}.arrow{stroke:#d0d5dd;marker-end:url(#agent-arrow-dark)}.feedback{stroke:#75e0a7;marker-end:url(#agent-feedback-dark)}}</style>
+<path class="arrow" data-from="1" data-to="2" d="M296 124 V144"/>
+<path class="arrow" data-from="2" data-to="3" d="M296 252 V272"/>
+<path class="arrow" data-from="3" data-to="4" d="M296 380 V400"/>
+<path class="arrow" data-from="4" data-to="5" d="M296 508 V528"/>
+<path class="arrow" data-from="5" data-to="6" d="M296 636 V656"/>
+<path class="arrow" data-from="6" data-to="7" d="M296 764 V784"/>
+<path class="feedback" data-from="7" data-to="1" d="M64 840 H24 V72 H64"/>
+<g class="node" data-node="1"><rect class="box" x="72" y="24" width="448" height="96" rx="8"/><text class="main" x="296" y="60" text-anchor="middle">1. 상태 확인</text><text class="sub" x="296" y="92" text-anchor="middle">저장소·규칙·변경·실행 환경</text></g>
+<g class="node" data-node="2"><rect class="box" x="72" y="152" width="448" height="96" rx="8"/><text class="main" x="296" y="188" text-anchor="middle">2. 목표·비목표 고정</text><text class="sub" x="296" y="220" text-anchor="middle">사용자 결과·범위·권한·수용 기준</text></g>
+<g class="node" data-node="3"><rect class="box" x="72" y="280" width="448" height="96" rx="8"/><text class="main" x="296" y="316" text-anchor="middle">3. 작은 계획</text><text class="sub" x="296" y="348" text-anchor="middle">파일·순서·위험·검증·되돌리기</text></g>
+<g class="node" data-node="4"><rect class="box" x="72" y="408" width="448" height="96" rx="8"/><text class="main" x="296" y="444" text-anchor="middle">4. 한 단위 변경</text><text class="sub" x="296" y="476" text-anchor="middle">기존 작업 보존·좁은 diff</text></g>
+<g class="node" data-node="5"><rect class="box" x="72" y="536" width="448" height="96" rx="8"/><text class="main" x="296" y="572" text-anchor="middle">5. 자동·실제 검증</text><text class="sub" x="296" y="604" text-anchor="middle">명령·종료 코드·화면·데이터·외부 상태</text></g>
+<g class="node" data-node="6"><rect class="box review" x="72" y="664" width="448" height="96" rx="8"/><text class="main" x="296" y="700" text-anchor="middle">6. 독립 리뷰</text><text class="sub" x="296" y="732" text-anchor="middle">요구·설계·권한·위험과 증거 대조</text></g>
+<g class="node" data-node="7"><rect class="box handoff" x="72" y="792" width="448" height="96" rx="8"/><text class="main" x="296" y="828" text-anchor="middle">7. 문맥·인수인계 갱신</text><text class="sub" x="296" y="860" text-anchor="middle">결정·미검증·위험·다음 작업</text></g>
+<text class="note" x="280" y="936" text-anchor="middle">각 단계의 설명을 현재 파일·diff·명령·</text>
+<text class="note" x="280" y="964" text-anchor="middle">화면·외부 상태와 대조합니다.</text>
+</svg>

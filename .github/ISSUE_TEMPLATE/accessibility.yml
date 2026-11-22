@@ -1,0 +1,58 @@
+name: 접근성 문제 제보
+description: 키보드, 화면 읽기, 확대·모바일·테마에서 읽거나 이동하기 어려운 점을 알려주세요.
+title: "[접근성] "
+body:
+  - type: markdown
+    attributes:
+      value: "장애나 개인의 건강 정보를 설명하실 필요는 없습니다. 사용한 환경과 어려웠던 동작만 알려주세요. 공개 Issue이므로 개인정보·계정·비밀값·회사 화면이 드러나는 첨부물은 넣지 마세요. 보안 문제는 SECURITY.md를 따라 비공개로 다뤄주세요."
+  - type: input
+    id: page
+    attributes:
+      label: 페이지 URL 또는 저장소 상대 경로
+      description: 공개 페이지 주소나 문서 경로와 문제가 있는 제목·버튼·그림을 적어주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 브라우저·화면·테마 환경
+      description: 브라우저와 운영체제 버전, 화면 또는 뷰포트 크기, 확대율, 라이트/다크 테마를 가능한 범위에서 알려주세요. 모르는 항목은 미확인으로 적으셔도 됩니다.
+    validations:
+      required: true
+  - type: input
+    id: assistive-technology
+    attributes:
+      label: 보조 기술
+      description: 사용한 화면 읽기 도구·음성 입력 등과 버전을 적어주세요. 사용하지 않았다면 사용 안 함, 모르면 미확인으로 적어주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 순서와 키보드 동작
+      description: 페이지를 연 뒤 누른 키와 포커스 이동 순서를 적어주세요. 키보드와 무관한 문제라면 화면을 보거나 확대했을 때의 순서를 알려주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 실제 결과
+      description: 읽히지 않는 글자, 잘림·겹침, 사라진 포커스, 이동할 수 없는 부분 등을 알려주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 기대한 결과
+      description: 어떻게 읽히거나 이동하면 문제를 해결할 수 있을지 알려주세요.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: 공개 전 확인
+      options:
+        - label: 본문·URL·첨부물에 개인정보, 회사 내부 자료, API 키·토큰·비밀번호 등 비밀정보를 넣지 않았습니다.
+          required: true
+        - label: 보안 취약점의 세부 제보가 아니며, 보안 문제라면 공개 Issue 대신 SECURITY.md의 비공개 제보 경로를 확인하겠습니다.
+          required: true

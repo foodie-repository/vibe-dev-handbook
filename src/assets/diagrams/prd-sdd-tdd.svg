@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1280" viewBox="0 0 480 1280" role="img" aria-labelledby="prd-sdd-tdd-title prd-sdd-tdd-desc">
+<title id="prd-sdd-tdd-title">PRD, 설계, 스펙 주도 개발, TDD와 검증 피드백의 관계</title>
+<desc id="prd-sdd-tdd-desc">사용자 문제와 가치에서 PRD로, PRD에서 설계 설명과 기능 스펙으로 갈라졌다가 계획과 작업 분해로 합쳐집니다. 이어 TDD 구현과 테스트·빌드·리뷰 증거를 연결하고, 점선은 검증·운영에서 배운 사실로 요구·설계·스펙을 재검토하는 대표 피드백을 PRD로 돌려 보여 줍니다. 설계 설명은 Software Design Description이라는 문서이고 Spec-Driven Development는 개발 접근이며 TDD는 Red·Green·Refactor를 반복하는 구현 규율입니다. 화살표는 추적 연결이지 고정 필수 절차나 모든 피드백 경로가 아니며 TDD만으로 전체 검증이 끝나지 않습니다.</desc>
+<defs>
+  <marker id="prd-arrow-light" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L0,12 L12,6 z" fill="#344054"/></marker>
+  <marker id="prd-arrow-dark" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L0,12 L12,6 z" fill="#d0d5dd"/></marker>
+  <marker id="prd-feedback-light" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L0,12 L12,6 z" fill="#027a48"/></marker>
+  <marker id="prd-feedback-dark" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L0,12 L12,6 z" fill="#32d583"/></marker>
+</defs>
+<style>.box,.mask{fill:#fff}.box,.rule{stroke:#344054;stroke-width:2}.rule{fill:none}.main{font:700 28px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#101828}.sub{font:600 24px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#475467}.note{font:600 20px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#344054}.arrow{stroke:#344054;stroke-width:3;fill:none;marker-end:url(#prd-arrow-light)}.feedback{stroke:#027a48;stroke-width:3;stroke-dasharray:8 6;fill:none;marker-end:url(#prd-feedback-light)}@media(prefers-color-scheme:dark){.box,.mask{fill:#182230}.box,.rule{stroke:#d0d5dd}.main{fill:#f9fafb}.sub,.note{fill:#e4e7ec}.arrow{stroke:#d0d5dd;marker-end:url(#prd-arrow-dark)}.feedback{stroke:#32d583;marker-end:url(#prd-feedback-dark)}}</style>
+<path class="arrow" data-from="P" data-to="PRD" d="M240 96 V144"/>
+<path class="arrow" data-from="PRD" data-to="SD" d="M208 240 V272 H132 V304"/>
+<path class="arrow" data-from="PRD" data-to="S" d="M272 240 V272 H348 V304"/>
+<path class="arrow" data-from="SD" data-to="PLAN" d="M132 536 V568 H208 V600"/>
+<path class="arrow" data-from="S" data-to="PLAN" d="M348 536 V568 H272 V600"/>
+<path class="arrow" data-from="PLAN" data-to="TDD" d="M240 688 V744"/>
+<path class="arrow" data-from="TDD" data-to="E" d="M240 864 V920"/>
+<path class="feedback" data-from="E" data-to="PRD" d="M80 968 H16 V192 H80"/>
+<g class="node" data-node="P"><rect class="box" x="80" y="16" width="320" height="80" rx="8"/><text class="main" x="240" y="64" text-anchor="middle">사용자 문제와 가치</text></g>
+<g class="node" data-node="PRD"><rect class="box" x="80" y="144" width="320" height="96" rx="8"/><text class="main" x="240" y="184" text-anchor="middle">PRD</text><text class="sub" x="240" y="220" text-anchor="middle">왜·누구·무엇</text></g>
+<g class="node" data-node="SD"><rect class="box" x="32" y="304" width="200" height="232" rx="8"/><text class="main" x="132" y="344" text-anchor="middle">설계 설명</text><text class="note" x="132" y="380" text-anchor="middle">Software Design</text><text class="note" x="132" y="408" text-anchor="middle">Description</text><text class="sub" x="132" y="460" text-anchor="middle">구조·경계</text><text class="sub" x="132" y="492" text-anchor="middle">인터페이스</text></g>
+<g class="node" data-node="S"><rect class="box" x="248" y="304" width="200" height="232" rx="8"/><text class="main" x="348" y="344" text-anchor="middle">기능 스펙</text><text class="sub" x="348" y="392" text-anchor="middle">동작·제약</text><text class="sub" x="348" y="424" text-anchor="middle">수용 기준</text><text class="note" x="348" y="488" text-anchor="middle">검증 가능한 스펙</text></g>
+<g class="node" data-node="PLAN"><rect class="box" x="80" y="600" width="320" height="88" rx="8"/><text class="main" x="240" y="652" text-anchor="middle">계획과 작업 분해</text></g>
+<g class="node" data-node="TDD"><rect class="box" x="80" y="744" width="320" height="120" rx="8"/><text class="main" x="240" y="784" text-anchor="middle">TDD 구현</text><text class="sub" x="240" y="820" text-anchor="middle">Red·Green·Refactor</text><text class="note" x="240" y="848" text-anchor="middle">문서가 아닌 구현 규율</text></g>
+<g class="node" data-node="E"><rect class="box" x="80" y="920" width="320" height="96" rx="8"/><text class="main" x="240" y="960" text-anchor="middle">검증 증거</text><text class="sub" x="240" y="996" text-anchor="middle">테스트·빌드·리뷰</text></g>
+<line class="rule" x1="24" y1="1048" x2="456" y2="1048"/>
+<text class="note" x="240" y="1080" text-anchor="middle">실선: 추적 연결</text>
+<text class="note" x="240" y="1112" text-anchor="middle">점선: 검증·운영에서 배운 사실로</text>
+<text class="note" x="240" y="1140" text-anchor="middle">요구·설계·스펙을 다시 검토합니다.</text>
+<text class="note" x="240" y="1196" text-anchor="middle">Spec-Driven Development:</text>
+<text class="note" x="240" y="1224" text-anchor="middle">스펙을 계획·작업·구현으로 잇는 접근</text>
+<text class="note" x="240" y="1256" text-anchor="middle">TDD만으로 전체 검증이 끝나지는 않습니다.</text>
+</svg>

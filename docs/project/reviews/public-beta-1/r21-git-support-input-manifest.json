@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "review_id": "R21",
+  "state": "input-fixed",
+  "baseline_commit": "5cbab7be30985c3acd097130f8b86f7f00ccbc69",
+  "combined_sha256": "847e3b3f67581fb798d1cfab15264a18f1285c3717d3a50a9799cba45eb00c37",
+  "entries": [
+    {
+      "path": "docs/project/reviews/public-beta-1/codex-review-contract.md",
+      "sha256": "e0df0f1092868097207189175ee9d0ead5d7fc15aecf56dd0d2937b8f44fd946",
+      "bytes": 17073
+    },
+    {
+      "path": "src/content/docs/09-git-github/branch-commit-pull-request.md",
+      "sha256": "fdf94f67c24f57c23857cb132618301ee91a2d205bd8a8a5bff10d4014512bea",
+      "bytes": 18005
+    },
+    {
+      "path": "src/content/docs/09-git-github/undo-merge-conflict-release.md",
+      "sha256": "f349e1b0a7aac63598a550c494a1724c6ce8e11cf571b777d829fbca65d149e5",
+      "bytes": 18672
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r21-git-support-2026-11-16.md",
+      "sha256": "5f947ceceb2af07757148d15a920844ad4eaa8617485575a686ba0dc7db2907c",
+      "bytes": 8644
+    },
+    {
+      "path": "research/meeting-webapp-case-brief.md",
+      "sha256": "ee7611ec9889a8a2ab2bfdec1975c6b1078e3d849cfe435e5f070af6a17fa2b1",
+      "bytes": 6901
+    },
+    {
+      "path": "src/content/docs/reference/development-glossary.md",
+      "sha256": "728022ddc235e2196e60c52bc0dca8c07d0c4cd160dfdb5d4d196e5afe4b260d",
+      "bytes": 56291
+    },
+    {
+      "path": "src/content/docs/09-git-github/git-and-github.md",
+      "sha256": "e9a859657dc626c9ee734231c8a2ba59e666887ed764cb0b0b888001f57118c1",
+      "bytes": 35217
+    },
+    {
+      "path": "src/content/docs/10-deployment-operations/build-deploy-domain-dns.md",
+      "sha256": "157c675aa181f355939e29963f62d9c246129ea800261256f004f5ce9195d28c",
+      "bytes": 39113
+    },
+    {
+      "path": "src/content/docs/11-ai-native/permissions-sandbox-worktrees.md",
+      "sha256": "dbcbf109c26c3ffa33ea76306d6c1aa0098c40758b1cf890a071101971f0ad54",
+      "bytes": 22489
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r08-git-github-codex-review.md",
+      "sha256": "ae5079ad022cd394a9fc1ad7247edd99f849853140dad61cca8e0a1b365c6829",
+      "bytes": 35146
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r08-git-github-adjudication.md",
+      "sha256": "8fd76d99476cd450ea1fa3817dab927fdf53e62feced90d2eb6f8fc35e17ae0f",
+      "bytes": 4581
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r08-git-github-codex-rereview.md",
+      "sha256": "1a66d5e14063aaa92cb9276c059c277bf5d71c4fe2b2768e4c87ca367b69a52d",
+      "bytes": 25841
+    },
+    {
+      "path": "scripts/r08-fix-transition.mjs",
+      "sha256": "dd505b8138c2e2880533d366ce275e4541ee80c0515f9e2f2f19740cff8d77c1",
+      "bytes": 30940
+    },
+    {
+      "path": "src/styles/custom.css",
+      "sha256": "2236f2a8a9b30515cb641d48de7089d15590834766ada3f60de9f649ef36c137",
+      "bytes": 874
+    },
+    {
+      "path": "templates/agent-task-brief-template.md",
+      "sha256": "6bd36d1537b20962aebfd261467693b70ce1abe7fe279202ea851c7b4ad57b19",
+      "bytes": 1894
+    },
+    {
+      "path": "WORKSPACE_MAP.md",
+      "sha256": "db9897c6d86e9f5ffd0ef7b3e3c8de996680cdb8b5ce00e3620817bfd291f368",
+      "bytes": 1678
+    },
+    {
+      "path": "package.json",
+      "sha256": "8c7e64860b4dbfaba9d018878277b057f1a33eca717dc0d4472b89fdfda1fd75",
+      "bytes": 1101
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "5e013a1e16f4e5b7943f7716f544963ef333781ed8307c02121f9d33294501e5",
+      "bytes": 217
+    },
+    {
+      "path": "astro.config.mjs",
+      "sha256": "baa48f6186f1f9b48cff9a3086e755e4a092b5a0c7bc919f08eedf4976385783",
+      "bytes": 2653
+    },
+    {
+      "path": "src/content.config.ts",
+      "sha256": "080280bb959afcddf4d62253482ad2151446abf59666746eb27c554d75080bf8",
+      "bytes": 588
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r21-git-support-request.md",
+      "sha256": "e460b360bb0b6b1a694c50d6572043a93591b8dd7e619fb2cca4d977fd5756c2",
+      "bytes": 106813
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/branch-commit-pull-request-1440-light-top.png",
+      "sha256": "80582ee3f5f6219a73d6841706e65ecab3875b6ecaf42c5c1b24ce3f002258f7",
+      "bytes": 313508
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/branch-commit-pull-request-1440-light-item0-x0-y0.png",
+      "sha256": "2638e1ac88d2dbe0edde36de4d7c8e375b3d6e96e1c3d27579f27b2a53aa48a5",
+      "bytes": 69519
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/branch-commit-pull-request-1440-light-item1-x0-y0.png",
+      "sha256": "a5a50530f9e5864f02d0cd483262f9078b490a04ffecb222bf5fbcb6732822c9",
+      "bytes": 13417
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/branch-commit-pull-request-1440-light-item2-x0-y0.png",
+      "sha256": "037627a075fc49dd892e1bd301151d78ce0f0e48c8a9a12346ac6ed856d27107",
+      "bytes": 7288
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/branch-commit-pull-request-1440-light-item3-x0-y0.png",
+      "sha256": "eb0549dc3502295d988ffad3691d4268e9f3fb4b22b24e851e74dd4875b1f3c7",
+      "bytes": 56242
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/branch-commit-pull-request-390-dark-top.png",
+      "sha256": "5fd66889e3cb4390b3f7d8f71a16e2966324859a001af6432c44efda30cf220d",
+      "bytes": 89561
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/branch-commit-pull-request-390-dark-item0-x0-y0.png",
+      "sha256": "3d66ab8d22fb0b23e8a6bd2f94beaa51468d1f2a3bfc793f0d3ec9faecae0468",
+      "bytes": 54281
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/branch-commit-pull-request-390-dark-item0-x1-y0.png",
+      "sha256": "f041f0466cfdb548b0d5eb35052decc03689f0de8295f245df31d1bf6b6b2eab",
+      "bytes": 54882
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/branch-commit-pull-request-390-dark-item1-x0-y0.png",
+      "sha256": "8da557fabd370ff237f2e5ebc56cf35f6fbfbd0c8293455e38a47f2cd4c9b6e2",
+      "bytes": 10234
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/branch-commit-pull-request-390-dark-item1-x1-y0.png",
+      "sha256": "31564fe915bc5886314de077d0446e89225c5fa987156d2ec1dedbf0464a4681",
+      "bytes": 9988
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/branch-commit-pull-request-390-dark-item2-x0-y0.png",
+      "sha256": "20c2e364b7813c685606c5fc1faee574f1fcf2da73cbbb3ca1e2ee925eacd470",
+      "bytes": 5418
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/branch-commit-pull-request-390-dark-item3-x0-y0.png",
+      "sha256": "bf01e61b87a3a74ea92cab4d663dfa41775c6a36882730321db82ac46adeea2b",
+      "bytes": 41764
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/branch-commit-pull-request-390-dark-item3-x1-y0.png",
+      "sha256": "e115263e502cf04239f44736951d3e5e4be733e14db42be515e98d5c4acd5f4c",
+      "bytes": 55023
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/undo-merge-conflict-release-1440-light-top.png",
+      "sha256": "d12e16db68a11b8dc7675d5feaf1245cda5705fb20bb92fcb8f23e7b774c95de",
+      "bytes": 309487
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/undo-merge-conflict-release-1440-light-item0-x0-y0.png",
+      "sha256": "70b0f256b433f15c1e047894e7c2f6ee65d22b095540fd7b485ee5b1ec90990b",
+      "bytes": 91716
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/undo-merge-conflict-release-1440-light-item1-x0-y0.png",
+      "sha256": "ec313c353753b36d40443cd1d47afc6d4b43ae80a57de70915fe23a421425b7e",
+      "bytes": 66669
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/undo-merge-conflict-release-390-dark-top.png",
+      "sha256": "d31163e15729cedf75b9c7d348bbec0dd9781ab7c9de5a806e47b0cacea7bee4",
+      "bytes": 99519
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/undo-merge-conflict-release-390-dark-item0-x0-y0.png",
+      "sha256": "3d9a3494ce080ddf9f4ca6e1184b95662cb455b04e4e5fd9ab1dc9aae974449d",
+      "bytes": 56678
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/undo-merge-conflict-release-390-dark-item0-x0-y1.png",
+      "sha256": "e4fe2fabc619ce7c73aae863da6b881c2205ce4163fd51c9ff8f3294b4365fa4",
+      "bytes": 13799
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/undo-merge-conflict-release-390-dark-item0-x1-y0.png",
+      "sha256": "fcd89a6b183a875805c21d1f4dd26f75d5f26b7421efa3f3621bc96117f4bc5c",
+      "bytes": 69610
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/undo-merge-conflict-release-390-dark-item0-x1-y1.png",
+      "sha256": "99184cdae436ea89b283621a2a12c24d2cdb836c22e2683bcb945b35963f127d",
+      "bytes": 16814
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/undo-merge-conflict-release-390-dark-item1-x0-y0.png",
+      "sha256": "4666e579cee9b6dd7faf85279adc2a0decd1302ac8a734acc79bc1445ce3f1a5",
+      "bytes": 47786
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-pilot/undo-merge-conflict-release-390-dark-item1-x1-y0.png",
+      "sha256": "d40bacc720ed0d46e1a5b09973e302ad9488adc753100a6e47434302bf8ed8a9",
+      "bytes": 17691
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/branch-commit-pull-request-1440-dark-top.png",
+      "sha256": "32d1d8f1d1ffe2c5365a0577c615b924091b02e9c7fcd47c156e20e3c39f17f9",
+      "bytes": 317060
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/branch-commit-pull-request-1440-dark-item0-x0-y0.png",
+      "sha256": "285901b9d8fb75562b9369aa4f56d1aa789debc99e6cf6228573cb522b60c61d",
+      "bytes": 70951
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/branch-commit-pull-request-1440-dark-item1-x0-y0.png",
+      "sha256": "1f10ca7848ce39dba116b9db4962df5d3aa2877749df10e019d000e7e1e25bef",
+      "bytes": 14036
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/branch-commit-pull-request-1440-dark-item2-x0-y0.png",
+      "sha256": "bbe478288366899f4c24b804c5b83b6f6c95cabb5fd3a30ad243ceaa6e46ef95",
+      "bytes": 7583
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/branch-commit-pull-request-1440-dark-item3-x0-y0.png",
+      "sha256": "745ea94e7c0d36140588a6ab0ab01c44d3e2f2b2bac5127421752877835a5874",
+      "bytes": 57424
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/branch-commit-pull-request-390-light-top.png",
+      "sha256": "3b5d92eeb590378f79dd68de9a6d9a2f27f161d6fd4213724f1357f0642513a9",
+      "bytes": 87251
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/branch-commit-pull-request-390-light-item0-x0-y0.png",
+      "sha256": "f77c0304fb323240e3e387e914a6760a76a593225c1cc8857a2425a3887c9a16",
+      "bytes": 53179
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/branch-commit-pull-request-390-light-item0-x1-y0.png",
+      "sha256": "f4a686a494f2409a79dcf28544c7d176594ee93ed107f7d8d5fe7fa758d667c3",
+      "bytes": 53718
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/branch-commit-pull-request-390-light-item1-x0-y0.png",
+      "sha256": "fc28047a35e3b3003bfb758bbec979af08b5a7f0e5e58e6fd0a797e6bceebfbd",
+      "bytes": 9139
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/branch-commit-pull-request-390-light-item1-x1-y0.png",
+      "sha256": "ad38e68f1ed0788c086b9adc3c101eb7cd1793ddffbd5c71c999d63ce00b87aa",
+      "bytes": 9020
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/branch-commit-pull-request-390-light-item2-x0-y0.png",
+      "sha256": "709537645ca84e9fa66412e7d2f50b35445185411467432bf7907f91cce394a3",
+      "bytes": 4928
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/branch-commit-pull-request-390-light-item3-x0-y0.png",
+      "sha256": "9b233a5b03b4ae066ed77411361ce2772be9c75a770f44c78472485734df9a40",
+      "bytes": 40642
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/branch-commit-pull-request-390-light-item3-x1-y0.png",
+      "sha256": "4c067da3e3d9a1223d45ed2a0e2a7897826ae92a5403eefff361eaa284338314",
+      "bytes": 53108
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/undo-merge-conflict-release-1440-dark-top.png",
+      "sha256": "c1ecc4fab71f9a04e8484c8e0bd376e5d8305ba9bee2beef78d5032e2c7c2ca1",
+      "bytes": 313651
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/undo-merge-conflict-release-1440-dark-item0-x0-y0.png",
+      "sha256": "3f694ea9eda227517256915d2a73ebec5ae9384127a44dac54455df5df13f8e7",
+      "bytes": 93395
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/undo-merge-conflict-release-1440-dark-item1-x0-y0.png",
+      "sha256": "006b947316372e29e64286b29b4e51e9683906850e6a5c384a5a26e51a97a1b3",
+      "bytes": 66515
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/undo-merge-conflict-release-390-light-top.png",
+      "sha256": "c4fd29b700c7348e7b32abb7b009841c2c701e8b7ee836992b801cff0dcc03ce",
+      "bytes": 96297
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/undo-merge-conflict-release-390-light-item0-x0-y0.png",
+      "sha256": "ef7bcd8bd62876763eeb4ef9531312ba0a92d593fc2b97a5b4a3bc08ea340fc2",
+      "bytes": 55358
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/undo-merge-conflict-release-390-light-item0-x0-y1.png",
+      "sha256": "4bfa31710b5e1df5c44d673b289805085c41857049a43e9e527a6dec6ff5e4ff",
+      "bytes": 13422
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/undo-merge-conflict-release-390-light-item0-x1-y0.png",
+      "sha256": "60a23fe6c588d87103e8b2116032c46e09b527a24434c215cc90cc943afa6daa",
+      "bytes": 68021
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/undo-merge-conflict-release-390-light-item0-x1-y1.png",
+      "sha256": "a9fad533447437794c3d14b7709870f1d2e4b93fec9ae403f429adac9340e886",
+      "bytes": 16319
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/undo-merge-conflict-release-390-light-item1-x0-y0.png",
+      "sha256": "018b75ea576bb0103d3224703b12522d0447f977aa3b223dd95418f532961fd3",
+      "bytes": 47966
+    },
+    {
+      "path": "output/playwright/r21-inputs-20261116-remaining/undo-merge-conflict-release-390-light-item1-x1-y0.png",
+      "sha256": "74ef822d100b8b1e55a131b3d8f80e73239b0395658bb7d9da5ef77c4bf8c51d",
+      "bytes": 17708
+    }
+  ]
+}

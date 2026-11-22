@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.astro/
+.env
+.env.*
+!.env.example
+.DS_Store
+coverage/
+*.log
+.remember/
+.omc/
+.playwright-cli/
+output/playwright/
+output/task21-basepath-20260828-a1/
+output/task21-basepath-20260828-a2/
+.worktrees/

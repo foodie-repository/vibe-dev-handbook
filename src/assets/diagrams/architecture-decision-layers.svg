@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="772" viewBox="0 0 560 772" role="img" aria-labelledby="architecture-decision-title architecture-decision-desc">
+<title id="architecture-decision-title">문제에서 증거와 변경 조건까지 내려가는 아키텍처 판단 순서</title>
+<desc id="architecture-decision-desc">사용자 문제와 제약, 책임과 경계와 상태, 품질 속성과 트레이드오프, 아키텍처 결정, 프레임워크와 런타임 선택, 구현과 배포, 검증 증거와 변경 조건을 차례로 묻는 일곱 단계 세로 흐름입니다. 기술 이름이 문제와 구조 판단보다 앞서지 않는지 확인하는 학습 지도입니다.</desc>
+<defs>
+  <marker id="architecture-arrow-light" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#344054"/></marker>
+  <marker id="architecture-arrow-dark" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d0d5dd"/></marker>
+</defs>
+<style>.box{fill:#fff;stroke:#344054;stroke-width:2}.problem{fill:#eff8ff;stroke:#175cd3}.evidence{fill:#ecfdf3;stroke:#067647}.label{font:700 23px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#101828}.arrow{stroke:#344054;stroke-width:3;fill:none;marker-end:url(#architecture-arrow-light)}@media(prefers-color-scheme:dark){.box{fill:#182230;stroke:#d0d5dd}.problem{fill:#102a56;stroke:#84adff}.evidence{fill:#053321;stroke:#75e0a7}.label{fill:#f9fafb}.arrow{stroke:#d0d5dd;marker-end:url(#architecture-arrow-dark)}}</style>
+<path class="arrow" d="M280 96 V130"/>
+<path class="arrow" d="M280 204 V238"/>
+<path class="arrow" d="M280 312 V346"/>
+<path class="arrow" d="M280 420 V454"/>
+<path class="arrow" d="M280 528 V562"/>
+<path class="arrow" d="M280 636 V670"/>
+<rect class="box problem" x="56" y="28" width="448" height="68" rx="16"/>
+<text class="label" x="280" y="71" text-anchor="middle">사용자 문제·제약</text>
+<rect class="box" x="56" y="136" width="448" height="68" rx="16"/>
+<text class="label" x="280" y="179" text-anchor="middle">책임·경계·상태</text>
+<rect class="box" x="56" y="244" width="448" height="68" rx="16"/>
+<text class="label" x="280" y="287" text-anchor="middle">품질 속성·트레이드오프</text>
+<rect class="box" x="56" y="352" width="448" height="68" rx="16"/>
+<text class="label" x="280" y="395" text-anchor="middle">아키텍처 결정</text>
+<rect class="box" x="56" y="460" width="448" height="68" rx="16"/>
+<text class="label" x="280" y="503" text-anchor="middle">프레임워크·런타임 선택</text>
+<rect class="box" x="56" y="568" width="448" height="68" rx="16"/>
+<text class="label" x="280" y="611" text-anchor="middle">구현·배포</text>
+<rect class="box evidence" x="56" y="676" width="448" height="68" rx="16"/>
+<text class="label" x="280" y="719" text-anchor="middle">검증 증거·변경 조건</text>
+</svg>

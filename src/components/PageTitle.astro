@@ -1,0 +1,81 @@
+---
+const { entry } = Astro.locals.starlightRoute;
+const contentStatus = entry.data.contentStatus;
+const statusCopy = {
+  seed: {
+    label: '집필 시드',
+    description: '범위와 핵심 질문만 고정한 문서입니다.',
+  },
+  draft: {
+    label: '검토용 초안',
+    description: '처음부터 끝까지 읽을 수 있지만 독립 검토 전이거나 재검토가 필요합니다.',
+  },
+  review: {
+    label: '검토 중',
+    description: '자체 점검 뒤 고정된 입력으로 독립 검토를 진행 중인 문서입니다.',
+  },
+  ready: {
+    label: '출판 준비',
+    description: '역할별 품질·출처, 독립 검토·재판정, 자동·브라우저 검증과 소유자 승인을 통과했습니다. 배포 완료를 뜻하지는 않습니다.',
+  },
+} as const;
+const copy = statusCopy[contentStatus];
+---
+
+<h1 id="_top">{entry.data.title}</h1>
+<p class:list={['content-status', contentStatus]} data-pagefind-ignore>
+  <strong>{copy.label}</strong>
+  <span>{copy.description}</span>
+</p>
+
+<style>
+  @layer starlight.core {
+    h1 {
+      margin-top: 1rem;
+      font-size: var(--sl-text-h1);
+      line-height: var(--sl-line-height-headings);
+      font-weight: 600;
+      color: var(--sl-color-white);
+      word-break: keep-all;
+      overflow-wrap: break-word;
+    }
+
+    .content-status {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem 0.65rem;
+      width: fit-content;
+      max-width: 100%;
+      margin: 0.75rem 0 0;
+      border: 1px solid currentColor;
+      border-radius: 0.4rem;
+      padding: 0.55rem 0.75rem;
+      font-size: var(--sl-text-body-sm);
+      line-height: var(--sl-line-height-headings);
+    }
+
+    .content-status strong {
+      white-space: nowrap;
+    }
+
+    .content-status.seed {
+      color: var(--sl-color-purple-high);
+      background-color: var(--sl-color-purple-low);
+    }
+
+    .content-status.draft {
+      color: var(--sl-color-orange-high);
+      background-color: var(--sl-color-orange-low);
+    }
+
+    .content-status.review {
+      color: var(--sl-color-blue-high);
+      background-color: var(--sl-color-blue-low);
+    }
+
+    .content-status.ready {
+      color: var(--sl-color-green-high);
+      background-color: var(--sl-color-green-low);
+    }
+  }
+</style>

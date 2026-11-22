@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "review_id": "R09",
+  "state": "input-fixed",
+  "baseline_commit": "a5c8d16de3f242a63d11370e14713f0b862708f5",
+  "combined_sha256": "64b2b4611db3e03591fb3f74ba80a659a574c97601b483b4afbccc9312508218",
+  "entries": [
+    {
+      "path": "docs/project/reviews/public-beta-1/codex-review-contract.md",
+      "sha256": "e0df0f1092868097207189175ee9d0ead5d7fc15aecf56dd0d2937b8f44fd946",
+      "bytes": 17073
+    },
+    {
+      "path": "src/content/docs/10-deployment-operations/build-deploy-domain-dns.md",
+      "sha256": "deee3e29011300ab35ac4107c08b7f45a1e8d8375dcce3af6184496ac12f7f84",
+      "bytes": 36666
+    },
+    {
+      "path": "src/assets/diagrams/deploy-flow.svg",
+      "sha256": "be3798c0984fed38d4262bdc6b3d86b1b4800d5564e4d47394f25a3f9133d726",
+      "bytes": 5586
+    },
+    {
+      "path": "src/assets/diagrams/source/deploy-flow.mmd",
+      "sha256": "4ad88f9765658cd4d3814760479997215c2fe9e6bf0c426a9942858aeddc78dc",
+      "bytes": 1322
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r09-build-deploy-2026-11-15.md",
+      "sha256": "f99e69f8c2840237a9a2d9c3d8d442dc944f567983862fa166e9f68e71ca0252",
+      "bytes": 6710
+    },
+    {
+      "path": "src/content/docs/10-deployment-operations/environment-variables-config.md",
+      "sha256": "5b66ae59710b87f39c1ebdee38a6f86046117ca53194911b85c1fbdc020c6971",
+      "bytes": 18952
+    },
+    {
+      "path": "src/content/docs/10-deployment-operations/logs-monitoring-backup.md",
+      "sha256": "5a42d483e27c9c86c1345f46fa79e6666b4eaaad03e0949b5b97a5688bc76894",
+      "bytes": 44910
+    },
+    {
+      "path": "src/content/docs/07-workflow-methods/code-review-ci-cd.md",
+      "sha256": "961ec7c9263440d6982b69672df91ed80135b195490434d52a8666be36f3425c",
+      "bytes": 19364
+    },
+    {
+      "path": "src/content/docs/reference/development-glossary.md",
+      "sha256": "728022ddc235e2196e60c52bc0dca8c07d0c4cd160dfdb5d4d196e5afe4b260d",
+      "bytes": 56291
+    },
+    {
+      "path": "src/content/docs/reference/agent-output-glossary.md",
+      "sha256": "5bb3e26016e3a9e2fef51561be22a585aad1874fdc3cfd88f6962d136f79380e",
+      "bytes": 23827
+    },
+    {
+      "path": "research/meeting-webapp-case-brief.md",
+      "sha256": "91606d788632435d1253bbe1c1ca35e148d7058af754a088712d05dd6c4ab917",
+      "bytes": 4392
+    },
+    {
+      "path": "src/content/docs/12-case-studies/first-full-stack-project.md",
+      "sha256": "3d68c94a5f452721f9172a9cf127b118246fd95cd248ced505e13f0c5e274791",
+      "bytes": 38819
+    },
+    {
+      "path": "astro.config.mjs",
+      "sha256": "baa48f6186f1f9b48cff9a3086e755e4a092b5a0c7bc919f08eedf4976385783",
+      "bytes": 2653
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "sha256": "d3fb4d208b0796e7f76c228930245265b72747b0e8f77b9bb8904c886b623335",
+      "bytes": 1610
+    },
+    {
+      "path": "package.json",
+      "sha256": "8c7e64860b4dbfaba9d018878277b057f1a33eca717dc0d4472b89fdfda1fd75",
+      "bytes": 1101
+    },
+    {
+      "path": ".nvmrc",
+      "sha256": "177d20030d4dcc37eae9ef92865ec54dadce60e8f19e9a34a5d4f37502195a36",
+      "bytes": 8
+    },
+    {
+      "path": "docs/adr/0001-use-starlight-and-github-pages.md",
+      "sha256": "54ea2939da4df684dedd228ca27203d2778fd992368e05b205a0110ba53fd3e9",
+      "bytes": 1397
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r09-build-deploy-request.md",
+      "sha256": "a2495198ef9078c5cc77339ad94e34cff79691185e9f3ff84b92a9364d4aa0ec",
+      "bytes": 118900
+    },
+    {
+      "path": "output/playwright/task20-deploy-evidence/top-viewports/pb-046-desktop-light-task20-pbv05-20260827172434007-68a64277-279d-4735-ae03-5b3a80797207.png",
+      "sha256": "6a01eeb24b2d3b92eb3ceeb508c492af4e4f3dd170122e63f501482355e26d76",
+      "bytes": 290670
+    },
+    {
+      "path": "output/playwright/task20-deploy-evidence/diagram-crops/pb-046-desktop-light-task20-pbv05-20260827172434007-68a64277-279d-4735-ae03-5b3a80797207-deploy-direct.png",
+      "sha256": "1c1b2c01735bea778ce376cc2b7062b8c9c815d4c4e437316684653d848566f4",
+      "bytes": 61329
+    },
+    {
+      "path": "output/playwright/task20-deploy-evidence/accepted/pb-046-1440x1000-light-task20-pbv05-20260827172434007-68a64277-279d-4735-ae03-5b3a80797207-context.png",
+      "sha256": "aeb3e49ba7fa8d98bb4660da598c15b7822145e607f6bbded3e95cd1419a8807",
+      "bytes": 181277
+    },
+    {
+      "path": "output/playwright/task20-deploy-evidence/top-viewports/pb-046-desktop-dark-task20-pbv05-20260827172434007-68a64277-279d-4735-ae03-5b3a80797207.png",
+      "sha256": "ba14a40dfd8ddf4ff9402d0441ef398fb89f135e46e4bbba52df0662ed902257",
+      "bytes": 289920
+    },
+    {
+      "path": "output/playwright/task20-deploy-evidence/diagram-crops/pb-046-desktop-dark-task20-pbv05-20260827172434007-68a64277-279d-4735-ae03-5b3a80797207-deploy-direct.png",
+      "sha256": "ee14fb6521f6d15610cc660d7e04d7fd56d243403efe5ac9a4bf4c96fdbee3b6",
+      "bytes": 62431
+    },
+    {
+      "path": "output/playwright/task20-deploy-evidence/accepted/pb-046-1440x1000-dark-task20-pbv05-20260827172434007-68a64277-279d-4735-ae03-5b3a80797207-context.png",
+      "sha256": "e1aa740bb093712f9bb17a6f0a2fdba6b7872ea037a3c0d1b36c1185cdd7b26b",
+      "bytes": 224309
+    },
+    {
+      "path": "output/playwright/task20-deploy-evidence/top-viewports/pb-046-tablet-light-task20-pbv05-20260827172434007-68a64277-279d-4735-ae03-5b3a80797207.png",
+      "sha256": "05e39b4718003a7a829f950505c2c4c7999e6bc3f9b390dd540b8d95c1dfac31",
+      "bytes": 121258
+    },
+    {
+      "path": "output/playwright/task20-deploy-evidence/diagram-crops/pb-046-tablet-light-task20-pbv05-20260827172434007-68a64277-279d-4735-ae03-5b3a80797207-deploy-direct.png",
+      "sha256": "aace5a9d367505c3083e8c1f3441fab806f29cfc092eed105a40c393a547f02e",
+      "bytes": 61326
+    },
+    {
+      "path": "output/playwright/task20-deploy-evidence/accepted/pb-046-1024x768-light-task20-pbv05-20260827172434007-68a64277-279d-4735-ae03-5b3a80797207-context.png",
+      "sha256": "89d54147d82b4dc6880bd901feffc7748da03268b8b5c11f075b1368880f5010",
+      "bytes": 175366
+    },
+    {
+      "path": "output/playwright/task20-deploy-evidence/top-viewports/pb-046-tablet-dark-task20-pbv05-20260827172434007-68a64277-279d-4735-ae03-5b3a80797207.png",
+      "sha256": "716f5495b80fa7e723a2e2bdee5f3f3e0cbb18c2497e5068515e07305279dab8",
+      "bytes": 120340
+    },
+    {
+      "path": "output/playwright/task20-deploy-evidence/diagram-crops/pb-046-tablet-dark-task20-pbv05-20260827172434007-68a64277-279d-4735-ae03-5b3a80797207-deploy-direct.png",
+      "sha256": "bafedf3f0b4531b3103aac1c41b252ffdf09ea7332192d42bcea657d6a46caed",
+      "bytes": 62416
+    },
+    {
+      "path": "output/playwright/task20-deploy-evidence/accepted/pb-046-1024x768-dark-task20-pbv05-20260827172434007-68a64277-279d-4735-ae03-5b3a80797207-context.png",
+      "sha256": "e3cf17ad3296285804ab764c8d3ed9882b88c4e138afbe1433f7e8d01e5003ba",
+      "bytes": 202758
+    },
+    {
+      "path": "output/playwright/task20-deploy-evidence/top-viewports/pb-046-mobile-light-task20-pbv05-20260827172434007-68a64277-279d-4735-ae03-5b3a80797207.png",
+      "sha256": "11799c43c14702003aa95d3ba46d7accbdf60dd0ed6b0a3fc960fc82515e2d42",
+      "bytes": 66894
+    },
+    {
+      "path": "output/playwright/task20-deploy-evidence/diagram-crops/pb-046-mobile-light-task20-pbv05-20260827172434007-68a64277-279d-4735-ae03-5b3a80797207-deploy-direct.png",
+      "sha256": "d227703a4479f3d301dff4f146d2d1e6bf19e0723304ab8cc194f9cbadec3d3b",
+      "bytes": 39774
+    },
+    {
+      "path": "output/playwright/task20-deploy-evidence/accepted/pb-046-390x844-light-task20-pbv05-20260827172434007-68a64277-279d-4735-ae03-5b3a80797207-context.png",
+      "sha256": "9285ee388329c68d4944b07c7161a7a9405fbd56abe535479b88c69c33fe4951",
+      "bytes": 113318
+    },
+    {
+      "path": "output/playwright/task20-deploy-evidence/top-viewports/pb-046-mobile-dark-task20-pbv05-20260827172434007-68a64277-279d-4735-ae03-5b3a80797207.png",
+      "sha256": "b3b76b98d3a42059546d3b66aae8d1b2f6fad40ad8ea41a525063b5fd4536f3d",
+      "bytes": 66129
+    },
+    {
+      "path": "output/playwright/task20-deploy-evidence/diagram-crops/pb-046-mobile-dark-task20-pbv05-20260827172434007-68a64277-279d-4735-ae03-5b3a80797207-deploy-direct.png",
+      "sha256": "665ebb5391ffd396584b59d4fca256b48f2e51e8995002b38238bec3c3770ce5",
+      "bytes": 40905
+    },
+    {
+      "path": "output/playwright/task20-deploy-evidence/accepted/pb-046-390x844-dark-task20-pbv05-20260827172434007-68a64277-279d-4735-ae03-5b3a80797207-context.png",
+      "sha256": "6855f48f4bb885690701572b7d16545ae8c02bed6b8710b581541f086060b005",
+      "bytes": 121080
+    }
+  ]
+}

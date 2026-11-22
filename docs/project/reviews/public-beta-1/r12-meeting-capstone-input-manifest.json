@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "review_id": "R12",
+  "state": "input-fixed",
+  "baseline_commit": "ab08d77722ca432724db1b3f984d0cff939e202a",
+  "combined_sha256": "85ee15e06ea70e971cc5894eccceb2af70bd5190c72ebe26279042caf8090d27",
+  "entries": [
+    {
+      "path": "docs/project/reviews/public-beta-1/codex-review-contract.md",
+      "sha256": "e0df0f1092868097207189175ee9d0ead5d7fc15aecf56dd0d2937b8f44fd946",
+      "bytes": 17073
+    },
+    {
+      "path": "src/content/docs/12-case-studies/first-full-stack-project.md",
+      "sha256": "3d68c94a5f452721f9172a9cf127b118246fd95cd248ced505e13f0c5e274791",
+      "bytes": 38819
+    },
+    {
+      "path": "src/assets/diagrams/meeting-webapp-architecture.svg",
+      "sha256": "d82fe6acd7659e4466401d05545cc044d5a7975a3264439bde0842f0a7e23fae",
+      "bytes": 4766
+    },
+    {
+      "path": "src/assets/diagrams/source/meeting-webapp-architecture.mmd",
+      "sha256": "e867219713f8698d5169a518e6b1cb3f8dac8e4c4670b274ba657a06d05c2301",
+      "bytes": 1703
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r12-meeting-capstone-2026-11-15.md",
+      "sha256": "72f4fc22d60920932a9cc46bd08469ad37760ec5275b0090c84be76e83dda541",
+      "bytes": 4063
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r04-api-data-auth-2026-11-15.md",
+      "sha256": "5c2bc48ea5b656b425f2255654b141575c652ddc12adc03b4be16143879cb44f",
+      "bytes": 10613
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r06-prd-sdd-tdd-2026-11-15.md",
+      "sha256": "719bb561cac43e4b58b8b9cb4c0cd9724c4b241ac794a9f2dcdb8d3b32207242",
+      "bytes": 6420
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r08-git-github-2026-11-15.md",
+      "sha256": "903e101e298adb51d9a51cf54facd0b8c977a2c2b612e22d2aba04b99f910a61",
+      "bytes": 6085
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r09-build-deploy-2026-11-15.md",
+      "sha256": "f99e69f8c2840237a9a2d9c3d8d442dc944f567983862fa166e9f68e71ca0252",
+      "bytes": 6710
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r10-operations-2026-11-15.md",
+      "sha256": "4b759bea6da6bf8a96dc17a5f44050105ca4d5884098d7730c6382843632e3d8",
+      "bytes": 8280
+    },
+    {
+      "path": "research/meeting-webapp-case-brief.md",
+      "sha256": "91606d788632435d1253bbe1c1ca35e148d7058af754a088712d05dd6c4ab917",
+      "bytes": 4392
+    },
+    {
+      "path": "src/content/docs/04-backend-data/api-database-auth.md",
+      "sha256": "72e356c3156c4a00b7af5a2b5269726dabf2ca053d577f5fbc6a0b7b3ef2e935",
+      "bytes": 49803
+    },
+    {
+      "path": "src/content/docs/11-ai-native/working-with-coding-agents.md",
+      "sha256": "ac63eb2a468416b43c57432ac4297e0af3c27edf6d694b86a40bca7131311711",
+      "bytes": 46430
+    },
+    {
+      "path": "src/content/docs/10-deployment-operations/logs-monitoring-backup.md",
+      "sha256": "17aa3d355ad4432d1fda08fade29284442bdb6f07bcb6340721df0bae9437975",
+      "bytes": 47820
+    },
+    {
+      "path": "src/content/docs/reference/development-glossary.md",
+      "sha256": "728022ddc235e2196e60c52bc0dca8c07d0c4cd160dfdb5d4d196e5afe4b260d",
+      "bytes": 56291
+    },
+    {
+      "path": "src/styles/custom.css",
+      "sha256": "2236f2a8a9b30515cb641d48de7089d15590834766ada3f60de9f649ef36c137",
+      "bytes": 874
+    },
+    {
+      "path": "templates/agent-task-brief-template.md",
+      "sha256": "6bd36d1537b20962aebfd261467693b70ce1abe7fe279202ea851c7b4ad57b19",
+      "bytes": 1894
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r12-meeting-capstone-request.md",
+      "sha256": "4130fabf2966bea2c9e473fac21b9bfe2e91af9503e69b4cf09a5e7606277acf",
+      "bytes": 107105
+    },
+    {
+      "path": "output/playwright/task20-meeting-evidence/top-viewports/pb-054-desktop-light-task20-pbv08-20260827164942730-8071c486-f273-40ab-a33e-937c2b9a5539.png",
+      "sha256": "e2349e0903c92f691da4f3c6e64b70dc1e08ca83bd783437dfe29fca337adb24",
+      "bytes": 269998
+    },
+    {
+      "path": "output/playwright/task20-meeting-evidence/diagram-crops/pb-054-desktop-light-task20-pbv08-20260827164942730-8071c486-f273-40ab-a33e-937c2b9a5539-meeting-direct.png",
+      "sha256": "29afb6ef4b9af59ec7ab5a911a259e27843ed9783e70f46d390c22d5ad60ea7e",
+      "bytes": 71128
+    },
+    {
+      "path": "output/playwright/task20-meeting-evidence/accepted/pb-054-1440x1000-light-task20-pbv08-20260827164942730-8071c486-f273-40ab-a33e-937c2b9a5539-full.png",
+      "sha256": "6a8d1b3e723a126874cd794f58730075b8a6c0c4e032cd2b7713087ef6b19023",
+      "bytes": 2250174
+    },
+    {
+      "path": "output/playwright/task20-meeting-evidence/top-viewports/pb-054-desktop-dark-task20-pbv08-20260827164942730-8071c486-f273-40ab-a33e-937c2b9a5539.png",
+      "sha256": "efe772726326e3c3d593904103324ec3b46c22dfcbec54177feef9989e22fffe",
+      "bytes": 268805
+    },
+    {
+      "path": "output/playwright/task20-meeting-evidence/diagram-crops/pb-054-desktop-dark-task20-pbv08-20260827164942730-8071c486-f273-40ab-a33e-937c2b9a5539-meeting-direct.png",
+      "sha256": "590eb26096c6cf21f10da5673fa8b5d81c17eb32865abff4d2e3bf11e30e9f0e",
+      "bytes": 73004
+    },
+    {
+      "path": "output/playwright/task20-meeting-evidence/accepted/pb-054-1440x1000-dark-task20-pbv08-20260827164942730-8071c486-f273-40ab-a33e-937c2b9a5539-full.png",
+      "sha256": "04dd68491334047bc0191db6a6812aeb42a177c8afd6c29d0d82f8fa399fe4e2",
+      "bytes": 2707283
+    },
+    {
+      "path": "output/playwright/task20-meeting-evidence/top-viewports/pb-054-tablet-light-task20-pbv08-20260827164942730-8071c486-f273-40ab-a33e-937c2b9a5539.png",
+      "sha256": "42962fe0e3607cbbdb22389fde215c44ddcb58ece74e450be69745ff4c0b9fbb",
+      "bytes": 147516
+    },
+    {
+      "path": "output/playwright/task20-meeting-evidence/diagram-crops/pb-054-tablet-light-task20-pbv08-20260827164942730-8071c486-f273-40ab-a33e-937c2b9a5539-meeting-direct.png",
+      "sha256": "ea3cb0cadd2737177c7824a00ba95b5303d3b738ef7b53ad5a36a49678f8e903",
+      "bytes": 71138
+    },
+    {
+      "path": "output/playwright/task20-meeting-evidence/accepted/pb-054-1024x768-light-task20-pbv08-20260827164942730-8071c486-f273-40ab-a33e-937c2b9a5539-full.png",
+      "sha256": "9bea9b69dac63e75d9b6cc99a76133000bbabc91f5c591028ddb1346c0b1dfae",
+      "bytes": 2123626
+    },
+    {
+      "path": "output/playwright/task20-meeting-evidence/top-viewports/pb-054-tablet-dark-task20-pbv08-20260827164942730-8071c486-f273-40ab-a33e-937c2b9a5539.png",
+      "sha256": "30f57a0487fda3b6966b9b83deba812ed97393a6168a0d2089b24236b0342114",
+      "bytes": 146917
+    },
+    {
+      "path": "output/playwright/task20-meeting-evidence/diagram-crops/pb-054-tablet-dark-task20-pbv08-20260827164942730-8071c486-f273-40ab-a33e-937c2b9a5539-meeting-direct.png",
+      "sha256": "ea4f884fad2f778e6078691c35434b151efcad95a067bb1cda65eadf4d2606f4",
+      "bytes": 73106
+    },
+    {
+      "path": "output/playwright/task20-meeting-evidence/accepted/pb-054-1024x768-dark-task20-pbv08-20260827164942730-8071c486-f273-40ab-a33e-937c2b9a5539-full.png",
+      "sha256": "35d826fbecf3441a4289ffa1951611285366f59b12eb2bfd65b6c892d5effc6a",
+      "bytes": 2442815
+    },
+    {
+      "path": "output/playwright/task20-meeting-evidence/top-viewports/pb-054-mobile-light-task20-pbv08-20260827164942730-8071c486-f273-40ab-a33e-937c2b9a5539.png",
+      "sha256": "02aadcf48fd387d08141bf5eb2193fd3065fedad9b3376a615080d0d09f9d619",
+      "bytes": 93124
+    },
+    {
+      "path": "output/playwright/task20-meeting-evidence/diagram-crops/pb-054-mobile-light-task20-pbv08-20260827164942730-8071c486-f273-40ab-a33e-937c2b9a5539-meeting-direct.png",
+      "sha256": "da98578d79b2885580116a7b29a665553275c298de80b585ae83a94845ab30ec",
+      "bytes": 45131
+    },
+    {
+      "path": "output/playwright/task20-meeting-evidence/accepted/pb-054-390x844-light-task20-pbv08-20260827164942730-8071c486-f273-40ab-a33e-937c2b9a5539-full.png",
+      "sha256": "f05c1bfa333aa9282fc50e4def43c578b6a13495a5560156c03b4a35c4cbc27f",
+      "bytes": 1884705
+    },
+    {
+      "path": "output/playwright/task20-meeting-evidence/top-viewports/pb-054-mobile-dark-task20-pbv08-20260827164942730-8071c486-f273-40ab-a33e-937c2b9a5539.png",
+      "sha256": "7bf7020c6281339fa49a1041ad22817f8a9e47bd1b6e0bdeae12db0721667688",
+      "bytes": 91688
+    },
+    {
+      "path": "output/playwright/task20-meeting-evidence/diagram-crops/pb-054-mobile-dark-task20-pbv08-20260827164942730-8071c486-f273-40ab-a33e-937c2b9a5539-meeting-direct.png",
+      "sha256": "89a93037bb33fa55e2741b9cf788ba34135e0003155bfb0a3ebcce614165fdcd",
+      "bytes": 46335
+    },
+    {
+      "path": "output/playwright/task20-meeting-evidence/accepted/pb-054-390x844-dark-task20-pbv08-20260827164942730-8071c486-f273-40ab-a33e-937c2b9a5539-full.png",
+      "sha256": "d18069ea5881bb9b74b1afe2bddeefc876fd7dbc034b613bb9eec6e5bb1796ed",
+      "bytes": 2019351
+    },
+    {
+      "path": "output/playwright/r12-table-probe-20261115/table-1440-left.png",
+      "sha256": "a9c3fa9820700b344d077b39e43e6dd054f7806547c0f7f309dbdf2bff2a402e",
+      "bytes": 191363
+    },
+    {
+      "path": "output/playwright/r12-table-probe-20261115/table-1440-right.png",
+      "sha256": "d8bcfb32851c55fc6751ca177b893593cb77bba18df42a1ca3bd8f2cd51d6821",
+      "bytes": 204322
+    },
+    {
+      "path": "output/playwright/r12-table-probe-20261115/table-1024-left.png",
+      "sha256": "393fc3ffa589413b26fb52bad2fecc313ba9cad147d18d8acff847d85f687f5b",
+      "bytes": 102328
+    },
+    {
+      "path": "output/playwright/r12-table-probe-20261115/table-1024-right.png",
+      "sha256": "28a177528a1680262e00c4fcacb437dda1b212b3800e1b36c15dbab0c94322a2",
+      "bytes": 122495
+    },
+    {
+      "path": "output/playwright/r12-table-probe-20261115/table-390-left.png",
+      "sha256": "61f422bf3e7a03719556973e4044982283caf8b6ddb5099acad2ceecd5c2c6c1",
+      "bytes": 67980
+    },
+    {
+      "path": "output/playwright/r12-table-probe-20261115/table-390-right.png",
+      "sha256": "aeeba85bcf01fae90c640767fdf1afc5873e229577ae43017c0db8e4b9dc49ea",
+      "bytes": 99627
+    }
+  ]
+}

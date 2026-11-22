@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "review_id": "R11",
+  "state": "input-fixed",
+  "baseline_commit": "55537eb14e6405292eb4373b1a29694eba76894a",
+  "combined_sha256": "b6c9b9ee54fb560076d813dfdcd8f9a39cce9b163df36b57e60c6461b231aa2b",
+  "entries": [
+    {
+      "path": "docs/project/reviews/public-beta-1/codex-review-contract.md",
+      "sha256": "e0df0f1092868097207189175ee9d0ead5d7fc15aecf56dd0d2937b8f44fd946",
+      "bytes": 17073
+    },
+    {
+      "path": "src/content/docs/11-ai-native/working-with-coding-agents.md",
+      "sha256": "79947193031874c6f691ca6237de213e27df3aff42ef9349211a40164904c3a9",
+      "bytes": 44724
+    },
+    {
+      "path": "src/assets/diagrams/agent-feedback-loop.svg",
+      "sha256": "a0e6b969975c8bb71ea435ee2acce03df834d3c3dd975228c8b164c96dd8ef5f",
+      "bytes": 5225
+    },
+    {
+      "path": "src/assets/diagrams/source/agent-feedback-loop.mmd",
+      "sha256": "9d58dee1e64fbd69e3d3198518cef570c8f4f2a41837b22d7452b24c73969468",
+      "bytes": 1326
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r11-coding-agents-2026-11-15.md",
+      "sha256": "2fba13d7f98e7e3268e2e2530b1596138e887384369fc7f315a51cd2a4c93f84",
+      "bytes": 6810
+    },
+    {
+      "path": "src/content/docs/11-ai-native/context-spec-harness-loop.md",
+      "sha256": "0bf8de8c606e29643276fe496157b86fc5e0abc8f06c97f7fd2546e850713f7c",
+      "bytes": 19177
+    },
+    {
+      "path": "src/content/docs/11-ai-native/permissions-sandbox-worktrees.md",
+      "sha256": "dbcbf109c26c3ffa33ea76306d6c1aa0098c40758b1cf890a071101971f0ad54",
+      "bytes": 22489
+    },
+    {
+      "path": "src/content/docs/11-ai-native/agent-review-and-verification.md",
+      "sha256": "0a6124bc334145f40fb8c5e9fea1b96d3c32be58ca76eccbd0af3e7ed7128f97",
+      "bytes": 17617
+    },
+    {
+      "path": "src/content/docs/reference/development-glossary.md",
+      "sha256": "728022ddc235e2196e60c52bc0dca8c07d0c4cd160dfdb5d4d196e5afe4b260d",
+      "bytes": 56291
+    },
+    {
+      "path": "src/content/docs/reference/agent-output-glossary.md",
+      "sha256": "5bb3e26016e3a9e2fef51561be22a585aad1874fdc3cfd88f6962d136f79380e",
+      "bytes": 23827
+    },
+    {
+      "path": "research/meeting-webapp-case-brief.md",
+      "sha256": "91606d788632435d1253bbe1c1ca35e148d7058af754a088712d05dd6c4ab917",
+      "bytes": 4392
+    },
+    {
+      "path": "src/content/docs/12-case-studies/first-full-stack-project.md",
+      "sha256": "3d68c94a5f452721f9172a9cf127b118246fd95cd248ced505e13f0c5e274791",
+      "bytes": 38819
+    },
+    {
+      "path": "templates/agent-task-brief-template.md",
+      "sha256": "189b2a14dd3b1dff4878f3b68e957c4212d0698bbeeef8bccb0fd97b43a048c1",
+      "bytes": 1761
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r11-coding-agents-request.md",
+      "sha256": "39851c1774eb1ecaaad18ae06bb7461061b0e7d782aac0a5c925d8d17b6f187e",
+      "bytes": 96586
+    },
+    {
+      "path": "output/playwright/task20-agent-evidence/top-viewports/pb-052-desktop-light-task20-pbv12-20260827163813126-696da43f-6b40-4515-8085-137459f940d6.png",
+      "sha256": "643c4b8c22e50d5ae9f884c49ecf8cfe1447b5186e8289797ffbf9024dd4236f",
+      "bytes": 284634
+    },
+    {
+      "path": "output/playwright/task20-agent-evidence/diagram-crops/pb-052-desktop-light-task20-pbv12-20260827163813126-696da43f-6b40-4515-8085-137459f940d6-agent-direct.png",
+      "sha256": "49ab9afe6aac233341aa8f162f137664bc49e084c49ee7de3fcb0684f7696cd3",
+      "bytes": 71680
+    },
+    {
+      "path": "output/playwright/task20-agent-evidence/accepted/pb-052-1440x1000-light-task20-pbv12-20260827163813126-696da43f-6b40-4515-8085-137459f940d6-full.png",
+      "sha256": "c8f64c252f1b04753ca3c72e5934ac77924de4b80bf81ba2f2ded898f9921aed",
+      "bytes": 2882297
+    },
+    {
+      "path": "output/playwright/task20-agent-evidence/top-viewports/pb-052-desktop-dark-task20-pbv12-20260827163813126-696da43f-6b40-4515-8085-137459f940d6.png",
+      "sha256": "44cfb2b9487ff4e6c3c2029aebe03e8f853eb90389797bf4d199db593e2e7706",
+      "bytes": 284838
+    },
+    {
+      "path": "output/playwright/task20-agent-evidence/diagram-crops/pb-052-desktop-dark-task20-pbv12-20260827163813126-696da43f-6b40-4515-8085-137459f940d6-agent-direct.png",
+      "sha256": "4225cdd973bc98e5d435d21fad3477c3be3948710757810996b3d1260e759613",
+      "bytes": 72510
+    },
+    {
+      "path": "output/playwright/task20-agent-evidence/accepted/pb-052-1440x1000-dark-task20-pbv12-20260827163813126-696da43f-6b40-4515-8085-137459f940d6-full.png",
+      "sha256": "6360cae91903a970fe39ae346492b12b61d86d81ff68611870f2b17604632d9a",
+      "bytes": 3336139
+    },
+    {
+      "path": "output/playwright/task20-agent-evidence/top-viewports/pb-052-tablet-light-task20-pbv12-20260827163813126-696da43f-6b40-4515-8085-137459f940d6.png",
+      "sha256": "8ae252e501e732dcd7dd83302667d6657d73686664d6b676f1e5c5acef742bdc",
+      "bytes": 124556
+    },
+    {
+      "path": "output/playwright/task20-agent-evidence/diagram-crops/pb-052-tablet-light-task20-pbv12-20260827163813126-696da43f-6b40-4515-8085-137459f940d6-agent-direct.png",
+      "sha256": "ecbace289d2ea43ed17c981d8b470a2b617edc1293571e33ba46f1cff6e0d665",
+      "bytes": 71641
+    },
+    {
+      "path": "output/playwright/task20-agent-evidence/accepted/pb-052-1024x768-light-task20-pbv12-20260827163813126-696da43f-6b40-4515-8085-137459f940d6-full.png",
+      "sha256": "1192b9e81fcea19064be59acf3b0596030b9a20a40b45dbbe68147d968233672",
+      "bytes": 2742923
+    },
+    {
+      "path": "output/playwright/task20-agent-evidence/top-viewports/pb-052-tablet-dark-task20-pbv12-20260827163813126-696da43f-6b40-4515-8085-137459f940d6.png",
+      "sha256": "e529fa2444b6084b7068e964a7ce1337becf69901e50d18d098b705831d3edf4",
+      "bytes": 127517
+    },
+    {
+      "path": "output/playwright/task20-agent-evidence/diagram-crops/pb-052-tablet-dark-task20-pbv12-20260827163813126-696da43f-6b40-4515-8085-137459f940d6-agent-direct.png",
+      "sha256": "e76cd99c96f328828938454c5417e147b108b751c44559b7af4f1021c6583bb2",
+      "bytes": 72490
+    },
+    {
+      "path": "output/playwright/task20-agent-evidence/accepted/pb-052-1024x768-dark-task20-pbv12-20260827163813126-696da43f-6b40-4515-8085-137459f940d6-full.png",
+      "sha256": "c8d5cba7a8cf9d508988b99ae032aaee12235df06f4281bd3a63b041b3c9994b",
+      "bytes": 3046286
+    },
+    {
+      "path": "output/playwright/task20-agent-evidence/top-viewports/pb-052-mobile-light-task20-pbv12-20260827163813126-696da43f-6b40-4515-8085-137459f940d6.png",
+      "sha256": "e22601b02dc544a3f60ddd8fdccd839d86bd7220251893ee0ff2cc80a21129bc",
+      "bytes": 68991
+    },
+    {
+      "path": "output/playwright/task20-agent-evidence/diagram-crops/pb-052-mobile-light-task20-pbv12-20260827163813126-696da43f-6b40-4515-8085-137459f940d6-agent-direct.png",
+      "sha256": "6f3ec1b2bf8972fce67b180617111571655da612c31bbc11416e79ffeda778df",
+      "bytes": 46670
+    },
+    {
+      "path": "output/playwright/task20-agent-evidence/accepted/pb-052-390x844-light-task20-pbv12-20260827163813126-696da43f-6b40-4515-8085-137459f940d6-full.png",
+      "sha256": "c09b10a15a85b9db4f8d339bfd16039456c341eb5d96159a088df282d67e54ab",
+      "bytes": 2424938
+    },
+    {
+      "path": "output/playwright/task20-agent-evidence/top-viewports/pb-052-mobile-dark-task20-pbv12-20260827163813126-696da43f-6b40-4515-8085-137459f940d6.png",
+      "sha256": "e7ad79a196320cea5365f6e7aecf7ead22656f72c50fb6d49f18bb7f28b21770",
+      "bytes": 68182
+    },
+    {
+      "path": "output/playwright/task20-agent-evidence/diagram-crops/pb-052-mobile-dark-task20-pbv12-20260827163813126-696da43f-6b40-4515-8085-137459f940d6-agent-direct.png",
+      "sha256": "f458a71857343d562d060a52409290a767623a30ad678df5b8c48ef768824365",
+      "bytes": 47429
+    },
+    {
+      "path": "output/playwright/task20-agent-evidence/accepted/pb-052-390x844-dark-task20-pbv12-20260827163813126-696da43f-6b40-4515-8085-137459f940d6-full.png",
+      "sha256": "dcdb80b63de9e367440c245de3710013eeabde8d8656f2cdb54b3b1aa35df328",
+      "bytes": 2534828
+    }
+  ]
+}

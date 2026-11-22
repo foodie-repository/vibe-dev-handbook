@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="772" viewBox="0 0 560 772" role="img" aria-labelledby="api-database-auth-flow-title api-database-auth-flow-desc">
+<title id="api-database-auth-flow-title">모임 참가 요청의 정상 책임 순서</title>
+<desc id="api-database-auth-flow-desc">정상적인 모임 참가 요청이 요청과 eventId 식별, API 계약 확인, 인증과 요청 주체 확인, 대상 관계와 행동 인가, 중복과 모집 상태와 정원 확인, 트랜잭션과 commit, 확정 결과 응답의 일곱 책임을 차례로 통과하는 논리적 개요입니다. 실패 분기와 동시 요청 복구는 별도의 상세 시퀀스에서 다룹니다.</desc>
+<defs>
+  <marker id="api-flow-arrow-light" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#344054"/></marker>
+  <marker id="api-flow-arrow-dark" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d0d5dd"/></marker>
+</defs>
+<style>.box{fill:#fff;stroke:#344054;stroke-width:2}.start{fill:#eff8ff;stroke:#175cd3}.commit{fill:#ecfdf3;stroke:#067647}.label{font:700 22px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#101828}.arrow{stroke:#344054;stroke-width:3;fill:none;marker-end:url(#api-flow-arrow-light)}@media(prefers-color-scheme:dark){.box{fill:#182230;stroke:#d0d5dd}.start{fill:#102a56;stroke:#84adff}.commit{fill:#053321;stroke:#75e0a7}.label{fill:#f9fafb}.arrow{stroke:#d0d5dd;marker-end:url(#api-flow-arrow-dark)}}</style>
+<path class="arrow" d="M280 96 V130"/>
+<path class="arrow" d="M280 204 V238"/>
+<path class="arrow" d="M280 312 V346"/>
+<path class="arrow" d="M280 420 V454"/>
+<path class="arrow" d="M280 528 V562"/>
+<path class="arrow" d="M280 636 V670"/>
+<g class="node" data-node="1"><rect class="box start" x="56" y="28" width="448" height="68" rx="16"/><text class="label" x="280" y="71" text-anchor="middle">1. 요청·eventId 식별</text></g>
+<g class="node" data-node="2"><rect class="box" x="56" y="136" width="448" height="68" rx="16"/><text class="label" x="280" y="179" text-anchor="middle">2. API 계약 확인</text></g>
+<g class="node" data-node="3"><rect class="box" x="56" y="244" width="448" height="68" rx="16"/><text class="label" x="280" y="287" text-anchor="middle">3. 인증·요청 주체 확인</text></g>
+<g class="node" data-node="4"><rect class="box" x="56" y="352" width="448" height="68" rx="16"/><text class="label" x="280" y="395" text-anchor="middle">4. 대상 관계·행동 인가</text></g>
+<g class="node" data-node="5"><rect class="box" x="56" y="460" width="448" height="68" rx="16"/><text class="label" x="280" y="503" text-anchor="middle">5. 중복·모집·정원 확인</text></g>
+<g class="node" data-node="6"><rect class="box commit" x="56" y="568" width="448" height="68" rx="16"/><text class="label" x="280" y="611" text-anchor="middle">6. 트랜잭션·commit</text></g>
+<g class="node" data-node="7"><rect class="box" x="56" y="676" width="448" height="68" rx="16"/><text class="label" x="280" y="719" text-anchor="middle">7. 확정 결과 응답</text></g>
+</svg>

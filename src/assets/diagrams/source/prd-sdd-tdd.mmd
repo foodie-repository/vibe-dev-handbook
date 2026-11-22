@@ -1,0 +1,19 @@
+flowchart TB
+    accTitle: PRD, 설계, 스펙 주도 개발, TDD와 검증 피드백의 관계
+    accDescr: 사용자 문제와 가치에서 PRD로, PRD에서 설계 설명과 기능 스펙으로 갈라졌다가 계획과 작업 분해로 합쳐집니다. 이어 TDD 구현과 테스트·빌드·리뷰 증거를 연결하고, 점선은 검증·운영에서 배운 사실로 요구·설계·스펙을 재검토하는 대표 피드백을 PRD로 돌려 보여 줍니다. 설계 설명은 Software Design Description이라는 문서이고 Spec-Driven Development는 개발 접근이며 TDD는 Red·Green·Refactor를 반복하는 구현 규율입니다. 화살표는 추적 연결이지 고정 필수 절차나 모든 피드백 경로가 아니며 TDD만으로 전체 검증이 끝나지 않습니다.
+    P["사용자 문제와 가치"]
+    PRD["PRD<br/>왜·누구·무엇"]
+    SD["설계 설명<br/>Software Design<br/>Description<br/>구조·경계<br/>인터페이스"]
+    S["기능 스펙<br/>동작·제약<br/>수용 기준<br/>검증 가능한 스펙"]
+    PLAN["계획과 작업 분해"]
+    TDD["TDD 구현<br/>Red·Green·Refactor<br/>문서가 아닌 구현 규율"]
+    E["검증 증거<br/>테스트·빌드·리뷰"]
+    P --> PRD
+    PRD --> SD
+    PRD --> S
+    SD --> PLAN
+    S --> PLAN
+    PLAN --> TDD
+    TDD --> E
+    E -. 대표 재검토 .-> PRD
+    %% 그림 아래 안내: 실선: 추적 연결 점선: 검증·운영에서 배운 사실로 요구·설계·스펙을 다시 검토합니다. Spec-Driven Development: 스펙을 계획·작업·구현으로 잇는 접근 TDD만으로 전체 검증이 끝나지는 않습니다.

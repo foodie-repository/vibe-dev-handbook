@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "review_id": "R07",
+  "state": "input-fixed",
+  "baseline_commit": "b1be93934f042962042a9c5e766e57f3d3039627",
+  "combined_sha256": "6404bee6f92a42406f318a06583d0609ac2ec40cdf193207cd1870504b227880",
+  "entries": [
+    {
+      "path": "docs/project/reviews/public-beta-1/codex-review-contract.md",
+      "sha256": "e0df0f1092868097207189175ee9d0ead5d7fc15aecf56dd0d2937b8f44fd946",
+      "bytes": 17073
+    },
+    {
+      "path": "src/content/docs/08-quality/testing-strategy.md",
+      "sha256": "fba16a123e78896fab76cd10a1f2eaf057b5893007fc11504238e73766b69e47",
+      "bytes": 40648
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r07-testing-2026-11-15.md",
+      "sha256": "057cf33afd8e7a8ff3a0aeec46420e4bc1c733e954e8c3900d64983e7af9b02f",
+      "bytes": 6770
+    },
+    {
+      "path": "src/content/docs/06-requirements-design/prd-sdd-tdd.md",
+      "sha256": "5b0c91327e30d694d5025e0f6b378f88406f616bce284e5c3a74b8e2fe67207d",
+      "bytes": 41340
+    },
+    {
+      "path": "src/content/docs/reference/development-glossary.md",
+      "sha256": "728022ddc235e2196e60c52bc0dca8c07d0c4cd160dfdb5d4d196e5afe4b260d",
+      "bytes": 56291
+    },
+    {
+      "path": "src/content/docs/reference/agent-output-glossary.md",
+      "sha256": "5bb3e26016e3a9e2fef51561be22a585aad1874fdc3cfd88f6962d136f79380e",
+      "bytes": 23827
+    },
+    {
+      "path": "src/content/docs/11-ai-native/agent-review-and-verification.md",
+      "sha256": "0a6124bc334145f40fb8c5e9fea1b96d3c32be58ca76eccbd0af3e7ed7128f97",
+      "bytes": 17617
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r06-case-context.json",
+      "sha256": "e1b11dbc0167172b7266e642cffd8f1c716218d68d34933034509c340709b10a",
+      "bytes": 12290
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r07-testing-request.md",
+      "sha256": "2c2d78e7f86c3cd8e600ba3fa0eff6ec3e48cf8475132023bc059c4a008bc125",
+      "bytes": 82160
+    }
+  ]
+}

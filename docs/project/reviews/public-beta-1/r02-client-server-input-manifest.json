@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "review_id": "R02",
+  "state": "candidate-fixed",
+  "baseline_commit": "e2439993ef936fadcc5f380e787041f77ffcd63e",
+  "request_path": "docs/project/reviews/public-beta-1/r02-client-server-request.md",
+  "request_sha256": "8c9fabeba1d2273e328278335e5ed008c16b98f74989e815e76e34b69eb0a68f",
+  "combined_sha256_rule": "sha256-framed-bytes-v1",
+  "combined_sha256": "cbc991605e63845f28ddedd0bd942ac48bd6df31262341056caf62da588aba95",
+  "direct_input_count": 23,
+  "context_excerpt_count": 19,
+  "render_state_count": 18,
+  "matrix_binding": "not-integrated",
+  "review_ready": false,
+  "actual_review": "not-run"
+}

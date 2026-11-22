@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="960" viewBox="0 0 480 960" role="img" aria-labelledby="learning-map-title learning-map-desc">
+<title id="learning-map-title">바이브 개발 핸드북 학습 지도</title>
+<desc id="learning-map-desc">시스템 사고, 작업 환경, 풀스택, 요구·설계, 품질·협업, 배포·운영, AI 네이티브의 일곱 단계를 위에서 아래로 읽습니다. 번호와 실선 화살표는 권장 학습 순서를 뜻하며, 앞 단계의 기본기가 뒤 단계의 에이전트 판단과 검증을 지탱합니다. 모든 독자의 강제 선행 조건이나 각 단계의 숙련을 증명하는 그림은 아닙니다.</desc>
+<defs>
+  <marker id="learning-arrow-light" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L0,12 L12,6 z" fill="#344054"/></marker>
+  <marker id="learning-arrow-dark" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L0,12 L12,6 z" fill="#d0d5dd"/></marker>
+</defs>
+<style>.box{fill:#fff;stroke:#344054;stroke-width:2}.main{font:700 28px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#101828}.sub{font:600 24px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#475467}.arrow{stroke:#344054;stroke-width:3;fill:none;marker-end:url(#learning-arrow-light)}.note{font:600 20px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#344054}.rule{stroke:#344054;stroke-width:1}@media(prefers-color-scheme:dark){.box{fill:#182230;stroke:#d0d5dd}.main{fill:#f9fafb}.sub,.note{fill:#e4e7ec}.arrow{stroke:#d0d5dd;marker-end:url(#learning-arrow-dark)}.rule{stroke:#d0d5dd}}</style>
+<path class="arrow" data-from="1" data-to="2" d="M240 116 V136"/>
+<path class="arrow" data-from="2" data-to="3" d="M240 236 V256"/>
+<path class="arrow" data-from="3" data-to="4" d="M240 356 V376"/>
+<path class="arrow" data-from="4" data-to="5" d="M240 476 V496"/>
+<path class="arrow" data-from="5" data-to="6" d="M240 596 V616"/>
+<path class="arrow" data-from="6" data-to="7" d="M240 716 V736"/>
+<g class="node" data-node="1"><rect class="box" x="24" y="24" width="432" height="88" rx="8"/><text class="main" x="240" y="60" text-anchor="middle">1. 시스템 사고</text><text class="sub" x="240" y="92" text-anchor="middle">경계·책임</text></g>
+<g class="node" data-node="2"><rect class="box" x="24" y="144" width="432" height="88" rx="8"/><text class="main" x="240" y="180" text-anchor="middle">2. 작업 환경</text><text class="sub" x="240" y="212" text-anchor="middle">파일·프로세스</text></g>
+<g class="node" data-node="3"><rect class="box" x="24" y="264" width="432" height="88" rx="8"/><text class="main" x="240" y="300" text-anchor="middle">3. 풀스택</text><text class="sub" x="240" y="332" text-anchor="middle">요청·상태</text></g>
+<g class="node" data-node="4"><rect class="box" x="24" y="384" width="432" height="88" rx="8"/><text class="main" x="240" y="420" text-anchor="middle">4. 요구·설계</text><text class="sub" x="240" y="452" text-anchor="middle">스펙·결정</text></g>
+<g class="node" data-node="5"><rect class="box" x="24" y="504" width="432" height="88" rx="8"/><text class="main" x="240" y="540" text-anchor="middle">5. 품질·협업</text><text class="sub" x="240" y="572" text-anchor="middle">테스트·Git</text></g>
+<g class="node" data-node="6"><rect class="box" x="24" y="624" width="432" height="88" rx="8"/><text class="main" x="240" y="660" text-anchor="middle">6. 배포·운영</text><text class="sub" x="240" y="692" text-anchor="middle">관측·복구</text></g>
+<g class="node" data-node="7"><rect class="box" x="24" y="744" width="432" height="88" rx="8"/><text class="main" x="240" y="780" text-anchor="middle">7. AI 네이티브</text><text class="sub" x="240" y="812" text-anchor="middle">컨텍스트·하네스</text></g>
+<line class="rule" x1="24" y1="848" x2="456" y2="848"/>
+<text class="note" x="240" y="876" text-anchor="middle">번호·실선: 권장 학습 순서</text>
+<text class="note" x="240" y="912" text-anchor="middle">앞 단계의 기본기가 뒤 단계의</text>
+<text class="note" x="240" y="940" text-anchor="middle">에이전트 판단과 검증을 지탱합니다.</text>
+</svg>

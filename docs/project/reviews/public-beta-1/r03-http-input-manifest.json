@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "review_id": "R03",
+  "baseline_commit": "b5b3f245239b87fc1f10f14144c4b27bf2c52f00",
+  "state": "input-fixed",
+  "actual_review": "not-run",
+  "release_ready": false,
+  "entries": [
+    {
+      "path": "docs/project/reviews/public-beta-1/r03-http-request.md",
+      "sha256": "cbf8caa2f354c73f3dce0c416a936d6ca9e07fd4a01d58303ef4ee63add0845d"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/codex-review-contract.md",
+      "sha256": "e0df0f1092868097207189175ee9d0ead5d7fc15aecf56dd0d2937b8f44fd946"
+    },
+    {
+      "path": "src/content/docs/03-full-stack/http-request-response.md",
+      "sha256": "a5a4a1a962fa228b85d7586aa3a0256ef489a6b8c6f770de121b5850709dfdab"
+    },
+    {
+      "path": "src/content/docs/04-backend-data/api-database-auth.md",
+      "sha256": "bac33a82b7ce891010f5b2423e0ea1b03a7f5796ec86d33ad0e5d30ed6680224"
+    },
+    {
+      "path": "src/assets/diagrams/full-stack-flow.svg",
+      "sha256": "557d9733646768fd262ee47c7234b08df0bc2d8f78ccf77c7c3f305edb9531f5"
+    },
+    {
+      "path": "src/assets/diagrams/source/full-stack-flow.mmd",
+      "sha256": "ab9a56c0a81adf9d2fd1fa5faf31bc4159da2c6033be873173586a5c0a1e4f1d"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r03-http-2026-10-25.md",
+      "sha256": "ec692441d1c7d0ece0af13586697ac810122587af38cc7662cdc9dc7fe97fd37"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r02-client-server-2026-10-15.md",
+      "sha256": "1a04fff3fb8b52a74c076337dc4a6ddb549584dbd6db294f7efcf04f1873e769"
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-025-desktop-light-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "4401bc405b6b899283f111ba5f875194a1d6eccfb1bc40f8c08690a5b10251e7"
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-025-desktop-dark-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "61afbca2f691f14ce2e7bdbe5373617cadbc592cd5f54d685dd273f3ae065d90"
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-025-tablet-light-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "9b8318c7e5bf20f09ebcbf0af74f2453671748b1e4666f2afce036a10759fe07"
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-025-tablet-dark-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "3071ac752140b2be2bdd92abe58625fb22eca3cd578b2fa67971b8221be291cb"
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-025-mobile-light-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "11a0e0e4b1c26d3c25c4d8885b94396d204bf78e86f89020878208f855f23035"
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-025-mobile-dark-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "d6e5d20c254260596bacdff2061bbb8b33bff137c70722dbe3fe39cbe31d189f"
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-027-desktop-light-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "d8a9d3b776d4cbeae21cf88953aacb328b2c9bcce760cc0add111b4140e29050"
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-027-desktop-dark-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "d174b9ad395fbf8cfd142bf7eb836a1a8614be5a4c13011fb1210c2b229a55bb"
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-027-tablet-light-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "a9e78ec792650117afd6d1c5561bb18aae2c00e5e110579d1d7ae568f5ce39db"
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-027-tablet-dark-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "21d292e2b1469c46f2a95450c44aaee15eceeb938d1357c2306e1dda974f0883"
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-027-mobile-light-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "a0b08e2c5060e1ac490713a4b83dc822b57c72df23de5ddec775ef7cb82210b2"
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-027-mobile-dark-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "2860dbcfd20881bfb054b072b73b553fbf6f7110ff6ae6f0a9f3ae7be71192a4"
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-032-desktop-light-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "c27d7da51857d17b2c86de2617f64e566f9dc7d7c3e0f17a9b2a633d569e038c"
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-032-desktop-dark-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "61afbca2f691f14ce2e7bdbe5373617cadbc592cd5f54d685dd273f3ae065d90"
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-032-tablet-light-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "18e7ce6477abd39ebcd0a1798111862c238042741599a7601ff7a6eff6f2b6c2"
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-032-tablet-dark-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "f319be16d88525f356ef50e92d6b64fed76c00f9d6be25b753023d5834403bc0"
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-032-mobile-light-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "878d7d198d3b6970524b478dbfb0b670228e464ece1c8d70cb0b3db0451394bf"
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-032-mobile-dark-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "e9e47927bb4331444abd889529ccc5e0588c6fe3d758c941700f203a2eb14b59"
+    }
+  ],
+  "combined_sha256": "6865f321010966ae7fae4821f2d801616e696d0901d6edf4b1ea5566d3ddee2c"
+}

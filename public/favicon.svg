@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">바이브 개발 핸드북 아이콘</title>
+  <rect width="64" height="64" rx="14" fill="#2458d3"/>
+  <path d="M14 18h36v7H14zm0 14h25v7H14zm0 14h36v7H14z" fill="#fff"/>
+  <circle cx="47" cy="35.5" r="6" fill="#ffd86b"/>
+</svg>

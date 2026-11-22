@@ -1,0 +1,354 @@
+{
+  "schema_version": 1,
+  "review_id": "R14",
+  "state": "input-fixed",
+  "baseline_commit": "79d776c3ea4f9de0ad41063d484f4403a5510925",
+  "combined_sha256": "32deccb055227898c87e76d7be27cc5face250fe6aaa50ab749a3631e8e2b6d6",
+  "entries": [
+    {
+      "path": "docs/project/reviews/public-beta-1/codex-review-contract.md",
+      "sha256": "e0df0f1092868097207189175ee9d0ead5d7fc15aecf56dd0d2937b8f44fd946",
+      "bytes": 17073
+    },
+    {
+      "path": "src/content/docs/01-mental-models/abstraction-and-tradeoffs.md",
+      "sha256": "8a64b3cb56ebcd7686a7c7f620a0ab1ae0d33264215ad01e24c0ac725e05a607",
+      "bytes": 18469
+    },
+    {
+      "path": "src/content/docs/01-mental-models/developer-thinking.md",
+      "sha256": "b4a0a15829610cff3a3ab82592290f0c720d59c395d7ddee99860245267f30a9",
+      "bytes": 28345
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r14-mental-support-2026-11-15.md",
+      "sha256": "c9caf97dd5d7cd0d59c5e720939cf427e8b849a93dab77aea093c32a4dc1fff4",
+      "bytes": 5459
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r06-prd-sdd-tdd-2026-11-15.md",
+      "sha256": "719bb561cac43e4b58b8b9cb4c0cd9724c4b241ac794a9f2dcdb8d3b32207242",
+      "bytes": 6420
+    },
+    {
+      "path": "research/meeting-webapp-case-brief.md",
+      "sha256": "ee7611ec9889a8a2ab2bfdec1975c6b1078e3d849cfe435e5f070af6a17fa2b1",
+      "bytes": 6901
+    },
+    {
+      "path": "research/stock-dashboard-case-brief.md",
+      "sha256": "4c61046da2727ca97fb072b22012be200b0d185ad0fb0ef55e7c97a368cdc0ae",
+      "bytes": 23533
+    },
+    {
+      "path": "src/content/docs/reference/development-glossary.md",
+      "sha256": "728022ddc235e2196e60c52bc0dca8c07d0c4cd160dfdb5d4d196e5afe4b260d",
+      "bytes": 56291
+    },
+    {
+      "path": "src/styles/custom.css",
+      "sha256": "2236f2a8a9b30515cb641d48de7089d15590834766ada3f60de9f649ef36c137",
+      "bytes": 874
+    },
+    {
+      "path": "templates/agent-task-brief-template.md",
+      "sha256": "6bd36d1537b20962aebfd261467693b70ce1abe7fe279202ea851c7b4ad57b19",
+      "bytes": 1894
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r14-mental-support-request.md",
+      "sha256": "afde89578def7413619eb90d4b1cdb0364b0cf6d132ba9051ded6c0e50034723",
+      "bytes": 165341
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/abstraction-and-tradeoffs-1440-light-top.png",
+      "sha256": "a2629448295725aee983f53432e6ad5f7adcdf0398ccdb16a611c5b28ee121fb",
+      "bytes": 300131
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/abstraction-and-tradeoffs-1440-light-table0-part0.png",
+      "sha256": "c4f05f0d7f0837004286bb356f456c967a3a1c703cf2a6e420e68a6f8ae2f1de",
+      "bytes": 63580
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/abstraction-and-tradeoffs-1440-light-pre4-part0.png",
+      "sha256": "477a89393a2e0c3953385148ff1f14b71029c7776147f2a5ab82ba2e848e2f04",
+      "bytes": 61093
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/abstraction-and-tradeoffs-390-dark-top.png",
+      "sha256": "9416e303c10ee4154c8d4581bd64cb9d22aba4c032cc6e9918ecabb82c06bc01",
+      "bytes": 98235
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/abstraction-and-tradeoffs-390-dark-table0-part0.png",
+      "sha256": "aa7196012f7c39b7b4245e0dabcc058e0fac21447b60440d41cabc7c6560f32c",
+      "bytes": 39754
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/abstraction-and-tradeoffs-390-dark-table0-part1.png",
+      "sha256": "f12e6b28c53275a3c60284d8b519841ae701a445ae4f669a6879832f664c33fc",
+      "bytes": 57882
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/abstraction-and-tradeoffs-390-dark-pre4-part0.png",
+      "sha256": "f922ebf4b76a79aadd963747b9baeba0849efb104fceb153e9a06723cd4256ad",
+      "bytes": 45720
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/abstraction-and-tradeoffs-390-dark-pre4-part1.png",
+      "sha256": "33becf42f5ed7b82be2970f5ae609dd872caf3dc9ddde5865786e97984a9bb02",
+      "bytes": 32836
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/developer-thinking-1440-light-top.png",
+      "sha256": "cc784c156ff7e57b97441423fd4cf043beaa972c6353c5b272717bece6fb2095",
+      "bytes": 292350
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/developer-thinking-1440-light-table0-part0.png",
+      "sha256": "937c1c7e1d33ee9b30e77d12d079185d19b5a5c73649f27e715a4eaa47ff477e",
+      "bytes": 63746
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/developer-thinking-1440-light-table1-part0.png",
+      "sha256": "d3937e0bf471f666ac1861f7f6263e9591694a7eb0f181dd14a43172f33c5be7",
+      "bytes": 57301
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/developer-thinking-1440-light-table2-part0.png",
+      "sha256": "e97c5c142f857f421fcdf7143949dbebdbb2fdce8dd16a33870d374f66fa261a",
+      "bytes": 38827
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/developer-thinking-1440-light-table4-part0.png",
+      "sha256": "5ae60f9e063bddbc3984cd6eeba2a08b7d33f89b053be1ed51ca0acbbd8ef3ce",
+      "bytes": 59155
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/developer-thinking-1440-light-table5-part0.png",
+      "sha256": "545a186e51cef5ff38201884ece54ff03ee41a06f0f079d311d800be6290d9d5",
+      "bytes": 72917
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/developer-thinking-1440-light-pre6-part0.png",
+      "sha256": "99cf13a404cb8763e0c1517b09d76c9264e176979d2e2cc4b291082aa5a92d48",
+      "bytes": 107479
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/developer-thinking-390-dark-top.png",
+      "sha256": "57b8fe7f1497c4f78b51b9c5fc130d53784dee474fb7d0b249a742ae0c8312ae",
+      "bytes": 99386
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/developer-thinking-390-dark-table0-part0.png",
+      "sha256": "cfa5d59e513b2d06a9906931821d016fd16a8b72db37fbf511adf20a998def9a",
+      "bytes": 64128
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/developer-thinking-390-dark-table0-part1.png",
+      "sha256": "1b1cb690764f07a9c687976a2eb366eab006b8ab8e1a438c79ede902f7b90a56",
+      "bytes": 66760
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/developer-thinking-390-dark-table1-part0.png",
+      "sha256": "fcb544da69b22765d7c216be85215ed2fefd9f52b3587a04d189c00c12580b10",
+      "bytes": 46259
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/developer-thinking-390-dark-table1-part1.png",
+      "sha256": "a65592523816ddf9c9e7064e0a9069b6b3d9f83b38236b6cd0b69d40bb0c8f9e",
+      "bytes": 42113
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/developer-thinking-390-dark-table2-part0.png",
+      "sha256": "e7f5d0ed6fa93524b88715ec7d5c02cc3e0bdcc9882931d493a375dd707e50d4",
+      "bytes": 38367
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/developer-thinking-390-dark-table2-part1.png",
+      "sha256": "5cf635e70711012304972048852bf9b515e1c1d37bef110d64883e9ab0c1e021",
+      "bytes": 39646
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/developer-thinking-390-dark-table4-part0.png",
+      "sha256": "8eaee6775550d61b14529955afa95e8a0c85d60faf90fc96cac1af6bb4d6195a",
+      "bytes": 61902
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/developer-thinking-390-dark-table4-part1.png",
+      "sha256": "16a5f5057ca971f52e7c190c3ef216640de824e49c01609c925ba6ed288ee48f",
+      "bytes": 62014
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/developer-thinking-390-dark-table5-part0.png",
+      "sha256": "d3b9d96cb04be9508ba8274947b801b19af0b3aac98cb58d87e64d19b90ee9e5",
+      "bytes": 70550
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/developer-thinking-390-dark-table5-part1.png",
+      "sha256": "c328b4071bd3b2275d616f1e57a9d494a54e69c779b134dc8cfa08e461f7980c",
+      "bytes": 72196
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/developer-thinking-390-dark-pre6-part0.png",
+      "sha256": "96ac00d0db3e97b9618e582b5250ead39d05af194bed53ad79b37d25daa8a13b",
+      "bytes": 84325
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/developer-thinking-390-dark-pre6-part1.png",
+      "sha256": "79d5c62b1384427883ec5789b7d58f0cbe6eed30d1b55133d0fd1383b6214290",
+      "bytes": 27230
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-pilot/developer-thinking-390-dark-pre6-part2.png",
+      "sha256": "0644d7fafce0a2efa87cfe24ef428b5c2f8114281ec7689f71c7b3aab4d1ba32",
+      "bytes": 22759
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/abstraction-and-tradeoffs-1440-dark-top.png",
+      "sha256": "b71ed6f3eea9646eaa11718f35b790772f3cc9d6fc402450a86d09bda50a949b",
+      "bytes": 304806
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/abstraction-and-tradeoffs-1440-dark-table0-part0.png",
+      "sha256": "1c31fff1a08b49dfbf982aefbfb6abe39eb068c62aacb710e8110926ddabc775",
+      "bytes": 64981
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/abstraction-and-tradeoffs-1440-dark-pre4-part0.png",
+      "sha256": "48cf63ffc56bfde9ceab8f5187e04efb4686f14b0e9505252b4ce6a5c56fcd5b",
+      "bytes": 60756
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/abstraction-and-tradeoffs-390-light-top.png",
+      "sha256": "4aa3e4c7490ee38f3d0a71ad49caa10a02069c2f18c33fcfe22937974062bf1b",
+      "bytes": 95380
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/abstraction-and-tradeoffs-390-light-table0-part0.png",
+      "sha256": "85b7864abdfe3b82e7e355c3c3ac2aead7b6e4bae8df05c3a7a96da5a86136c3",
+      "bytes": 38786
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/abstraction-and-tradeoffs-390-light-table0-part1.png",
+      "sha256": "389155784ef24df3d34306bb7f0751fbb0e71bc4ca6ee03fc90c12b45a49a5b8",
+      "bytes": 56435
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/abstraction-and-tradeoffs-390-light-pre4-part0.png",
+      "sha256": "e94671e4f9d91cf17344ab32a4b1d776ea3924e7af41b7e856729e85c00d6f36",
+      "bytes": 45569
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/abstraction-and-tradeoffs-390-light-pre4-part1.png",
+      "sha256": "8bcf119621523e102fbd03f5ee9fa16f99f38caff78186c8532b3868d285714b",
+      "bytes": 32728
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/developer-thinking-1440-dark-top.png",
+      "sha256": "3fd7f7e91945d9bc27e48a8174410c1d663f5db61834f6ae213243591c6fadb5",
+      "bytes": 295954
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/developer-thinking-1440-dark-table0-part0.png",
+      "sha256": "8589bd4b44458134185563c331e3e0c5ad035b35295506be3887726527b6d610",
+      "bytes": 65507
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/developer-thinking-1440-dark-table1-part0.png",
+      "sha256": "5dc6b7e17a98374baf230e1001517556ed670f9b21a86fda2f5a629593306427",
+      "bytes": 58197
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/developer-thinking-1440-dark-table2-part0.png",
+      "sha256": "3226c526dde542efd9ec19095f70fb799ad27cb6bdecb66c333b68ee681b573f",
+      "bytes": 39425
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/developer-thinking-1440-dark-table4-part0.png",
+      "sha256": "45d1f7ad424c65cfdfb4bf5159dd27e6acb80db73b560fa33e575ee7db49e10f",
+      "bytes": 60463
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/developer-thinking-1440-dark-table5-part0.png",
+      "sha256": "19cd6b51b33cdfaf5e2c3a2c1a111a2a806b36e669725911fae191e5e75e7fa8",
+      "bytes": 74428
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/developer-thinking-1440-dark-pre6-part0.png",
+      "sha256": "dc089f4a1f2da3095ddeb55171e0a19abaf5ce6bfb3bbb4455c5cdb59c0052e8",
+      "bytes": 107290
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/developer-thinking-390-light-top.png",
+      "sha256": "88742a78e06bffa23cbd6b06fc4c34b3b264b23a2ba0af753070e0bad39e99b8",
+      "bytes": 96739
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/developer-thinking-390-light-table0-part0.png",
+      "sha256": "28e142bd0f2135286164a0501d74c649e1365c15beffac44c28a7406a0f9954d",
+      "bytes": 62546
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/developer-thinking-390-light-table0-part1.png",
+      "sha256": "cfd0e0d21319d17afe3c604b57ea1ea9924fa58861aa6ced5d3859c30603baec",
+      "bytes": 65002
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/developer-thinking-390-light-table1-part0.png",
+      "sha256": "64db8509fd03a50c896b046854e7717a6fe210e36b7a7bf8e0d475a512678f7f",
+      "bytes": 44950
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/developer-thinking-390-light-table1-part1.png",
+      "sha256": "7b78a804a2a5f0d43b4e01f9433dc46006405b2b6a94625810a71bb93424cf93",
+      "bytes": 40893
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/developer-thinking-390-light-table2-part0.png",
+      "sha256": "10f6a0cd2a39e9657d8d213bc6100ab5d67eb023a8c515f09042a4e87936d141",
+      "bytes": 37575
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/developer-thinking-390-light-table2-part1.png",
+      "sha256": "ee1c5113549fb2a48ed3102574b877065edafce56eaa99f6c0b6c58c93376d0f",
+      "bytes": 38660
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/developer-thinking-390-light-table4-part0.png",
+      "sha256": "2f333e2dc8545bcdc6271189bdd959c253083726bab755e322c4d56bf98f6ad3",
+      "bytes": 60615
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/developer-thinking-390-light-table4-part1.png",
+      "sha256": "2b6d6ded9de9c1751076e0fc16503664254cb031ca855292179e87f9cf9ec894",
+      "bytes": 60642
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/developer-thinking-390-light-table5-part0.png",
+      "sha256": "d6065d98a86227233579e98ef91a34f63da7ff5c08a59a21ba718fd0cb9da183",
+      "bytes": 68560
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/developer-thinking-390-light-table5-part1.png",
+      "sha256": "849524f71344dfdc751adab6dda8301498ed4fc1fee4a71644a3dfd23f99a47f",
+      "bytes": 70155
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/developer-thinking-390-light-pre6-part0.png",
+      "sha256": "d453a40ed9b9c56e5f3f8ab25c0f9e230fe2b4e1bd708d6d3f1694184e27b9ba",
+      "bytes": 84218
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/developer-thinking-390-light-pre6-part1.png",
+      "sha256": "001d04540c41d81cda761edab5f7d4acd2d5d88f4087026390682d6004005610",
+      "bytes": 27112
+    },
+    {
+      "path": "output/playwright/r14-inputs-20261115-remaining/developer-thinking-390-light-pre6-part2.png",
+      "sha256": "3272e88d97e4df9d1fce0dd7d1c70bdc73fe4154203328ef3d4cc36bf40d5a4a",
+      "bytes": 22589
+    }
+  ]
+}

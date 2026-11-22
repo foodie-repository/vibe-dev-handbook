@@ -1,0 +1,20 @@
+flowchart TD
+    accTitle: 모임 참가 요청의 정상 책임 순서
+    accDescr: 정상적인 모임 참가 요청이 요청과 eventId 식별, API 계약 확인, 인증과 요청 주체 확인, 대상 관계와 행동 인가, 중복과 모집 상태와 정원 확인, 트랜잭션과 commit, 확정 결과 응답의 일곱 책임을 차례로 통과하는 논리적 개요입니다.
+
+    A["1. 요청·eventId 식별"]
+    B["2. API 계약 확인"]
+    C["3. 인증·요청 주체 확인"]
+    D["4. 대상 관계·행동 인가"]
+    E["5. 중복·모집·정원 확인"]
+    F["6. 트랜잭션·commit"]
+    G["7. 확정 결과 응답"]
+
+    A --> B --> C --> D --> E --> F --> G
+
+    classDef step fill:#ffffff,stroke:#344054,color:#101828,stroke-width:2px;
+    classDef start fill:#eff8ff,stroke:#175cd3,color:#101828,stroke-width:2px;
+    classDef commit fill:#ecfdf3,stroke:#067647,color:#101828,stroke-width:2px;
+    class A start;
+    class B,C,D,E,G step;
+    class F commit;

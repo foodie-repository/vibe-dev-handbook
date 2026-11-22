@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="1000" viewBox="0 0 560 1000" role="img" aria-labelledby="operations-recovery-title operations-recovery-desc">
+<title id="operations-recovery-title">운영 신호에서 복구와 학습으로 이어지는 순환</title>
+<desc id="operations-recovery-desc">사용자와 시스템 신호를 수집한 뒤 문제를 감지하고 영향 범위와 가설을 확인하며 피해를 안정화하고 서비스와 데이터를 복구한 다음 실제 흐름을 검증하고 학습하는 일곱 단계 순환입니다. 점선 피드백은 복구 결과와 학습을 다음 신호·기준·대응 절차에 반영함을 나타냅니다.</desc>
+<defs>
+  <marker id="operations-arrow-light" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L0,12 L12,6 z" fill="#344054"/></marker>
+  <marker id="operations-arrow-dark" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L0,12 L12,6 z" fill="#d0d5dd"/></marker>
+  <marker id="operations-feedback-light" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L0,12 L12,6 z" fill="#067647"/></marker>
+  <marker id="operations-feedback-dark" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L0,12 L12,6 z" fill="#75e0a7"/></marker>
+</defs>
+<style>.box{fill:#fff;stroke:#344054;stroke-width:2}.signal{fill:#eff8ff;stroke:#175cd3}.learn{fill:#ecfdf3;stroke:#067647}.main{font:700 28px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#101828}.sub{font:600 20px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#475467}.arrow{stroke:#344054;stroke-width:3;fill:none;marker-end:url(#operations-arrow-light)}.feedback{stroke:#067647;stroke-width:3;fill:none;stroke-dasharray:8 8;marker-end:url(#operations-feedback-light)}.note{font:600 20px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#067647}@media(prefers-color-scheme:dark){.box{fill:#182230;stroke:#d0d5dd}.signal{fill:#102a56;stroke:#84adff}.learn{fill:#053321;stroke:#75e0a7}.main{fill:#f9fafb}.sub{fill:#e4e7ec}.arrow{stroke:#d0d5dd;marker-end:url(#operations-arrow-dark)}.feedback{stroke:#75e0a7;marker-end:url(#operations-feedback-dark)}.note{fill:#75e0a7}}</style>
+<path class="arrow" data-from="1" data-to="2" d="M296 124 V144"/>
+<path class="arrow" data-from="2" data-to="3" d="M296 252 V272"/>
+<path class="arrow" data-from="3" data-to="4" d="M296 380 V400"/>
+<path class="arrow" data-from="4" data-to="5" d="M296 508 V528"/>
+<path class="arrow" data-from="5" data-to="6" d="M296 636 V656"/>
+<path class="arrow" data-from="6" data-to="7" d="M296 764 V784"/>
+<path class="feedback" data-from="7" data-to="1" d="M64 840 H24 V72 H64"/>
+<g class="node" data-node="1"><rect class="box signal" x="72" y="24" width="448" height="96" rx="8"/><text class="main" x="296" y="60" text-anchor="middle">1. 신호 수집</text><text class="sub" x="296" y="92" text-anchor="middle">사용자·로그·지표·트레이스·변경</text></g>
+<g class="node" data-node="2"><rect class="box" x="72" y="152" width="448" height="96" rx="8"/><text class="main" x="296" y="188" text-anchor="middle">2. 영향 감지</text><text class="sub" x="296" y="220" text-anchor="middle">정상 변동과 대응할 문제 구분</text></g>
+<g class="node" data-node="3"><rect class="box" x="72" y="280" width="448" height="96" rx="8"/><text class="main" x="296" y="316" text-anchor="middle">3. 범위·가설 확인</text><text class="sub" x="296" y="348" text-anchor="middle">사용자·기능·환경·버전·데이터</text></g>
+<g class="node" data-node="4"><rect class="box" x="72" y="408" width="448" height="96" rx="8"/><text class="main" x="296" y="444" text-anchor="middle">4. 피해 안정화</text><text class="sub" x="296" y="476" text-anchor="middle">중지·격리·제한·안전한 우회</text></g>
+<g class="node" data-node="5"><rect class="box" x="72" y="536" width="448" height="96" rx="8"/><text class="main" x="296" y="572" text-anchor="middle">5. 서비스·데이터 복구</text><text class="sub" x="296" y="604" text-anchor="middle">아티팩트·설정·복원·외부 상태</text></g>
+<g class="node" data-node="6"><rect class="box" x="72" y="664" width="448" height="96" rx="8"/><text class="main" x="296" y="700" text-anchor="middle">6. 실제 흐름 검증</text><text class="sub" x="296" y="732" text-anchor="middle">사용자·권한·데이터·외부 신호</text></g>
+<g class="node" data-node="7"><rect class="box learn" x="72" y="792" width="448" height="96" rx="8"/><text class="main" x="296" y="828" text-anchor="middle">7. 학습 반영</text><text class="sub" x="296" y="860" text-anchor="middle">테스트·알림·런북·설계·책임</text></g>
+<text class="note" x="280" y="936" text-anchor="middle">점선 피드백 · 복구 결과와 학습이</text>
+<text class="note" x="280" y="964" text-anchor="middle">다음 신호·기준·대응 절차를 바꿉니다.</text>
+</svg>

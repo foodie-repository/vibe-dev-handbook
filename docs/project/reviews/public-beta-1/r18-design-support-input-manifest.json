@@ -1,0 +1,619 @@
+{
+  "schema_version": 1,
+  "review_id": "R18",
+  "state": "input-fixed",
+  "baseline_commit": "b020253520f288a4fac6ba110aaaec1f26410a97",
+  "combined_sha256": "407e52a12933af78233aa0ff00940a04dc05aec3b8226ea95140e0a34f8d8069",
+  "entries": [
+    {
+      "path": "docs/project/reviews/public-beta-1/codex-review-contract.md",
+      "sha256": "e0df0f1092868097207189175ee9d0ead5d7fc15aecf56dd0d2937b8f44fd946",
+      "bytes": 17073
+    },
+    {
+      "path": "src/content/docs/06-requirements-design/adr-and-tradeoffs.md",
+      "sha256": "501beeade9f87e6c2d06bf87fe208186902b4585f47b5a6f1157714c058f57d3",
+      "bytes": 25989
+    },
+    {
+      "path": "src/content/docs/06-requirements-design/architecture-and-frameworks.md",
+      "sha256": "007eac79925b1ad3d77e72c8a24fa347f92e8120d851e0478fbb29751a202d83",
+      "bytes": 27878
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r18-design-support-2026-11-15.md",
+      "sha256": "da529aa37aba5d5fc9e3331024d70b6a7c30d5418889b53d903ee17ded21d02c",
+      "bytes": 5334
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r06-prd-sdd-tdd-2026-11-15.md",
+      "sha256": "719bb561cac43e4b58b8b9cb4c0cd9724c4b241ac794a9f2dcdb8d3b32207242",
+      "bytes": 6420
+    },
+    {
+      "path": "research/architecture-framework-research-brief.md",
+      "sha256": "f43ae3e85553fd0063a5156e33c275073225fa07665feb18e19fec62456e6fe7",
+      "bytes": 11175
+    },
+    {
+      "path": "research/meeting-webapp-case-brief.md",
+      "sha256": "ee7611ec9889a8a2ab2bfdec1975c6b1078e3d849cfe435e5f070af6a17fa2b1",
+      "bytes": 6901
+    },
+    {
+      "path": "research/stock-dashboard-case-brief.md",
+      "sha256": "4c61046da2727ca97fb072b22012be200b0d185ad0fb0ef55e7c97a368cdc0ae",
+      "bytes": 23533
+    },
+    {
+      "path": "src/content/docs/reference/development-glossary.md",
+      "sha256": "728022ddc235e2196e60c52bc0dca8c07d0c4cd160dfdb5d4d196e5afe4b260d",
+      "bytes": 56291
+    },
+    {
+      "path": "src/content/docs/06-requirements-design/prd-sdd-tdd.md",
+      "sha256": "5b0c91327e30d694d5025e0f6b378f88406f616bce284e5c3a74b8e2fe67207d",
+      "bytes": 41340
+    },
+    {
+      "path": "src/assets/diagrams/architecture-decision-layers.svg",
+      "sha256": "d1661e6c97ed9044473b13953285f48ce030308dd718b250782beacb43b72dc7",
+      "bytes": 2959
+    },
+    {
+      "path": "src/assets/diagrams/source/architecture-decision-layers.mmd",
+      "sha256": "d08af89c648817dc4484276baf23ab3ece95ef21dedd9d2b053ee63b17042c58",
+      "bytes": 268
+    },
+    {
+      "path": "src/styles/custom.css",
+      "sha256": "2236f2a8a9b30515cb641d48de7089d15590834766ada3f60de9f649ef36c137",
+      "bytes": 874
+    },
+    {
+      "path": "templates/agent-task-brief-template.md",
+      "sha256": "6bd36d1537b20962aebfd261467693b70ce1abe7fe279202ea851c7b4ad57b19",
+      "bytes": 1894
+    },
+    {
+      "path": "WORKSPACE_MAP.md",
+      "sha256": "db9897c6d86e9f5ffd0ef7b3e3c8de996680cdb8b5ce00e3620817bfd291f368",
+      "bytes": 1678
+    },
+    {
+      "path": "package.json",
+      "sha256": "8c7e64860b4dbfaba9d018878277b057f1a33eca717dc0d4472b89fdfda1fd75",
+      "bytes": 1101
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "5e013a1e16f4e5b7943f7716f544963ef333781ed8307c02121f9d33294501e5",
+      "bytes": 217
+    },
+    {
+      "path": "astro.config.mjs",
+      "sha256": "baa48f6186f1f9b48cff9a3086e755e4a092b5a0c7bc919f08eedf4976385783",
+      "bytes": 2653
+    },
+    {
+      "path": "src/content.config.ts",
+      "sha256": "080280bb959afcddf4d62253482ad2151446abf59666746eb27c554d75080bf8",
+      "bytes": 588
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r18-design-support-request.md",
+      "sha256": "d644a8e0e212b1e149a123d350853a25f2bd4b81bffcf265bc884978bb2178cb",
+      "bytes": 204153
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-1440-light-top.png",
+      "sha256": "354807c836417037674746a3b53bea06f1e82736b65f5ac6b64c2e175194127b",
+      "bytes": 300928
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-1440-light-item0-x0-y0.png",
+      "sha256": "73825666be0150115d241febb08bd13269108e4c0a0197a577bbb6e65b12cf1a",
+      "bytes": 18658
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-1440-light-item1-x0-y0.png",
+      "sha256": "668f11f4921b8997653a67447254fc6a0eb17a4b7e39128cd77785261c4d50af",
+      "bytes": 96092
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-1440-light-item2-x0-y0.png",
+      "sha256": "2a9e0aa2cfab35cc00180415f4b8e07fd9660bbe6807453acb65e5ad4cf3d6df",
+      "bytes": 58489
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-1440-light-item3-x0-y0.png",
+      "sha256": "5ad875754d42ef2862bfcda9206470bfafc5f30495b993e3be682ba51170132e",
+      "bytes": 61866
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-1440-light-item4-x0-y0.png",
+      "sha256": "a107986b8cb24a82728c5e4bd7c286319936ba3caba092f145cf4763ff1e6ff9",
+      "bytes": 57609
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-1440-light-item5-x0-y0.png",
+      "sha256": "4989a9ce5e318e784c2e2bb47d0e7b849bc8251616c418368e72f1e8323023ff",
+      "bytes": 63224
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-1440-light-item6-x0-y0.png",
+      "sha256": "b8b24a74c40880235ecfac08751413bd81eb04537ffe93dcbcc83aeefea8d4bf",
+      "bytes": 13893
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-390-dark-top.png",
+      "sha256": "98f261ba3b7edeb31a7f110fa32e18ff6b5ffdfd6537eff47f4b94d3f87b00b1",
+      "bytes": 84302
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-390-dark-item0-x0-y0.png",
+      "sha256": "9563fc47bae88087ceb74a95eec4cce19b14eebd0eff20e967a1f3ddef836907",
+      "bytes": 16469
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-390-dark-item1-x0-y0.png",
+      "sha256": "c76bb6c6bb1d27ba2df4de4d5b8c608e6cf69a0c9fa2b86a137fb0042c336e91",
+      "bytes": 59430
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-390-dark-item1-x0-y1.png",
+      "sha256": "6a66a63a67c51f1c6e785e0b46102ff1e7d07edfb2149a351f190200f05b94c2",
+      "bytes": 16326
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-390-dark-item1-x1-y0.png",
+      "sha256": "076a82cc359ed2a79959a781a6ca83e16705c9d227cf9041682ad909dc50f567",
+      "bytes": 74705
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-390-dark-item1-x1-y1.png",
+      "sha256": "a281f8ee1f581a8f77ccfe5c82133d210e60aba88b61e38d888fabc06ebc5901",
+      "bytes": 21105
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-390-dark-item2-x0-y0.png",
+      "sha256": "811a2a87ca5828a44050a864e0d1cc3f1b10789ab65a08ea7929fe7c2b454779",
+      "bytes": 45080
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-390-dark-item2-x1-y0.png",
+      "sha256": "f451650f77dbc56233b1f20ad38fd9a8e8ecab9aedb2816fb9d9d259e0375532",
+      "bytes": 51966
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-390-dark-item3-x0-y0.png",
+      "sha256": "ab5f45b76629751d1bda5d9a7c270d13d901dfb67e20b5c791ff59c6f77c647e",
+      "bytes": 61480
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-390-dark-item3-x1-y0.png",
+      "sha256": "fb827d372667ca70cff4012469aad807344d6a588e985ae14d1be045a35384f4",
+      "bytes": 59654
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-390-dark-item4-x0-y0.png",
+      "sha256": "1c2ca13a22f91c9d2e230fd4cef6ba041b176f508e3715b468eb3acc1f22e7ee",
+      "bytes": 42656
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-390-dark-item4-x0-y1.png",
+      "sha256": "ddf8ddb830dae71e773f74c8469b5f7902aac9ac2e2d490b7d5e9151d7d5e6b5",
+      "bytes": 5829
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-390-dark-item4-x1-y0.png",
+      "sha256": "8e9d7f0a3d97c4634372ae2c999a351546339678506fb245e488809c79305194",
+      "bytes": 12336
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-390-dark-item4-x1-y1.png",
+      "sha256": "20cd1fe3c1e2399f8101b10811511ada97574f2125278459c3f7a7dceb2d5dbd",
+      "bytes": 1038
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-390-dark-item5-x0-y0.png",
+      "sha256": "4a0e0bd98f89004ea264d501eabcc96d4bb1298fe8bf51e15a8ec6f81264a348",
+      "bytes": 36740
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-390-dark-item5-x1-y0.png",
+      "sha256": "55d69953e4776a90243dc3cb3d507425c30a95fb3ab143640bdc765ec7abdaf9",
+      "bytes": 24397
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-390-dark-item5-x2-y0.png",
+      "sha256": "a286f23cbfd65cfa489b4c40af1b630d2d3fcf525501317ad7e4f84a823f6ad4",
+      "bytes": 21921
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-390-dark-item6-x0-y0.png",
+      "sha256": "da3f7a962af50cf62cc59390e4f735ce63fb6d210ccd27e539d45883c2bb928a",
+      "bytes": 10824
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/adr-and-tradeoffs-390-dark-item6-x1-y0.png",
+      "sha256": "6757bcb82722dd70ee67f2bdae00040cda8cd9a2f69f1071dbb5c343dd73f84b",
+      "bytes": 5720
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-1440-light-top.png",
+      "sha256": "491f127759b58f1821b8d98e606ab2ab86338fd6c72709afdc92b9c70e4e731f",
+      "bytes": 314597
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-1440-light-item0-x0-y0.png",
+      "sha256": "2d1b9ac941b595e15a862ef05272e390962c9c62a00ccd334a5c8a165e17a45d",
+      "bytes": 73745
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-1440-light-item1-x0-y0.png",
+      "sha256": "522a87783c7a580cedaab0a4e27300177cb0947d85fc53e24a399964931dc352",
+      "bytes": 34274
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-1440-light-item2-x0-y0.png",
+      "sha256": "48547e240ce1b36b194abaf93d89643c4f84f11d8337e904f6110a31097b623c",
+      "bytes": 71681
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-1440-light-item3-x0-y0.png",
+      "sha256": "283dc8e19178f10cec4e687d353fb57577d1d3b8335510988df03f3498bef24a",
+      "bytes": 67562
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-1440-light-item4-x0-y0.png",
+      "sha256": "d7c1713a8a072688ada3cf5a4e040f6cbe5f8baa96b9f3a4fa12a404b4c01812",
+      "bytes": 77989
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-1440-light-item4-x1-y0.png",
+      "sha256": "5e2d9c5cb84e3f4486cfd2a1fe4f362427bfe74b58cdfffe60f24bfa1c790642",
+      "bytes": 74754
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-390-dark-top.png",
+      "sha256": "a1e137400a7ab38ef6b3e276b5965d3bb9d5cdd4af5d29ec9161b5476e8cf30e",
+      "bytes": 95483
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-390-dark-item0-x0-y0.png",
+      "sha256": "a83c77cbaed157ab69202e9646b07977b6f78e29f033db0603ffdf21ac6355ee",
+      "bytes": 56745
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-390-dark-item0-x0-y1.png",
+      "sha256": "ae8f4f1025882b003cba9b46102dce223d1b291651388859ff42f13d7c9d2850",
+      "bytes": 1525
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-390-dark-item0-x1-y0.png",
+      "sha256": "2ed7ed8f4a9b12238e26a702e178cbeca3bb52b04f0cea227b7b429967e4fafe",
+      "bytes": 71987
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-390-dark-item0-x1-y1.png",
+      "sha256": "92c9b23d666571e6007d9b84a6c9af07c1035c1fbb6f71b7cfff96d578d71173",
+      "bytes": 1502
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-390-dark-item1-x0-y0.png",
+      "sha256": "3fa367dc7c05bd8e2db115ccb8733dab4209da6afb7711669a538dfed244f3ee",
+      "bytes": 22636
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-390-dark-item2-x0-y0.png",
+      "sha256": "01f0fbed1c3477170abce526f07b07911d6e3ff93c626fb95f15278658913350",
+      "bytes": 58568
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-390-dark-item2-x0-y1.png",
+      "sha256": "9cc93a164a7d648451231a5bb1a4570b3dc005e5e0ebb96e01415287ea9d8117",
+      "bytes": 20935
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-390-dark-item2-x1-y0.png",
+      "sha256": "60517a66de246e6fcee8c1506df20e5591f0baa497554493b85bdb74ff4139f4",
+      "bytes": 58444
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-390-dark-item2-x1-y1.png",
+      "sha256": "05debe57a71b0f095c5285e994a70fbbf1f69408e9b70a1acf2e20ee3ee5a339",
+      "bytes": 21469
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-390-dark-item3-x0-y0.png",
+      "sha256": "81d354058c4cefd44add1425fe4d8b853bc089e758d4a18600ef68c77a20c9e2",
+      "bytes": 55332
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-390-dark-item3-x0-y1.png",
+      "sha256": "ba364c5b41fad1ad415e3d6a0ddd03bc4572fd3a9911cd82a42c085cc7214c8a",
+      "bytes": 14149
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-390-dark-item3-x1-y0.png",
+      "sha256": "e8c191758df33f48af7a18aceb12ae7aa400960fa870efb1997c1c36236bf55c",
+      "bytes": 59391
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-390-dark-item3-x1-y1.png",
+      "sha256": "f047eb5e7e84915616046ac7ce64d7c0188e864cb696aa31a1c8c997b38cd72a",
+      "bytes": 15879
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-390-dark-item4-x0-y0.png",
+      "sha256": "0ad878179271d907f95b168d1f80a0a520df9089d5b61932f97ff5495dafefa2",
+      "bytes": 45663
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-390-dark-item4-x1-y0.png",
+      "sha256": "d9a0ad8df0159b0220ddbbb9db18ccfb7791bd386c9abbcfc2faca8c0b359bf6",
+      "bytes": 30718
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-pilot/architecture-and-frameworks-390-dark-item4-x2-y0.png",
+      "sha256": "8d4e598f7427f04a06a53a3dc0541b0a30a5f839c0f9ba29306b1f33aea3253e",
+      "bytes": 18541
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-1440-dark-top.png",
+      "sha256": "cfdf97e0ad10d49db5524969d6bb25c9f39ad1ff69eea5e3d6d4be91ea8db8d5",
+      "bytes": 304708
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-1440-dark-item0-x0-y0.png",
+      "sha256": "e927377d97c9a931c114ccd4061cfe053470d6967cad1c7534e122aecaeefdab",
+      "bytes": 18486
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-1440-dark-item1-x0-y0.png",
+      "sha256": "bcddfe70de5c00a2536103f406fb95e1f445a7f6170b2480aecc13775543e302",
+      "bytes": 98460
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-1440-dark-item2-x0-y0.png",
+      "sha256": "27a3ec44b9bf62db1b26cb96a6af2ffbef6a0039155cba4b5f6c6e3ecbe3df43",
+      "bytes": 59545
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-1440-dark-item3-x0-y0.png",
+      "sha256": "3326e74171da7b51fa85abf1e34515461f393af44dd9ebf43402c7e0353c77b9",
+      "bytes": 63313
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-1440-dark-item4-x0-y0.png",
+      "sha256": "cb2b8b93f993d0d37276fc9c4440fa43a1ce0146e1e6b4271e6570f800663986",
+      "bytes": 57383
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-1440-dark-item5-x0-y0.png",
+      "sha256": "fedb381dc6f1fefee59df04868b88f304fd7e6a211f49d1b5b5005052e028d40",
+      "bytes": 62965
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-1440-dark-item6-x0-y0.png",
+      "sha256": "4464ae1086259b1496a14495fbdceeb43320ffd4c94927ba69ce1cc12dd5f359",
+      "bytes": 13937
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-390-light-top.png",
+      "sha256": "7860df586f9f07754554ebeeed3ac017342b128a7a9696f7b219888c6d96d318",
+      "bytes": 82206
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-390-light-item0-x0-y0.png",
+      "sha256": "6981ba8e017bb060689f494ebcfdc8d5a068b5393ae4f54116cde5cd4a6e7a30",
+      "bytes": 16636
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-390-light-item1-x0-y0.png",
+      "sha256": "085635bf00812579e9677f1e0dcb3cc43bce74b759e45160d1f36490eaa3b0f0",
+      "bytes": 57873
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-390-light-item1-x0-y1.png",
+      "sha256": "29abc1349d27fcfb0b1c1dae5278bd522904b569177d2641ebd6539576be81fd",
+      "bytes": 15924
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-390-light-item1-x1-y0.png",
+      "sha256": "019371ab01039a7531b8c0cf001e8cee5645ea5717fdeddea4c372b91636b54e",
+      "bytes": 72476
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-390-light-item1-x1-y1.png",
+      "sha256": "c4cb0ebe375804ac2fcb200aac1694cbed9bcbffe092f9304f613f7f011332af",
+      "bytes": 20462
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-390-light-item2-x0-y0.png",
+      "sha256": "fdb03ddb21d4fac9fbd50cfbc3e839b2d05023ee026998f255497ece92dd2e0f",
+      "bytes": 43979
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-390-light-item2-x1-y0.png",
+      "sha256": "f8b1281f5027b4ebcb37beb7675f4130681f3da6898fb7d90ae832ce8c88e36e",
+      "bytes": 50785
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-390-light-item3-x0-y0.png",
+      "sha256": "ed08e8e8567f1bdcf42db8bae914b23d8951cb2d672ff974fe5763bdea0b8f82",
+      "bytes": 59680
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-390-light-item3-x1-y0.png",
+      "sha256": "fb8f7a9dbae3232891d01f8c11fb42fac9f1ee318cb46cf5090bf2de57126a98",
+      "bytes": 58080
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-390-light-item4-x0-y0.png",
+      "sha256": "ee21d50ab9024f12ab6c0ec2bc79964a4f361e08de839536f647cfb10016c134",
+      "bytes": 42733
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-390-light-item4-x0-y1.png",
+      "sha256": "5b89e5e85843b94a01a8be5bdc763989d6f4c099dd6752ff02addc2c42729941",
+      "bytes": 5813
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-390-light-item4-x1-y0.png",
+      "sha256": "3dd2f7a7dad14465af648379b9e48dc745b57aa858db47287c113c93c067bbb1",
+      "bytes": 12419
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-390-light-item4-x1-y1.png",
+      "sha256": "043d367b4384f041df6afc146f85e400f5dd08c4b91d89fb0e7683dc72d7cc05",
+      "bytes": 1048
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-390-light-item5-x0-y0.png",
+      "sha256": "4e44c4d10c470ecc811571aa2d1a51e2985cec059d965c70e5b8d3ce02a8fc24",
+      "bytes": 36866
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-390-light-item5-x1-y0.png",
+      "sha256": "2d304be29847396679b52e5f9d4d7df1776668a943dd12eb3228d574d62f99e6",
+      "bytes": 24528
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-390-light-item5-x2-y0.png",
+      "sha256": "49e666fabbd5eb86cea886b0b2a4bf23d450d442c37b264a3d02761b264a17dc",
+      "bytes": 22047
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-390-light-item6-x0-y0.png",
+      "sha256": "2941f6bfad070847f92ced953f71e4bb778178637cb1b38ac65f531e8604f11c",
+      "bytes": 10718
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/adr-and-tradeoffs-390-light-item6-x1-y0.png",
+      "sha256": "5bd682629512fa635717775a1f069b0d8ea321aabc9addedbccc4281fdc31454",
+      "bytes": 5744
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-1440-dark-top.png",
+      "sha256": "20c04a1bacf8ffa7144afc5fc758d0565e443022aacf9d6e2f6fb08420d86aec",
+      "bytes": 319283
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-1440-dark-item0-x0-y0.png",
+      "sha256": "5e8b2140b994023438203cd67b34e003decf4b9512de195d464c2ea32c6eab21",
+      "bytes": 75170
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-1440-dark-item1-x0-y0.png",
+      "sha256": "294981bd69b0400dddf10ff67bdd1549d6abe7e76609aaafe3ead26922c6839f",
+      "bytes": 35219
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-1440-dark-item2-x0-y0.png",
+      "sha256": "4c43d5479ff64e44c6af98a7eaf58bc377dbcb6d65d19a86e29dbd55eb316855",
+      "bytes": 73151
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-1440-dark-item3-x0-y0.png",
+      "sha256": "a50316d008edaeaa21480b3723d886aefb4fdf2d2b5818e0b525f5a1223dc2d0",
+      "bytes": 68966
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-1440-dark-item4-x0-y0.png",
+      "sha256": "bae1582f1338f4a35c48837fe762146d720a5085c445acc01a7acca4a9870a60",
+      "bytes": 77665
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-1440-dark-item4-x1-y0.png",
+      "sha256": "5b40f5cbd69ec4b8c80e56a0832c6ba441e139691e79d0fa7ddf5be3e7be588d",
+      "bytes": 74462
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-390-light-top.png",
+      "sha256": "5026002953d988d606d28141e0824ab813a20507373963a9ab7046ca063741df",
+      "bytes": 93072
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-390-light-item0-x0-y0.png",
+      "sha256": "1668ec5111eba9058cd9750b505cc9c8cbf3f45d62fdb75947827f6460c59b95",
+      "bytes": 55508
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-390-light-item0-x0-y1.png",
+      "sha256": "ed57d628f7bdbc4c4ca409fc14a6f58854affde53104002b1e6fb5dcaa5ae6e9",
+      "bytes": 1554
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-390-light-item0-x1-y0.png",
+      "sha256": "09e983f94700e597231b9d5d5420ea5e62a7aab7294d17335443ec196b71017c",
+      "bytes": 69984
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-390-light-item0-x1-y1.png",
+      "sha256": "2b12708602ff98b87c05794bb3cf9a5d6ed1da5b6527d39cd20117f9d2799186",
+      "bytes": 1519
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-390-light-item1-x0-y0.png",
+      "sha256": "2b354db30e547f4d5eebda7ec47ee68d7be3c48e90a346ab7428e218ba8a26c2",
+      "bytes": 22124
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-390-light-item2-x0-y0.png",
+      "sha256": "8ac8830608cd0cfc4568e78db0d20ce017d4f26b989376fc4a9d3c6e8ec56370",
+      "bytes": 57304
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-390-light-item2-x0-y1.png",
+      "sha256": "92f64a09e9495071cf7b4dc1029a755ab5c582764e695aa48f5ff3ede1f7f515",
+      "bytes": 20436
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-390-light-item2-x1-y0.png",
+      "sha256": "f9c2b488d270d1f1585effdf400b5ebe2c59b43ffa912ea8f22cba7b6c123086",
+      "bytes": 57111
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-390-light-item2-x1-y1.png",
+      "sha256": "fdc79c8102ecb984f670ce0b8e5687399eee17614da102a1c9cb0e15e3105366",
+      "bytes": 20916
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-390-light-item3-x0-y0.png",
+      "sha256": "e0b8b9ea9337bfa1bee94807454a62461f32e864269933e862db44c12206d169",
+      "bytes": 54037
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-390-light-item3-x0-y1.png",
+      "sha256": "bbe2eb114ac57d4dec4a38724e4d93f8cceeeac27271d3ae6942e3af4a8035a8",
+      "bytes": 13859
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-390-light-item3-x1-y0.png",
+      "sha256": "f30cfb16975c2651f7d1d1454e1227faa0155ae3538ca90a0371b232bdfbaa3c",
+      "bytes": 57872
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-390-light-item3-x1-y1.png",
+      "sha256": "422afa4bd3381eb34f1b006013b7fc49da58a5ba8e01e9035f4a5b2a74339506",
+      "bytes": 15493
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-390-light-item4-x0-y0.png",
+      "sha256": "087904d3c46b60111d4596ac5254b8e54e8f9e4235e71938e7f1b7dfec8f90b8",
+      "bytes": 45777
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-390-light-item4-x1-y0.png",
+      "sha256": "9e1564aee85b0db47becb882a17c870e1077bbf722a1135b7f2d99375e975962",
+      "bytes": 30869
+    },
+    {
+      "path": "output/playwright/r18-inputs-20261115-corrected-remaining/architecture-and-frameworks-390-light-item4-x2-y0.png",
+      "sha256": "4607983c93c971a22b0ecb275d74d5d9643fa3c6aa2c22a9fc9ee4271d10cf21",
+      "bytes": 18622
+    }
+  ]
+}

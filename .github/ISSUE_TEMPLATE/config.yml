@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 보안 취약점은 비공개로 제보해 주세요
+    url: https://docs.github.com/en/code-security/security-advisories/working-with-repository-security-advisories/configuring-private-vulnerability-reporting-for-a-repository
+    about: GitHub 공식 기능 안내이며 이 저장소의 접수창이 아닙니다. SECURITY.md를 읽고 소유자가 활성화한 비공개 접수 경로를 확인하세요. 공개 Issue에 비밀이나 취약점 세부 내용을 올리지 마세요.

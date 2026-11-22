@@ -1,0 +1,29 @@
+{
+  "name": "vibe-dev-handbook",
+  "version": "0.1.0-beta.1",
+  "private": true,
+  "type": "module",
+  "description": "비개발자를 위한 소프트웨어 개발 및 AI 코딩 에이전트 온보딩 핸드북",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test": "node --test",
+    "validate:content": "node scripts/validate-content.mjs",
+    "sync:content-map": "node scripts/validate-content.mjs --write",
+    "check": "npm run check:static && npm run build && npm run validate:built",
+    "validate:built": "node scripts/validate-built-output.mjs",
+    "validate:references": "node scripts/validate-references.mjs",
+    "validate:plan": "node scripts/validate-public-beta-plan.mjs",
+    "validate:release": "node scripts/validate-public-release.mjs",
+    "check:static": "npm run test && npm run validate:content && npm run validate:references && npm run validate:plan"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "0.41.4",
+    "astro": "7.1.6"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "packageManager": "npm@10.9.2"
+}

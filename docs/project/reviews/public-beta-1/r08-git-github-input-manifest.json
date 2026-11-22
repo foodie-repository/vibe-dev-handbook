@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "review_id": "R08",
+  "state": "input-fixed",
+  "baseline_commit": "76a1e371ff1134a5de176b76c6912424fecd2798",
+  "combined_sha256": "8fd0387be743ef54b9b6c1ad24ae4a407347bda50223a5b14cc9948c3fdb4151",
+  "entries": [
+    {
+      "path": "docs/project/reviews/public-beta-1/codex-review-contract.md",
+      "sha256": "e0df0f1092868097207189175ee9d0ead5d7fc15aecf56dd0d2937b8f44fd946",
+      "bytes": 17073
+    },
+    {
+      "path": "src/content/docs/09-git-github/git-and-github.md",
+      "sha256": "7e67a4536e5661fee12e082b69f2eeb13302bb85c8c9def1e70ac8e5ef6b5cad",
+      "bytes": 31962
+    },
+    {
+      "path": "src/assets/diagrams/git-flow.svg",
+      "sha256": "b09f074d2260e131c69e482b4e8bed9c97dfb0235c87787069e643e19bfd07cf",
+      "bytes": 4667
+    },
+    {
+      "path": "src/assets/diagrams/source/git-flow.mmd",
+      "sha256": "016603ad56eb6794abb2af553b1c24f80597b48af828910cb0f5727b376aa883",
+      "bytes": 1351
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r08-git-github-2026-11-15.md",
+      "sha256": "903e101e298adb51d9a51cf54facd0b8c977a2c2b612e22d2aba04b99f910a61",
+      "bytes": 6085
+    },
+    {
+      "path": "src/content/docs/09-git-github/branch-commit-pull-request.md",
+      "sha256": "ff2d1faaedd2ab412ade431d662fac6471a9b78e6ed29fcf373a27346993733b",
+      "bytes": 17715
+    },
+    {
+      "path": "src/content/docs/09-git-github/undo-merge-conflict-release.md",
+      "sha256": "2ae4f8a8e980424214dadcfd3d6182c7ec8b049cf42e6dcfe2ce1f256356d09b",
+      "bytes": 18615
+    },
+    {
+      "path": "src/content/docs/11-ai-native/permissions-sandbox-worktrees.md",
+      "sha256": "dbcbf109c26c3ffa33ea76306d6c1aa0098c40758b1cf890a071101971f0ad54",
+      "bytes": 22489
+    },
+    {
+      "path": "src/content/docs/reference/development-glossary.md",
+      "sha256": "728022ddc235e2196e60c52bc0dca8c07d0c4cd160dfdb5d4d196e5afe4b260d",
+      "bytes": 56291
+    },
+    {
+      "path": "src/content/docs/reference/agent-output-glossary.md",
+      "sha256": "5bb3e26016e3a9e2fef51561be22a585aad1874fdc3cfd88f6962d136f79380e",
+      "bytes": 23827
+    },
+    {
+      "path": "research/meeting-webapp-case-brief.md",
+      "sha256": "91606d788632435d1253bbe1c1ca35e148d7058af754a088712d05dd6c4ab917",
+      "bytes": 4392
+    },
+    {
+      "path": "src/content/docs/12-case-studies/first-full-stack-project.md",
+      "sha256": "3d68c94a5f452721f9172a9cf127b118246fd95cd248ced505e13f0c5e274791",
+      "bytes": 38819
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r08-git-github-request.md",
+      "sha256": "190bf9a357de3de2209960b2651b9a369216fd59a66737c010cd2ee28229bca3",
+      "bytes": 90920
+    },
+    {
+      "path": "output/playwright/task20-git-evidence/top-viewports/pb-044-desktop-light-task20-pbv07-20260827173341346-ce798be9-8d59-400f-aaec-000877cb8f94.png",
+      "sha256": "b08b68625fbedb0b21d21666f75e1d28f2c450ba1cafd806c56a73c53e058ae7",
+      "bytes": 325108
+    },
+    {
+      "path": "output/playwright/task20-git-evidence/diagram-crops/pb-044-desktop-light-task20-pbv07-20260827173341346-ce798be9-8d59-400f-aaec-000877cb8f94-git-direct.png",
+      "sha256": "24d53098d2698cf1a0078dddd9d49a8e0084da1ada6218fe0e8764a5b0ec06f4",
+      "bytes": 46199
+    },
+    {
+      "path": "output/playwright/task20-git-evidence/accepted/pb-044-1440x1000-light-task20-pbv07-20260827173341346-ce798be9-8d59-400f-aaec-000877cb8f94-context.png",
+      "sha256": "00a9532ec5dc8139377b7a0820627ac544cc41bee6062c6adaa85ca4c83f5dd9",
+      "bytes": 158850
+    },
+    {
+      "path": "output/playwright/task20-git-evidence/top-viewports/pb-044-desktop-dark-task20-pbv07-20260827173341346-ce798be9-8d59-400f-aaec-000877cb8f94.png",
+      "sha256": "934e52c038b8d93daee300e5c92d2c8b95d4b19692a87113b687f08b80bb79eb",
+      "bytes": 324564
+    },
+    {
+      "path": "output/playwright/task20-git-evidence/diagram-crops/pb-044-desktop-dark-task20-pbv07-20260827173341346-ce798be9-8d59-400f-aaec-000877cb8f94-git-direct.png",
+      "sha256": "0c2093d492ea3bf5c08542450326a4ed3d2526208b44006b4b2ce8c2ce6ab5ca",
+      "bytes": 46930
+    },
+    {
+      "path": "output/playwright/task20-git-evidence/accepted/pb-044-1440x1000-dark-task20-pbv07-20260827173341346-ce798be9-8d59-400f-aaec-000877cb8f94-context.png",
+      "sha256": "6ef484ab3d4b20e2fadbd09af58c639ea703d38fd6022c54b666a0ff285fff3c",
+      "bytes": 199983
+    },
+    {
+      "path": "output/playwright/task20-git-evidence/top-viewports/pb-044-tablet-light-task20-pbv07-20260827173341346-ce798be9-8d59-400f-aaec-000877cb8f94.png",
+      "sha256": "887b8f8e793563c9c82a36bece9251b6f71fee5fcb39632c33d7cbadd62af170",
+      "bytes": 151813
+    },
+    {
+      "path": "output/playwright/task20-git-evidence/diagram-crops/pb-044-tablet-light-task20-pbv07-20260827173341346-ce798be9-8d59-400f-aaec-000877cb8f94-git-direct.png",
+      "sha256": "193864e86f142ae3c60edba3f29cc3de4fcbd7232cf6c1bde1c4d624bf708421",
+      "bytes": 46211
+    },
+    {
+      "path": "output/playwright/task20-git-evidence/accepted/pb-044-1024x768-light-task20-pbv07-20260827173341346-ce798be9-8d59-400f-aaec-000877cb8f94-context.png",
+      "sha256": "ddf936abc8b0e2c6211976670c22aeebe7baf482ed32b7856eb1da7c0f570d6e",
+      "bytes": 153929
+    },
+    {
+      "path": "output/playwright/task20-git-evidence/top-viewports/pb-044-tablet-dark-task20-pbv07-20260827173341346-ce798be9-8d59-400f-aaec-000877cb8f94.png",
+      "sha256": "f4e08f622a53e2eada5fa6d280f80e9fdadf62c42e3e826537347f0031d3cb65",
+      "bytes": 150346
+    },
+    {
+      "path": "output/playwright/task20-git-evidence/diagram-crops/pb-044-tablet-dark-task20-pbv07-20260827173341346-ce798be9-8d59-400f-aaec-000877cb8f94-git-direct.png",
+      "sha256": "44683b1a8685643726d352374c57dd0b0bf28ed9e48639ee98bd69dfde9f5435",
+      "bytes": 46960
+    },
+    {
+      "path": "output/playwright/task20-git-evidence/accepted/pb-044-1024x768-dark-task20-pbv07-20260827173341346-ce798be9-8d59-400f-aaec-000877cb8f94-context.png",
+      "sha256": "4127605a619572f948f0e9dd6cc25b43f27041702b9aacd6b804ca459f56c315",
+      "bytes": 181850
+    },
+    {
+      "path": "output/playwright/task20-git-evidence/top-viewports/pb-044-mobile-light-task20-pbv07-20260827173341346-ce798be9-8d59-400f-aaec-000877cb8f94.png",
+      "sha256": "a0c61c7b3db4101aafd6511fc7f2f3a91d58b1f5a40ecc0a521bbc9665206583",
+      "bytes": 83092
+    },
+    {
+      "path": "output/playwright/task20-git-evidence/diagram-crops/pb-044-mobile-light-task20-pbv07-20260827173341346-ce798be9-8d59-400f-aaec-000877cb8f94-git-direct.png",
+      "sha256": "616037ccbdb5176daa8ecb7c2ef8c62873d87e1d9ed5be8e84aefcae27dd98ab",
+      "bytes": 35607
+    },
+    {
+      "path": "output/playwright/task20-git-evidence/accepted/pb-044-390x844-light-task20-pbv07-20260827173341346-ce798be9-8d59-400f-aaec-000877cb8f94-context.png",
+      "sha256": "deb8ff860894cf2020be96cd895237c6d5d8df5c9f406a306b1c0cf2f8f7486c",
+      "bytes": 104476
+    },
+    {
+      "path": "output/playwright/task20-git-evidence/top-viewports/pb-044-mobile-dark-task20-pbv07-20260827173341346-ce798be9-8d59-400f-aaec-000877cb8f94.png",
+      "sha256": "989334a1d2f5d9aa457f578c996cd1eedbf0bb8588e16616388e240b36bf4b6f",
+      "bytes": 81750
+    },
+    {
+      "path": "output/playwright/task20-git-evidence/diagram-crops/pb-044-mobile-dark-task20-pbv07-20260827173341346-ce798be9-8d59-400f-aaec-000877cb8f94-git-direct.png",
+      "sha256": "b25d9aa58bc0c5bed8394f76bf47cdefc05788ff33f8bd837641a374194ee474",
+      "bytes": 36507
+    },
+    {
+      "path": "output/playwright/task20-git-evidence/accepted/pb-044-390x844-dark-task20-pbv07-20260827173341346-ce798be9-8d59-400f-aaec-000877cb8f94-context.png",
+      "sha256": "9c29849a4cb6aa92e852a7ea4fee6ded8e258d71c015bc031c3f3f92c1c09b35",
+      "bytes": 112290
+    }
+  ]
+}

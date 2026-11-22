@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1160" viewBox="0 0 480 1160" role="img" aria-labelledby="context-harness-title context-harness-desc">
+<title id="context-harness-title">컨텍스트, 스펙, 하네스, 루프의 관계</title>
+<desc id="context-harness-desc">사용자 의도에서 스펙과 컨텍스트로 이어지고, 컨텍스트와 하네스가 실행 루프에 합류합니다. 실행 루프는 검증 증거를 만들고 증거는 문맥 갱신으로 이어집니다. 하네스는 저장소·권한·테스트 환경을 제공하는 별도 책임이지 스펙 다음의 강제 직렬 단계가 아닙니다. 화살표는 선택한 책임 관계이며 고정 실행 순서나 모든 연결을 뜻하지 않습니다. 실행 루프가 수용 기준이나 권한을 스스로 확대하지 않습니다.</desc>
+<defs>
+  <marker id="context-arrow-light" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L0,12 L12,6 z" fill="#344054"/></marker>
+  <marker id="context-arrow-dark" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L0,12 L12,6 z" fill="#d0d5dd"/></marker>
+</defs>
+<style>.box{fill:#fff;stroke:#344054;stroke-width:2}.rule{stroke:#344054;stroke-width:2}.main{font:700 28px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#101828}.sub{font:600 24px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#475467}.note{font:600 20px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#344054}.arrow{stroke:#344054;stroke-width:3;fill:none;marker-end:url(#context-arrow-light)}@media(prefers-color-scheme:dark){.box{fill:#182230;stroke:#d0d5dd}.rule{stroke:#d0d5dd}.main{fill:#f9fafb}.sub,.note{fill:#e4e7ec}.arrow{stroke:#d0d5dd;marker-end:url(#context-arrow-dark)}}</style>
+<path class="arrow" data-from="I" data-to="S" d="M240 112 V160"/>
+<path class="arrow" data-from="S" data-to="C" d="M240 256 V280 H132 V312"/>
+<path class="arrow" data-from="C" data-to="L" d="M132 464 V496 H208 V536"/>
+<path class="arrow" data-from="H" data-to="L" d="M348 464 V496 H272 V536"/>
+<path class="arrow" data-from="L" data-to="E" d="M240 632 V688"/>
+<path class="arrow" data-from="E" data-to="U" d="M240 784 V840"/>
+<g class="node" data-node="I"><rect class="box" x="80" y="16" width="320" height="96" rx="8"/><text class="main" x="240" y="56" text-anchor="middle">사용자 의도</text><text class="sub" x="240" y="92" text-anchor="middle">문제·가치</text></g>
+<g class="node" data-node="S"><rect class="box" x="80" y="160" width="320" height="96" rx="8"/><text class="main" x="240" y="200" text-anchor="middle">스펙</text><text class="sub" x="240" y="236" text-anchor="middle">동작·수용 기준</text></g>
+<g class="node" data-node="C"><rect class="box" x="32" y="312" width="200" height="152" rx="8"/><text class="main" x="132" y="352" text-anchor="middle">컨텍스트</text><text class="sub" x="132" y="396" text-anchor="middle"><tspan x="132" dy="0">정보·도구·</tspan><tspan x="132" dy="32">메모리</tspan></text></g>
+<g class="node" data-node="H"><rect class="box" x="248" y="312" width="200" height="152" rx="8"/><text class="main" x="348" y="352" text-anchor="middle">하네스</text><text class="sub" x="348" y="396" text-anchor="middle"><tspan x="348" dy="0">저장소·권한·</tspan><tspan x="348" dy="32">테스트</tspan></text></g>
+<g class="node" data-node="L"><rect class="box" x="80" y="536" width="320" height="96" rx="8"/><text class="main" x="240" y="576" text-anchor="middle">실행 루프</text><text class="sub" x="240" y="612" text-anchor="middle">관찰·행동·평가</text></g>
+<g class="node" data-node="E"><rect class="box" x="80" y="688" width="320" height="96" rx="8"/><text class="main" x="240" y="728" text-anchor="middle">검증 증거</text><text class="sub" x="240" y="764" text-anchor="middle">diff·test·build</text></g>
+<g class="node" data-node="U"><rect class="box" x="80" y="840" width="320" height="96" rx="8"/><text class="main" x="240" y="880" text-anchor="middle">문맥 갱신</text><text class="sub" x="240" y="916" text-anchor="middle">결정·handoff</text></g>
+<line class="rule" x1="24" y1="976" x2="456" y2="976"/>
+<text class="note" x="240" y="1012" text-anchor="middle">화살표: 선택한 책임 관계</text>
+<text class="note" x="240" y="1044" text-anchor="middle">고정 실행 순서·전체 연결은 아닙니다.</text>
+<text class="note" x="240" y="1100" text-anchor="middle">실행 루프는 수용 기준·권한을</text>
+<text class="note" x="240" y="1132" text-anchor="middle">스스로 넓히지 않습니다.</text>
+</svg>

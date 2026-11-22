@@ -1,0 +1,524 @@
+{
+  "schema_version": 1,
+  "review_id": "R25",
+  "baseline_commit": "c1201f18e457e351d0aeee7db9c83ebc7b18f3f2",
+  "state": "input-fixed",
+  "combined_sha256": "462b0296cc3a93dff0a8fc2ccd65d226d0a3eb76183d1245f524ef6b51921fc2",
+  "entries": [
+    {
+      "path": "docs/project/reviews/public-beta-1/codex-review-contract.md",
+      "bytes": 17073,
+      "sha256": "e0df0f1092868097207189175ee9d0ead5d7fc15aecf56dd0d2937b8f44fd946"
+    },
+    {
+      "path": "src/content/docs/reference/development-glossary.md",
+      "bytes": 56291,
+      "sha256": "728022ddc235e2196e60c52bc0dca8c07d0c4cd160dfdb5d4d196e5afe4b260d"
+    },
+    {
+      "path": "src/content/docs/reference/agent-output-glossary.md",
+      "bytes": 23827,
+      "sha256": "5bb3e26016e3a9e2fef51561be22a585aad1874fdc3cfd88f6962d136f79380e"
+    },
+    {
+      "path": "src/content/docs/reference/methodology-map.md",
+      "bytes": 34884,
+      "sha256": "79bfb8db36b353c6665a5fc2d7e1d73b36d24498da3992cfc3b0cb41ba7a0446"
+    },
+    {
+      "path": "src/content/docs/reference/checklists.md",
+      "bytes": 22800,
+      "sha256": "dfee0c52c86045d3944c221594d90a1f955490bed3f7553ec51536bcaa991431"
+    },
+    {
+      "path": "src/content/docs/reference/current-tool-mapping.md",
+      "bytes": 30421,
+      "sha256": "c0cf7e7561b1b6f5bbfe0ac659ee72d93d8cce24004f57c26172cd85245d5922"
+    },
+    {
+      "path": "src/content/docs/reference/index.md",
+      "bytes": 2798,
+      "sha256": "8e5c317c35678632def94a26afda8849ba074aeef1a87d62a63e07808bcf3a0a"
+    },
+    {
+      "path": "src/content/docs/06-requirements-design/prd-sdd-tdd.md",
+      "bytes": 41340,
+      "sha256": "5b0c91327e30d694d5025e0f6b378f88406f616bce284e5c3a74b8e2fe67207d"
+    },
+    {
+      "path": "src/content/docs/04-backend-data/api-database-auth.md",
+      "bytes": 49803,
+      "sha256": "72e356c3156c4a00b7af5a2b5269726dabf2ca053d577f5fbc6a0b7b3ef2e935"
+    },
+    {
+      "path": "src/content/docs/11-ai-native/working-with-coding-agents.md",
+      "bytes": 46430,
+      "sha256": "ac63eb2a468416b43c57432ac4297e0af3c27edf6d694b86a40bca7131311711"
+    },
+    {
+      "path": "src/content/docs/11-ai-native/context-spec-harness-loop.md",
+      "bytes": 19715,
+      "sha256": "b0b441d1bde4ac968d75561523834bee6f36cd22384cedf83aab6018f6b1e725"
+    },
+    {
+      "path": "src/content/docs/10-deployment-operations/logs-monitoring-backup.md",
+      "bytes": 47820,
+      "sha256": "17aa3d355ad4432d1fda08fade29284442bdb6f07bcb6340721df0bae9437975"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r06-prd-sdd-tdd-2026-11-15.md",
+      "bytes": 6420,
+      "sha256": "719bb561cac43e4b58b8b9cb4c0cd9724c4b241ac794a9f2dcdb8d3b32207242"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r09-build-deploy-2026-11-15.md",
+      "bytes": 6710,
+      "sha256": "f99e69f8c2840237a9a2d9c3d8d442dc944f567983862fa166e9f68e71ca0252"
+    },
+    {
+      "path": ".superpowers/sdd/2026-08-12-public-beta-master-plan/r25-source-extracts.json",
+      "bytes": 58939,
+      "sha256": "16687c12fa334946425cbd62c94db540aca3027d4e2178c9ec35e4e01fc76c53"
+    },
+    {
+      "path": ".superpowers/sdd/2026-08-12-public-beta-master-plan/r25-methodology-extracts.json",
+      "bytes": 16171,
+      "sha256": "edb0e7d5e1a988644046ed076f20374543aeea6f5ff048464221603bea23484e"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r24-navigation-adjudication.md",
+      "bytes": 4135,
+      "sha256": "78efb157dd899412f82faa02e66d6fcd0b28e74cb06bf1205c42727749b8e394"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r24-controller-closeout.md",
+      "bytes": 3186,
+      "sha256": "bb102ca1575f569bd14f360c80866aefd04184c4622a04819292e82ae6a515bf"
+    },
+    {
+      "path": "output/playwright/r25-20261122-pilot/observations.json",
+      "bytes": 2471,
+      "sha256": "87cf250feb96e71355030b8b58391b2f1a353d890b6f059346b395eb9f06f22c"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/observations.json",
+      "bytes": 14082,
+      "sha256": "665b250de13f89eff1f8f0847621be4b3f1b201ec0e847546828b475888423ff"
+    },
+    {
+      "path": "output/playwright/r24-search-20261116-desktop/observations.json",
+      "bytes": 11781,
+      "sha256": "8faa7ed9502315b8bd4610a999dc7ec6de59b4562aabb0f210ec98e281605ca1"
+    },
+    {
+      "path": "output/playwright/r24-search-20261116-mobile/observations.json",
+      "bytes": 11770,
+      "sha256": "cc8ad276d6bab27ad5636cadfb024a5bd88d2b6b985ace58631886b3877e50bf"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r25-reference-request.md",
+      "bytes": 104658,
+      "sha256": "ffb259409d029f1fa0cd02680f4ba6c7878287756224de030a21a57e9096aa44"
+    },
+    {
+      "path": "output/playwright/r25-20261122-pilot/current-tool-mapping-1440-light-top.png",
+      "bytes": 272235,
+      "sha256": "5a2e6d48b2fd322bc6a696fcc0e6046d2b2a3cdf7744363f9af568645cf82199"
+    },
+    {
+      "path": "output/playwright/r25-20261122-pilot/current-tool-mapping-1440-light-section0-start.png",
+      "bytes": 303266,
+      "sha256": "e959d94720575223f614552a7897ef580fe6926bfff162f0fa2ddf6d39249b58"
+    },
+    {
+      "path": "output/playwright/r25-20261122-pilot/current-tool-mapping-1440-light-section1-start.png",
+      "bytes": 307324,
+      "sha256": "06e17d5b530281507c78fa63969b4cf28dc7d6bd2cb7eedf7f6c8a239817c75d"
+    },
+    {
+      "path": "output/playwright/r25-20261122-pilot/current-tool-mapping-1440-light-section2-start.png",
+      "bytes": 297193,
+      "sha256": "4510c26f7b1421bf2851c57e69c1513e3a755fc882a8535a46cca43e7ffc3437"
+    },
+    {
+      "path": "output/playwright/r25-20261122-pilot/current-tool-mapping-390-dark-top.png",
+      "bytes": 91687,
+      "sha256": "48cd75ef571e9d9dd9b194d24e88e66e4b5df5b86d676ba4bc2c9dbb58d65f1c"
+    },
+    {
+      "path": "output/playwright/r25-20261122-pilot/current-tool-mapping-390-dark-section0-start.png",
+      "bytes": 63187,
+      "sha256": "2f870829d44036c98f137293bd3f21c251388228f5aa0a31773060f81932e893"
+    },
+    {
+      "path": "output/playwright/r25-20261122-pilot/current-tool-mapping-390-dark-section0-end.png",
+      "bytes": 98900,
+      "sha256": "e59c75d068335fdc81a1796ff2aef6f8ca0d95971db27d63e125c4f732a32050"
+    },
+    {
+      "path": "output/playwright/r25-20261122-pilot/current-tool-mapping-390-dark-section1-start.png",
+      "bytes": 68793,
+      "sha256": "0f8a4c685ac0a4dc518d15e6282f66421f502d7bcb3d9ca6c600d24494f3f2d6"
+    },
+    {
+      "path": "output/playwright/r25-20261122-pilot/current-tool-mapping-390-dark-section1-end.png",
+      "bytes": 67835,
+      "sha256": "fc5ca4dc01a4016e968c6ff674fbd83ddf1405d63e8b93e1a927b82f44d42000"
+    },
+    {
+      "path": "output/playwright/r25-20261122-pilot/current-tool-mapping-390-dark-section2-start.png",
+      "bytes": 82223,
+      "sha256": "53382cb89b5e6d408db8397367af27e98dcebf33e71dbab3501b24013dfd3653"
+    },
+    {
+      "path": "output/playwright/r25-20261122-pilot/current-tool-mapping-390-dark-section2-end.png",
+      "bytes": 85532,
+      "sha256": "7017cf3668f853b4a609acabf8187db4cdb83c8153dce762baa12d6224d72abd"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/current-tool-mapping-1440-dark-top.png",
+      "bytes": 274812,
+      "sha256": "f984d27637bdf81e9380ece1893ddace6f0e75cfb8ce7dc099d34190c1ccd3c9"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/current-tool-mapping-1440-dark-section0-start.png",
+      "bytes": 306282,
+      "sha256": "1692d80ce4cfe8b2b9bbd6b4814b1c4b4e8fcc14a3fb2cd0f88f89cf2aaa39b7"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/current-tool-mapping-1440-dark-section1-start.png",
+      "bytes": 312149,
+      "sha256": "f7682bc9d1d74e35e6bfd611164052a575c5e76d71e8cfafe85605ae346faed6"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/current-tool-mapping-1440-dark-section2-start.png",
+      "bytes": 299855,
+      "sha256": "ced921119955a56a66cc2d73a245aa4ed32dc1f0f1817aab0a59af9cee055052"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/current-tool-mapping-390-light-top.png",
+      "bytes": 90252,
+      "sha256": "4a98c29703284cda4836d1cddfc2440558192aa58a2bd46bc01d5a75fa77c3b3"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/current-tool-mapping-390-light-section0-start.png",
+      "bytes": 58236,
+      "sha256": "e091a364faf3800526694e249cf556e88e7bdb3d06bd877e356fa0851715fad4"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/current-tool-mapping-390-light-section0-end.png",
+      "bytes": 96417,
+      "sha256": "ad5516f93c3210b00e41d7df55b696dc9bfc53205a890c6c4f562848d1e0e60e"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/current-tool-mapping-390-light-section1-start.png",
+      "bytes": 67002,
+      "sha256": "3d650b7a078a8aac6c3fafe5946a9849d75754cb810a70ca9ae9c3e7e8ef7b2b"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/current-tool-mapping-390-light-section1-end.png",
+      "bytes": 66762,
+      "sha256": "3b8d6d37c6ba2edf9f2c6fad7059dd806b0a3fd927754d768ec4196dd44ce53c"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/current-tool-mapping-390-light-section2-start.png",
+      "bytes": 80685,
+      "sha256": "e479195673cb86aa912701470b5c4753e1709669a043fcdec95c21bd06d823ac"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/current-tool-mapping-390-light-section2-end.png",
+      "bytes": 84201,
+      "sha256": "b830bbbe62520d173f4dbb56c87ec859b51a9d08e929b5394349d8dd364778b8"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/development-glossary-1440-light-top.png",
+      "bytes": 226775,
+      "sha256": "de24b23842f931e88a01c06c82a6766809d47ea4b15313b9a6544cc036026af5"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/development-glossary-1440-light-section0-start.png",
+      "bytes": 287283,
+      "sha256": "a7e3b790c9cd39f0d40e9e8b3b14e2da026bcc757d7bebd247429deba5a55e62"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/development-glossary-390-dark-top.png",
+      "bytes": 68105,
+      "sha256": "91fbe3b39e662214014e6d1ea9b7529974378e5a282ffd21f5bbf5b94d19e05a"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/development-glossary-390-dark-section0-start.png",
+      "bytes": 84572,
+      "sha256": "7d223a97ee78004fcf1aedfa710daf7ae28c07059aea844e1f1d908fc676992a"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/development-glossary-1440-dark-top.png",
+      "bytes": 228317,
+      "sha256": "3fff886369a9475ce30a9a30df1db4e97d9bb8645ec312667e5003a6ee782e0f"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/development-glossary-1440-dark-section0-start.png",
+      "bytes": 292566,
+      "sha256": "9e48bfcf30d418763b8681ba047755f9c17a9d85e71f011ceac68ed4c59a7e18"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/development-glossary-390-light-top.png",
+      "bytes": 67372,
+      "sha256": "acab3f383e43b56a98365674e3c6491e7bd766df09f9d582f6233aaffb6d12f2"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/development-glossary-390-light-section0-start.png",
+      "bytes": 83081,
+      "sha256": "edbc623f3c26b1b8f75595e0d8de99735fe5181137c65817938d68db3ee3d619"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/agent-output-glossary-1440-light-top.png",
+      "bytes": 243560,
+      "sha256": "9a609e6728fdd6c2d745d87f56cb1cdd2507c6d60c1dcd22d9e7dffa652c8573"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/agent-output-glossary-1440-light-section0-start.png",
+      "bytes": 277918,
+      "sha256": "25fbc1157264a5b60d6003408ee4328d07a8391125b464ea2a49382c830f3feb"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/agent-output-glossary-390-dark-top.png",
+      "bytes": 84894,
+      "sha256": "037d7c30d74b912838a4428ee3bbab329094b1d8721fcf4d00c3f8fcd24ca29e"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/agent-output-glossary-390-dark-section0-start.png",
+      "bytes": 76935,
+      "sha256": "57930cef2eb4bffae59ee54b872dd32c51817e88a5418007b94cdc10c9bbe645"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/agent-output-glossary-390-dark-section0-end.png",
+      "bytes": 88293,
+      "sha256": "216cb170ea7543d6abf473f28a2441dbc66bd971e914decb8596318296862e79"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/agent-output-glossary-1440-dark-top.png",
+      "bytes": 247329,
+      "sha256": "4b3b9104ba2b9576900e0921f5003a08e4ee0c304a56d6697751ff8bd376b6ab"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/agent-output-glossary-1440-dark-section0-start.png",
+      "bytes": 282928,
+      "sha256": "c5ef5a31001d0847501b75f1295fa2d42b5c5a1e62a53e086748d9217ef81b6b"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/agent-output-glossary-390-light-top.png",
+      "bytes": 84060,
+      "sha256": "5d643452e4645702cf294925d5dcf4d39be8fb7c7f1420c021d45f86ba961734"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/agent-output-glossary-390-light-section0-start.png",
+      "bytes": 74858,
+      "sha256": "71241f378b76bd3f6c3e1fd53199c52e1fa6aeb0924ecbde2a42f66283df0f56"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/agent-output-glossary-390-light-section0-end.png",
+      "bytes": 85646,
+      "sha256": "039db64c20802d643f67a5721f6ae173f799e9e53531d1d429668546fb227e18"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/methodology-map-1440-light-top.png",
+      "bytes": 319933,
+      "sha256": "399010b31966b7c345eda1d217743fb8a85a5149def562460a96e1439f85a1ee"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/methodology-map-1440-light-section0-start.png",
+      "bytes": 337763,
+      "sha256": "b2a353d868056d1083688f60eb408cc9c1c3555ae7916a78c22f32d5201cf6f1"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/methodology-map-1440-light-section1-start.png",
+      "bytes": 344507,
+      "sha256": "480816244322f97208de41c5b24b4c5fc011e01c986f34b297d8c2690b5cbaf4"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/methodology-map-390-dark-top.png",
+      "bytes": 107445,
+      "sha256": "a694109506d84caf78d04e922b561e7797226ffe4d1bced8cde9404e36b80ee1"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/methodology-map-390-dark-section0-start.png",
+      "bytes": 64726,
+      "sha256": "4aed805f61294672eb0b03fb6b31e1566c1d0508a55b62776af602ea2217f57c"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/methodology-map-390-dark-section0-end.png",
+      "bytes": 80378,
+      "sha256": "6681bde624c69b59cb156415f5298aa5d66845a73eb40c55233d61ac14123df4"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/methodology-map-390-dark-section1-start.png",
+      "bytes": 98416,
+      "sha256": "1e4a0c085490409ccfadf846f37889c4e7d39c25cb741f93010ea332deefe735"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/methodology-map-390-dark-section1-end.png",
+      "bytes": 87465,
+      "sha256": "3671c18b0326fd00d01113125063de1a0bb47c3efea3ce84b682960d823019ae"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/methodology-map-1440-dark-top.png",
+      "bytes": 324636,
+      "sha256": "4b75ed20d62a16888e021acacfc8f78551eaf823f8eab9bc2d3173d0c0fb6fa0"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/methodology-map-1440-dark-section0-start.png",
+      "bytes": 343226,
+      "sha256": "9a93cbf87e07b77646b7fe7cb9889c9b77c2bd9e3a1c11bd50753e362117a8a3"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/methodology-map-1440-dark-section1-start.png",
+      "bytes": 347988,
+      "sha256": "a74193a0c8af20178ab130bf87c277326775cb9ae8e36dfaec078236e0dd225a"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/methodology-map-390-light-top.png",
+      "bytes": 103318,
+      "sha256": "f8ff58bf4e3ea6b1e351ed4e5b916fa93e3fa817069b3b00459bb1845cb17eba"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/methodology-map-390-light-section0-start.png",
+      "bytes": 63123,
+      "sha256": "9ced51af647a218bbfe9e7dfeffac60ea9df453b0de418efabf6d60b0450e0fa"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/methodology-map-390-light-section0-end.png",
+      "bytes": 78192,
+      "sha256": "84c67cfa119024b157614a35eb2726165147099a331564211f9b249c40c14841"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/methodology-map-390-light-section1-start.png",
+      "bytes": 96851,
+      "sha256": "09418e63ea77271c7941bd595c379a97ad10ca270de17616c6f45439322b2460"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/methodology-map-390-light-section1-end.png",
+      "bytes": 85876,
+      "sha256": "15e06eab91021c36100e2246049190125a55d98fb8b0399911f81210cfe3981a"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/checklists-1440-light-top.png",
+      "bytes": 280639,
+      "sha256": "f170837c41d31f1fbc0b422646aeaca209c9f97ef575ccae66a6315192fe933a"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/checklists-1440-light-section0-start.png",
+      "bytes": 298835,
+      "sha256": "9103651c8d6e1bbbad54b28030d539fff4cdfadab925720331c9eea6a0c31094"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/checklists-390-dark-top.png",
+      "bytes": 100526,
+      "sha256": "b62876b023d65572b65b78f495bdc0ccde5c4572f9ab68ae4534c4169e4c2e7f"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/checklists-390-dark-section0-start.png",
+      "bytes": 72079,
+      "sha256": "d2c6d1b407755aa24ee14741bdd56f4d2c5627cac2b00c8e7a282a7591d65054"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/checklists-390-dark-section0-end.png",
+      "bytes": 77807,
+      "sha256": "341783b7ec00dfa97688894f6075cce1f3b43a797ada844a1d21a84371701429"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/checklists-1440-dark-top.png",
+      "bytes": 283362,
+      "sha256": "f8ad10ee4c89b3f8447fb32b03aea1f1103b02b34d4d0dad3959128a2ec0aced"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/checklists-1440-dark-section0-start.png",
+      "bytes": 303791,
+      "sha256": "b9a5569f7828c7aa0a7e1bd996368e2810c2e2c99da1c0bcc95a2e0ec6e9efe5"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/checklists-390-light-top.png",
+      "bytes": 98896,
+      "sha256": "e4dd03548cff5400215e6f3ac4ea87de7acff6fd06cbbc0032ed009306e6fd95"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/checklists-390-light-section0-start.png",
+      "bytes": 70269,
+      "sha256": "ee0ba8b969f85abc3ff06a746490c8f7cbbab89799e9b7bba8d9d03a5ed18a17"
+    },
+    {
+      "path": "output/playwright/r25-20261122-remaining/checklists-390-light-section0-end.png",
+      "bytes": 75776,
+      "sha256": "f44e4190cecf9d945111692037a81e82b689ec67ed230695430814dd71f7658b"
+    },
+    {
+      "path": "output/playwright/r24-search-20261116-desktop/q0-results.png",
+      "bytes": 236965,
+      "sha256": "a0075ccb11b3d1d1ed10db2db0cee11242c722c85eda224613785ce8a83c30ab"
+    },
+    {
+      "path": "output/playwright/r24-search-20261116-desktop/q0-destination.png",
+      "bytes": 316295,
+      "sha256": "54e0fb592b00b4cf8beb9fe43e5d75ee0657cfe8aa2e85bde5d272916b97d003"
+    },
+    {
+      "path": "output/playwright/r24-search-20261116-desktop/q1-results.png",
+      "bytes": 242380,
+      "sha256": "0fd319bc6ece4a3b0a47bd1b5d9446c2999b490f79894607e04fbede4a1ba37b"
+    },
+    {
+      "path": "output/playwright/r24-search-20261116-desktop/q1-destination.png",
+      "bytes": 363918,
+      "sha256": "523531c37663f2e8dc17e0baac4c280d1196d0b4fe11fe4fa92fafea987830a8"
+    },
+    {
+      "path": "output/playwright/r24-search-20261116-desktop/q2-results.png",
+      "bytes": 240848,
+      "sha256": "8d3eb8b0581d4978839516cf2c7a09c6780e78e31aab289358c60577f1faec49"
+    },
+    {
+      "path": "output/playwright/r24-search-20261116-desktop/q2-destination.png",
+      "bytes": 348875,
+      "sha256": "641ca2599b6989fe5b6867732b8fdde8dbcb5e3c3445c02c9ed33c55f407b1a4"
+    },
+    {
+      "path": "output/playwright/r24-search-20261116-desktop/q3-results.png",
+      "bytes": 247042,
+      "sha256": "1be6c851b73a7decad128334e00a6e160cbd0a8e991adc6b7ca999038398ce70"
+    },
+    {
+      "path": "output/playwright/r24-search-20261116-mobile/q0-results.png",
+      "bytes": 68946,
+      "sha256": "ae764316796665198a59af1cda881754c3223bdfb6dd4af868a33ade6e539c6b"
+    },
+    {
+      "path": "output/playwright/r24-search-20261116-mobile/q0-destination.png",
+      "bytes": 90250,
+      "sha256": "12fd047f1bd026731d280aac85e586a23bd5f033fed009d3b33c42f4696657a0"
+    },
+    {
+      "path": "output/playwright/r24-search-20261116-mobile/q1-results.png",
+      "bytes": 71571,
+      "sha256": "7bffeb745761c8fbbba83c2747d69fbdd66c6010b9242a10240357e3c3a8db50"
+    },
+    {
+      "path": "output/playwright/r24-search-20261116-mobile/q1-destination.png",
+      "bytes": 102595,
+      "sha256": "b50044e1046f410d5b503ab3eb9d0bfb25aa0d493cfece5abe505eea0618f5fd"
+    },
+    {
+      "path": "output/playwright/r24-search-20261116-mobile/q2-results.png",
+      "bytes": 68996,
+      "sha256": "23c2ffd98756c8f647d0fbde922a2f3fdd6764c41d36769342df452fa988356b"
+    },
+    {
+      "path": "output/playwright/r24-search-20261116-mobile/q2-destination.png",
+      "bytes": 83867,
+      "sha256": "b0b1aa385021cf3da1ea67e91e2703675f80d6e535902181c3e9fd7e9e9a25a7"
+    },
+    {
+      "path": "output/playwright/r24-search-20261116-mobile/q3-results.png",
+      "bytes": 27299,
+      "sha256": "ec1120d21943bcf29774148c4a7065f05ef77e8115f1aafe9d4e801426cdd757"
+    }
+  ]
+}

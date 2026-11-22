@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="688" height="960" viewBox="0 0 688 960" role="img" aria-labelledby="api-database-auth-sequence-title api-database-auth-sequence-desc">
+<title id="api-database-auth-sequence-title">마지막 한 자리 동시 요청과 commit 뒤 응답 유실 복구</title>
+<desc id="api-database-auth-sequence-desc">참가자 A와 B가 분리된 lifeline에서 마지막 한 자리에 동시에 요청하면 참가 서비스와 데이터베이스가 중복, 모집 상태, 정원을 트랜잭션 확정 경계에서 다시 검사해 A 한 건만 commit하고 B는 변경 없이 거절합니다. A의 성공 응답이 commit 뒤 유실되면 생성 요청을 즉시 반복하지 않고 권한 있는 현재 상태, 이벤트, 처리 기록을 재조회해 이미 확정된 결과와 confirmed가 capacity 이하이고 활성 중복과 부분 저장이 없다는 불변식을 확인합니다.</desc>
+<defs>
+  <marker id="api-sequence-arrow-light" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#344054"/></marker>
+  <marker id="api-sequence-arrow-dark" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d0d5dd"/></marker>
+  <marker id="api-sequence-commit-light" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#067647"/></marker>
+  <marker id="api-sequence-commit-dark" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#75e0a7"/></marker>
+</defs>
+<style>.actor{fill:#fff;stroke:#344054;stroke-width:2}.actor-label{font:700 24px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#101828}.parallel-frame{fill:none;stroke:#175cd3;stroke-width:2;stroke-dasharray:8 6}.parallel-tag{font:700 16px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#175cd3}.lifeline{stroke:#98a2b3;stroke-width:2;stroke-dasharray:6 6}.activation{fill:#f2f4f7;stroke:#667085;stroke-width:1}.message-line{fill:none;stroke:#344054;stroke-width:2.5;marker-end:url(#api-sequence-arrow-light)}.return-line{stroke-dasharray:8 6}.commit-line{stroke:#067647;marker-end:url(#api-sequence-commit-light)}.loss-line{fill:none;stroke:#c4320a;stroke-width:3;stroke-dasharray:8 6}.loss-x{stroke:#c4320a;stroke-width:4}.label-mask{fill:#fff}.message-label{font:700 24px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#101828}.message-detail{font:600 20px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#475467}.commit-text{fill:#067647}.loss-text{fill:#b42318}@media(prefers-color-scheme:dark){.actor{fill:#182230;stroke:#d0d5dd}.actor-label,.message-label{fill:#f9fafb}.parallel-frame{stroke:#84adff}.parallel-tag{fill:#84adff}.lifeline{stroke:#98a2b3}.activation{fill:#344054;stroke:#d0d5dd}.message-line{stroke:#d0d5dd;marker-end:url(#api-sequence-arrow-dark)}.commit-line{stroke:#75e0a7;marker-end:url(#api-sequence-commit-dark)}.loss-line,.loss-x{stroke:#fda29b}.label-mask{fill:#101828}.message-detail{fill:#d0d5dd}.commit-text{fill:#75e0a7}.loss-text{fill:#fda29b}}</style>
+<rect class="parallel-frame" data-parallel="1" x="32" y="104" width="392" height="120" rx="8"/>
+<text class="parallel-tag" x="44" y="124">PAR · 동시 시작</text>
+<line class="lifeline" x1="64" y1="84" x2="64" y2="936"/>
+<line class="lifeline" x1="208" y1="84" x2="208" y2="936"/>
+<line class="lifeline" x1="408" y1="84" x2="408" y2="936"/>
+<line class="lifeline" x1="608" y1="84" x2="608" y2="936"/>
+<rect class="activation" x="404" y="144" width="8" height="720"/>
+<rect class="activation" x="604" y="276" width="8" height="528"/>
+<path class="message-line" d="M68 160 H400"/>
+<path class="message-line" d="M212 208 H400"/>
+<path class="message-line" d="M412 284 H600"/>
+<path class="message-line" d="M612 348 H660 V372 H616"/>
+<path class="message-line return-line commit-line" d="M604 440 H412"/>
+<path class="loss-line" d="M404 512 H92"/>
+<path class="loss-x" d="M80 500 L96 516 M96 500 L80 516"/>
+<path class="message-line return-line" d="M404 576 H212"/>
+<path class="message-line" d="M68 648 H400"/>
+<path class="message-line" d="M412 720 H600"/>
+<path class="message-line return-line commit-line" d="M604 792 H412"/>
+<path class="message-line return-line" d="M404 864 H68"/>
+<g class="message" data-unit="1"><rect class="label-mask" x="160" y="128" width="208" height="28" rx="4"/><text class="message-label" x="264" y="152" text-anchor="middle">1. A 참가 요청</text></g>
+<g class="message" data-unit="2"><rect class="label-mask" x="232" y="176" width="168" height="28" rx="4"/><text class="message-label" x="316" y="200" text-anchor="middle">2. B 참가 요청</text></g>
+<g class="message" data-unit="3"><rect class="label-mask" x="376" y="232" width="264" height="48" rx="4"/><text class="message-label" x="508" y="254" text-anchor="middle">3. 확정 전 재검사</text><text class="message-detail" x="508" y="276" text-anchor="middle">중복·open·정원</text></g>
+<g class="message" data-unit="4"><rect class="label-mask" x="400" y="292" width="280" height="52" rx="4"/><text class="message-label" x="540" y="316" text-anchor="middle">4. 트랜잭션 확정 경계</text><text class="message-detail" x="540" y="338" text-anchor="middle">동시성 전략으로 1건 확정</text></g>
+<g class="message" data-unit="5"><rect class="label-mask" x="356" y="384" width="304" height="48" rx="4"/><text class="message-label commit-text" x="508" y="406" text-anchor="middle">5. A만 commit·처리 기록</text><text class="message-detail commit-text" x="508" y="428" text-anchor="middle">B 변경 없음</text></g>
+<g class="message" data-unit="6"><rect class="label-mask" x="112" y="456" width="288" height="50" rx="4"/><text class="message-label loss-text" x="256" y="479" text-anchor="middle">6. commit 뒤 응답 유실</text><text class="message-detail loss-text" x="256" y="502" text-anchor="middle">A 성공 응답 미도착</text></g>
+<g class="message" data-unit="7"><rect class="label-mask" x="184" y="536" width="240" height="32" rx="4"/><text class="message-label" x="304" y="562" text-anchor="middle">7. B 충돌·정원 응답</text></g>
+<g class="message" data-unit="8"><rect class="label-mask" x="68" y="588" width="356" height="52" rx="4"/><text class="message-label" x="246" y="612" text-anchor="middle">8. A가 현재 상태 재조회</text><text class="message-detail" x="246" y="634" text-anchor="middle">즉시 생성 요청 반복 금지</text></g>
+<g class="message" data-unit="9"><rect class="label-mask" x="364" y="660" width="288" height="52" rx="4"/><text class="message-label" x="508" y="684" text-anchor="middle">9. 참가·이벤트 조회</text><text class="message-detail" x="508" y="706" text-anchor="middle">처리 기록 함께 확인</text></g>
+<g class="message" data-unit="10"><rect class="label-mask" x="348" y="732" width="320" height="52" rx="4"/><text class="message-label commit-text" x="508" y="756" text-anchor="middle">10. A 확정·인원≤정원</text><text class="message-detail commit-text" x="508" y="778" text-anchor="middle">활성 중복·부분 저장 0</text></g>
+<g class="message" data-unit="11"><rect class="label-mask" x="68" y="804" width="356" height="52" rx="4"/><text class="message-label" x="246" y="828" text-anchor="middle">11. 이미 확정</text><text class="message-detail" x="246" y="850" text-anchor="middle">중복 생성 요청 불필요</text></g>
+<rect class="actor" x="8" y="24" width="112" height="60" rx="12"/><text class="actor-label" x="64" y="61" text-anchor="middle">참가자 A</text>
+<rect class="actor" x="152" y="24" width="112" height="60" rx="12"/><text class="actor-label" x="208" y="61" text-anchor="middle">참가자 B</text>
+<rect class="actor" x="336" y="24" width="144" height="60" rx="12"/><text class="actor-label" x="408" y="61" text-anchor="middle">참가 서비스</text>
+<rect class="actor" x="536" y="24" width="144" height="60" rx="12"/><text class="actor-label" x="608" y="61" text-anchor="middle">데이터베이스</text>
+</svg>

@@ -1,0 +1,58 @@
+name: 기술 정확도 검토 요청
+description: 정의, 예외, 실패 방식이나 검증 기준의 기술적 문제를 알려주세요.
+title: "[정확도] "
+body:
+  - type: markdown
+    attributes:
+      value: "주장과 근거를 구분해서 알려주시면 도움이 됩니다. 이 양식은 공개됩니다. 실제 비밀값·회사 자료·개인정보나 보안 취약점의 세부 내용은 제출하지 말고, 보안 문제는 SECURITY.md의 비공개 제보 경계를 따라주세요."
+  - type: input
+    id: page
+    attributes:
+      label: 페이지 URL 또는 저장소 상대 경로
+      description: 공개 URL 또는 문서 경로와 절 이름을 적어주세요. 비공개 주소·계정 정보는 제외해 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: 검토가 필요한 주장
+      description: 문제가 되는 짧은 문장과 현재 설명이 잘못되거나 불충분하다고 보는 이유를 적어주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: exceptions
+    attributes:
+      label: 예외 또는 적용 조건
+      description: 성립하지 않는 조건, 제품·버전 차이 또는 빠진 전제를 알려주세요. 아직 판단하기 어렵다면 그렇게 적어주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: 독자에게 생길 위험과 영향 범위
+      description: 잘못된 설계·검증 판단으로 이어질 수 있는 지점과 관련 장을 적어주세요. 실제 시스템의 공격 절차나 민감한 재현 자료는 넣지 마세요.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 공식·1차 근거
+      description: 공개 URL·문서 버전·확인일과 관련 절을 알려주세요. 출처를 찾지 못했다면 미확인으로 적고 원문 전체를 복제하지 마세요.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: 최소 수정 또는 재확인 제안
+      description: 수정해야 할 경계와 확인할 수 있는 테스트·예시가 있으면 알려주세요. 가짜 값만 사용해 주세요.
+    validations:
+      required: false
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: 공개 전 확인
+      options:
+        - label: 본문·URL·첨부물에 개인정보, 회사 내부 자료, API 키·토큰·비밀번호 등 비밀정보를 넣지 않았습니다.
+          required: true
+        - label: 보안 취약점의 세부 제보가 아니며, 보안 문제라면 공개 Issue 대신 SECURITY.md의 비공개 제보 경로를 확인하겠습니다.
+          required: true

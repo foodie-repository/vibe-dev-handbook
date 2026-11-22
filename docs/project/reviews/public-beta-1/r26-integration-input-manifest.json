@@ -1,0 +1,2387 @@
+{
+  "schema_version": 1,
+  "review_id": "R26",
+  "state": "frozen-input-inventory-not-a-verdict",
+  "baseline_commit": "78de599c8e48f3b64c4d3816478a3b9030906aa4",
+  "scope_note": "실행 전 고정된 전달 계획으로부터 판독 진행 중 파생한 입력 인벤토리입니다. 입력 목록의 고정, 실제 전송, 판독 완료, 통합 판정은 별개입니다.",
+  "hash_framing": "sha256-framed-bytes-v1; ordered UTF-8 path and original content bytes; inline:spec-plan-clauses is UTF-8 JSON.stringify(clauses) from the fixed reading map.",
+  "combined_sha256": "c2a8d1a78854a7762133d90897b57e27e4b3312e3656834e4efb30d364d8f67a",
+  "request_sha256": "34f47a869a29c5b0e4c96b6b5c92586ba84c739479f989838a818fe9de6f04cf",
+  "transport_plan_sha256": "61f90868f2ee4f802ddc210c154401d20c5e9984d2760975aa5df0293fb34b4c",
+  "reading_map_sha256": "8866903760283befb30c187014a47518edd7d51bf9a73332cffd4f31980dda8f",
+  "source_candidate_file_sha256": "bcecda5595470e02cb2796b6f59c8997ec8d359fba77e159bf596d840c07bd0a",
+  "source_candidate_336_combined_sha256": "6856118cdde3066b56f46dd023ab5dc678cb5cfcf75aca605d4f4d8bf9425402",
+  "counts": {
+    "inputs": 338,
+    "public_documents": 59,
+    "original_pngs": 68
+  },
+  "entries": [
+    {
+      "path": "inline:spec-plan-clauses",
+      "bytes": 16366,
+      "sha256": "742c7b839029b01bd6ca487699415cd8c21469f9331cf07e30241eb345a5ec04",
+      "group": "authority",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/01-mental-models/software-is-a-system.md",
+      "bytes": 34533,
+      "sha256": "f086dc056630893c03b2a8c1a98304063bf1053eef26b25da7b587ae038bbc3d",
+      "group": "R01",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r01-software-system-codex-review.md",
+      "bytes": 18778,
+      "sha256": "e56086d11ee3fcd8d92070a70778105c92a8d7f69fa0b9feb278a2040c6abeca",
+      "group": "R01",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r01-software-system-adjudication.md",
+      "bytes": 7568,
+      "sha256": "1e9f83f1663a189a4db41b8b08d89a9946244d3b431095cbbc40228ae9f3f3db",
+      "group": "R01",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r01-software-system.md",
+      "bytes": 31962,
+      "sha256": "c63f3a30f393400827e3c702fefb578e1c036ab379be1dfd37b0b891bca20902",
+      "group": "R01",
+      "kind": "full-text"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-006-asset-1.png",
+      "bytes": 90370,
+      "sha256": "d76e15f9a0c4b81f54989efc07585cf0f98359b81a9de6c85753b5b9b14c5243",
+      "group": "R01",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-007-asset-1.png",
+      "bytes": 91665,
+      "sha256": "20b44e9b865d1022d5a664ee64d7a2d39528824e9c5f663a88f56fc4a9933b2e",
+      "group": "R01",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-008-asset-1.png",
+      "bytes": 56548,
+      "sha256": "aed6a20c31317cf412dbb710866b5266343ca135ff9dc487bb01f7a4fca2567c",
+      "group": "R01",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-009-asset-1.png",
+      "bytes": 57523,
+      "sha256": "f5ee5796d6a0ac630caa4b27148c68114ae38cb6439694ac6c21490125789f98",
+      "group": "R01",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "src/content/docs/03-full-stack/client-server-full-stack.md",
+      "bytes": 35837,
+      "sha256": "38b6f61b9a981626245d26d75b5ded63b02b676d7e43442161953d8bc5f30282",
+      "group": "R02",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r02-client-server-codex-review.md",
+      "bytes": 28718,
+      "sha256": "98472e1e842caa3c751cb1b32017182b481a8640192257675fd6e4541b1b89be",
+      "group": "R02",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r02-client-server-adjudication.md",
+      "bytes": 4146,
+      "sha256": "65fdb3fa480dda171a2ba4d4e798cdc88d5fc7a060cc4c3f4b315dce7934ab06",
+      "group": "R02",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r02-client-server-codex-rereview.md",
+      "bytes": 24562,
+      "sha256": "eca02b2bb6d61fe76f84863e8e9e18d06b039313214a412215660441e5238a5b",
+      "group": "R02",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r02-b01-evidence.md",
+      "bytes": 11728,
+      "sha256": "b182868185e1b2b56a592b313add8b216d4ea2839e66c0eb6180cb7fdde74254",
+      "group": "R02",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r02-b01-followup-review.md",
+      "bytes": 12461,
+      "sha256": "798e6b84ea57616220b2f6f2f1da68c1142de2517442ebc6074cde129b83e77b",
+      "group": "R02",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r02-closeout-review.md",
+      "bytes": 20345,
+      "sha256": "ec92675dcdfc785382c0cdf8bfb93c46843ffe2ebfd92c6208248bb1badd8652",
+      "group": "R02",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r02-controller-closeout.md",
+      "bytes": 4482,
+      "sha256": "e7eb37974d86f30c0d448a698b4735aa0355e1d3294c5a4f0a850c223d5fe674",
+      "group": "R02",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r02-client-server-2026-10-15.md",
+      "bytes": 16085,
+      "sha256": "1a04fff3fb8b52a74c076337dc4a6ddb549584dbd6db294f7efcf04f1873e769",
+      "group": "R02",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r02-client-server.md",
+      "bytes": 14770,
+      "sha256": "3a90e0ad0380c168d9b147e8c2263f3740d87f7d4f8fd215218992197cc0b2a5",
+      "group": "R02",
+      "kind": "full-text"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-018-asset-1.png",
+      "bytes": 80635,
+      "sha256": "504ffea9452bb38d542bf20581d431d7c4ea98e4f30f13a4bb819eca705df5ef",
+      "group": "R02",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-019-asset-1.png",
+      "bytes": 82198,
+      "sha256": "c68f5d7ef14f5c38e241065dbdea2b7f38fe7b9c6163fca5e466b06401d4ad07",
+      "group": "R02",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-020-asset-1.png",
+      "bytes": 52604,
+      "sha256": "11a0e0e4b1c26d3c25c4d8885b94396d204bf78e86f89020878208f855f23035",
+      "group": "R02",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-021-asset-1.png",
+      "bytes": 54839,
+      "sha256": "d6e5d20c254260596bacdff2061bbb8b33bff137c70722dbe3fe39cbe31d189f",
+      "group": "R02",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "src/content/docs/03-full-stack/http-request-response.md",
+      "bytes": 32655,
+      "sha256": "d90c0fe3dab7eba53c796c81491227edad717c8a1df890d9cd5c22d2c1e0b97c",
+      "group": "R03",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r03-http-codex-review.md",
+      "bytes": 39615,
+      "sha256": "624fb5f3196d8198818fa06eef81727ce164818d85f65fc93a3851da17d9f8fe",
+      "group": "R03",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r03-http-adjudication.md",
+      "bytes": 5870,
+      "sha256": "4408044bb1d1d4b44835b01f62379e8ce8e963e77b786ad254af566adabacd95",
+      "group": "R03",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r03-http-codex-rereview.md",
+      "bytes": 20133,
+      "sha256": "0dac12855fabb46e01b96689ab9f5a5f5ed9f76d1a8e94020d4c2a900da8f209",
+      "group": "R03",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r03-closeout-adjudication.md",
+      "bytes": 3066,
+      "sha256": "f6af0d842b89ac92046121ac37307050aa3a6a88370e38db93ed016d28210f2d",
+      "group": "R03",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r03-closeout-rereview.md",
+      "bytes": 6198,
+      "sha256": "21bdc5d1be4982be3b94090c179bb8c653ed762f5c7aa76032d60f194fbace95",
+      "group": "R03",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r03-closeout-review.md",
+      "bytes": 14820,
+      "sha256": "27d357e8e923f979207b909c09889e0b6a1c7b4b1e645fb0c3a075222fb7a0da",
+      "group": "R03",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r03-controller-closeout.md",
+      "bytes": 3907,
+      "sha256": "37f817f3232ba8dc1197f9fa7026a845ff24f0e9c8c39e1369ed50a4ec0cdf82",
+      "group": "R03",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r03-http-2026-10-25.md",
+      "bytes": 5350,
+      "sha256": "ec692441d1c7d0ece0af13586697ac810122587af38cc7662cdc9dc7fe97fd37",
+      "group": "R03",
+      "kind": "full-text"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-024-asset-1.png",
+      "bytes": 80643,
+      "sha256": "60f434391f9b2bc6251d42848a89fa7a84e46f20ca5b414708a180c6a5c61273",
+      "group": "R03",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-025-asset-1.png",
+      "bytes": 82198,
+      "sha256": "1c40328ad99c842b7ec9e5685c0eca215d9bbbf82ac8484d868f4605440d9c91",
+      "group": "R03",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-026-asset-1.png",
+      "bytes": 52629,
+      "sha256": "a0b08e2c5060e1ac490713a4b83dc822b57c72df23de5ddec775ef7cb82210b2",
+      "group": "R03",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-027-asset-1.png",
+      "bytes": 54858,
+      "sha256": "2860dbcfd20881bfb054b072b73b553fbf6f7110ff6ae6f0a9f3ae7be71192a4",
+      "group": "R03",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "src/content/docs/04-backend-data/api-database-auth.md",
+      "bytes": 49803,
+      "sha256": "72e356c3156c4a00b7af5a2b5269726dabf2ca053d577f5fbc6a0b7b3ef2e935",
+      "group": "R04",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r04-api-data-auth-codex-review.md",
+      "bytes": 41464,
+      "sha256": "9830cd8171fcd0cde0f40f57c935357bf5e34887b3df653a4a6c0415842ad929",
+      "group": "R04",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r04-api-data-auth-adjudication.md",
+      "bytes": 5387,
+      "sha256": "e55b0a704456b862086019a72fce6500a22cc94c38e46d43d89d41ca459c6a99",
+      "group": "R04",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r04-api-data-auth-codex-rereview.md",
+      "bytes": 32252,
+      "sha256": "703fe65263b0a3b7d9208297af5fcaaa829e2aaaae92268d853cd9e56c44cb2c",
+      "group": "R04",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r04-closeout-adjudication.md",
+      "bytes": 2666,
+      "sha256": "b78f14c9dc615ddc110ac84aa5438f4135c8ca230450d180cd089c219f35d998",
+      "group": "R04",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r04-closeout-minor-fix.md",
+      "bytes": 3201,
+      "sha256": "c1289663a416e4f3209c005ea035320cdb963c3e04e1f96f852ba559210018b7",
+      "group": "R04",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r04-closeout-minor-rereview.md",
+      "bytes": 10636,
+      "sha256": "5a32e8ab1e070dc406dd59dc7d3d5ae9fbecc97618a20a26b327e151f3ceeac2",
+      "group": "R04",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r04-closeout-review.md",
+      "bytes": 18566,
+      "sha256": "2246c47b92ff8bfbd3a56dbd5e6d9896c830e22d3c46d34cd827631b0d52d9f7",
+      "group": "R04",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r04-controller-closeout.md",
+      "bytes": 5688,
+      "sha256": "a7cc5b48531d301a77b8057381e8c9ce549c5b73574663aa02c2fa0aacc78653",
+      "group": "R04",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r04-api-data-auth-2026-11-15.md",
+      "bytes": 10613,
+      "sha256": "5c2bc48ea5b656b425f2255654b141575c652ddc12adc03b4be16143879cb44f",
+      "group": "R04",
+      "kind": "full-text"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-030-asset-1.png",
+      "bytes": 36901,
+      "sha256": "258531d251845b9e1d46fa4471d44b7e8cedf3a5c36e8e09bee49344fb09954f",
+      "group": "R04",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/r04-fix-20261115/1440-light-detail.png",
+      "bytes": 86014,
+      "sha256": "b3ddb782f890658138b6c98b96d4c57da6a02fe0508d086540d931d222875a86",
+      "group": "R04",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-031-asset-1.png",
+      "bytes": 37545,
+      "sha256": "77757723da5bc4e26e0a8d9cfdbdb6692b6fcdb1cee97479454e67fc5bbb4369",
+      "group": "R04",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/r04-fix-20261115/1440-dark-detail.png",
+      "bytes": 89192,
+      "sha256": "e65ee3aa3a66bd79485cb6b96eb86b96fb569b7be46616438e6a45fbdc72a17c",
+      "group": "R04",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-032-asset-1.png",
+      "bytes": 23520,
+      "sha256": "7772e4fb9be3e6f37ab87f501dc99e4d61648ac676a077e4abd198237ad74b32",
+      "group": "R04",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/r04-fix-20261115/390-light-detail.png",
+      "bytes": 49049,
+      "sha256": "1f24131f254ae902c97b9bb4745d11dd12b66fe71ea8fef2cfa8a48770b1cef8",
+      "group": "R04",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-033-asset-1.png",
+      "bytes": 23686,
+      "sha256": "be531ed6aee40ee3cd8162b9e282794e9800d0be7b2ddd28cd0d90f1254dbd0d",
+      "group": "R04",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/r04-fix-20261115/390-dark-detail.png",
+      "bytes": 52072,
+      "sha256": "363bc8575c10c2883d84724c0d7431284f4f551f822a0258666ccf5efb96d8a1",
+      "group": "R04",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "src/content/docs/05-frontend/browser-dom-rendering.md",
+      "bytes": 33662,
+      "sha256": "4d914c5e17c05a3683faa48bbe657ba7f655eb6a4595199bfeb09dc2fa37bfe9",
+      "group": "R05",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r05-browser-dom-codex-review.md",
+      "bytes": 36546,
+      "sha256": "78418c6c9637f18bb82280b5dfb77d0e7319bfbf20c3c7e8b1693b1037ba678f",
+      "group": "R05",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r05-browser-dom-adjudication.md",
+      "bytes": 5023,
+      "sha256": "05071c29cc688fac2d7528ba61c2475cda145090c89dfa39257b77780e0fea94",
+      "group": "R05",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r05-browser-dom-codex-rereview.md",
+      "bytes": 27872,
+      "sha256": "ef7e68368fb2f4b2a6d7557ce5b8bd577277b1ab95e0d80806cb07d76811d17a",
+      "group": "R05",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r05-closeout-adjudication.md",
+      "bytes": 4720,
+      "sha256": "d565cc1da8cbf91a43b18ba9c298ae108e90bd4e7bf5f701d2502ad623579856",
+      "group": "R05",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r05-closeout-rereview.md",
+      "bytes": 10252,
+      "sha256": "3cff413b59f86bcc4de0ff74587ea2f36a41c5cafc00c00e645a1125c29cb004",
+      "group": "R05",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r05-closeout-review.md",
+      "bytes": 22270,
+      "sha256": "e38ebb8cdabace20c7600814d5a90a5a5ac88e44b31b46cf5770e68ebde4ba2e",
+      "group": "R05",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r05-controller-closeout.md",
+      "bytes": 5258,
+      "sha256": "4c9e6254e371609a2e210d4e707667c43e413cb6c3cbd9c9c13372530eccb671",
+      "group": "R05",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r05-browser-dom-2026-11-15.md",
+      "bytes": 5642,
+      "sha256": "3474b87b37121c2bfda4301a1264eefdf2c04205c74b8215b2233ae5c0cd84d0",
+      "group": "R05",
+      "kind": "full-text"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-042-asset-1.png",
+      "bytes": 80643,
+      "sha256": "60f434391f9b2bc6251d42848a89fa7a84e46f20ca5b414708a180c6a5c61273",
+      "group": "R05",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-043-asset-1.png",
+      "bytes": 82198,
+      "sha256": "c68f5d7ef14f5c38e241065dbdea2b7f38fe7b9c6163fca5e466b06401d4ad07",
+      "group": "R05",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-044-asset-1.png",
+      "bytes": 52550,
+      "sha256": "8e8c04d563c0336d5d6ded8c54e1d485ac297efe5b1ca321a88abcd8f7b928c4",
+      "group": "R05",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-045-asset-1.png",
+      "bytes": 54792,
+      "sha256": "b8ef4ae1c017a6a64131b850b9c52a20e6d107f4a49dd224c3032393ac4e0f41",
+      "group": "R05",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "src/content/docs/06-requirements-design/prd-sdd-tdd.md",
+      "bytes": 41340,
+      "sha256": "5b0c91327e30d694d5025e0f6b378f88406f616bce284e5c3a74b8e2fe67207d",
+      "group": "R06",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r06-prd-sdd-tdd-codex-review.md",
+      "bytes": 35575,
+      "sha256": "ae459d008109664788067a75637b5181b993aacd11f07cde17a42755e340b727",
+      "group": "R06",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r06-prd-sdd-tdd-adjudication.md",
+      "bytes": 3988,
+      "sha256": "c6f1ed05200676a8c93325dd84790d78554c38d94be87493aa2f9aa17d0e08bf",
+      "group": "R06",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r06-prd-sdd-tdd-codex-rereview.md",
+      "bytes": 28521,
+      "sha256": "1c065d28e6f136ee17374a17d8316502d99a77e24a0ff3de43b67b8cb0262e80",
+      "group": "R06",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r06-closeout-adjudication.md",
+      "bytes": 2570,
+      "sha256": "f4ae39368f234f30d0eb1689f038e55341ce1c58bbdae102994ae45b1fa8f1e3",
+      "group": "R06",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r06-closeout-rereview.md",
+      "bytes": 3976,
+      "sha256": "a2855fb1334cc02f4bdb21d51deda04187d9dbcc82a2dfa1e762aa89559a5a35",
+      "group": "R06",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r06-closeout-review.md",
+      "bytes": 20961,
+      "sha256": "2f7fad85af3fe68163acb8ee13ff911c747fe3481d013a93ba8839b6c2ad7cfc",
+      "group": "R06",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r06-controller-closeout.md",
+      "bytes": 3280,
+      "sha256": "ba01572abcb5190247862e6464596bbc7cb918522296e6ad78e8a4b3eef7ca04",
+      "group": "R06",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r06-prd-sdd-tdd-2026-11-15.md",
+      "bytes": 6420,
+      "sha256": "719bb561cac43e4b58b8b9cb4c0cd9724c4b241ac794a9f2dcdb8d3b32207242",
+      "group": "R06",
+      "kind": "full-text"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-058-asset-1.png",
+      "bytes": 78103,
+      "sha256": "b0b1dfa6f4784e6dd71f7c5448b58b3d8d5c6af4c74d5d1e244d9db416076851",
+      "group": "R06",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-059-asset-1.png",
+      "bytes": 78319,
+      "sha256": "3e35915f4ff74d5ac609a93215fee493968144c162c633d227c0053bfc73f389",
+      "group": "R06",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-060-asset-1.png",
+      "bytes": 59333,
+      "sha256": "7a1070920c9ab42a7aa4e4162a7fda0b544c7ec2da11d976047ef65f8975b1c4",
+      "group": "R06",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-061-asset-1.png",
+      "bytes": 60080,
+      "sha256": "2307992f72a0b87f82e5862dc6e6ed34d502c1d65510ec3debca087dddaa8015",
+      "group": "R06",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "src/content/docs/08-quality/testing-strategy.md",
+      "bytes": 42164,
+      "sha256": "b5ac2191970ab30a261a1c530eb6eae050895bb17499ff0c6ca5388fbea5bbc9",
+      "group": "R07",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r07-testing-codex-review.md",
+      "bytes": 26709,
+      "sha256": "b225247637104efd3568893b84f3579b9cd22b9603ae7c9b8f8d92cb4e444b1e",
+      "group": "R07",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r07-testing-adjudication.md",
+      "bytes": 4299,
+      "sha256": "424e6bd1265ebf4c6f70c8aa6a210d055bf76234d400a50ac819f7cf512edeea",
+      "group": "R07",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r07-testing-codex-rereview.md",
+      "bytes": 25608,
+      "sha256": "d9f8b52e464478d9d86f447e2bca424dad5f472df0cf3d7e0b97f7fa1dfc135f",
+      "group": "R07",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r07-closeout-adjudication.md",
+      "bytes": 1987,
+      "sha256": "71c9bdc7605a60c43dc4a982a3ef1953af8b3e4e09903d875588385b7f140b3d",
+      "group": "R07",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r07-closeout-review.md",
+      "bytes": 14197,
+      "sha256": "a62f8dc47e49a5d01dae66bb28ae14832d7e347805a706b72007109055064f5d",
+      "group": "R07",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r07-controller-closeout.md",
+      "bytes": 3119,
+      "sha256": "0b2ac77139f99a894e535f457785d4d232aad94369ba9180b454775ba51be716",
+      "group": "R07",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r07-testing-2026-11-15.md",
+      "bytes": 6770,
+      "sha256": "057cf33afd8e7a8ff3a0aeec46420e4bc1c733e954e8c3900d64983e7af9b02f",
+      "group": "R07",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/09-git-github/git-and-github.md",
+      "bytes": 35217,
+      "sha256": "e9a859657dc626c9ee734231c8a2ba59e666887ed764cb0b0b888001f57118c1",
+      "group": "R08",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r08-git-github-codex-review.md",
+      "bytes": 35146,
+      "sha256": "ae5079ad022cd394a9fc1ad7247edd99f849853140dad61cca8e0a1b365c6829",
+      "group": "R08",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r08-git-github-adjudication.md",
+      "bytes": 4581,
+      "sha256": "8fd76d99476cd450ea1fa3817dab927fdf53e62feced90d2eb6f8fc35e17ae0f",
+      "group": "R08",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r08-git-github-codex-rereview.md",
+      "bytes": 25841,
+      "sha256": "1a66d5e14063aaa92cb9276c059c277bf5d71c4fe2b2768e4c87ca367b69a52d",
+      "group": "R08",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r08-closeout-adjudication.md",
+      "bytes": 2325,
+      "sha256": "0eaf24a84ffe320929e989f1702b0bf4de25c04b6673e88fb2681e9df277a229",
+      "group": "R08",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r08-closeout-rereview.md",
+      "bytes": 4997,
+      "sha256": "39945d06c242e22e2fb0d67a5436f5bb765d446dbd5e5ad69750b8d93872f9d9",
+      "group": "R08",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r08-closeout-review.md",
+      "bytes": 12176,
+      "sha256": "5e57e4f7d695767088073f9680709be470f4620be5ab268392fc022d95dc81b1",
+      "group": "R08",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r08-controller-closeout.md",
+      "bytes": 3070,
+      "sha256": "70a1e78a331ba7768403819c8af06bc61f6889c23e18a24c4c11503da2d4736b",
+      "group": "R08",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r08-git-github-2026-11-15.md",
+      "bytes": 6085,
+      "sha256": "903e101e298adb51d9a51cf54facd0b8c977a2c2b612e22d2aba04b99f910a61",
+      "group": "R08",
+      "kind": "full-text"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-082-asset-1.png",
+      "bytes": 46222,
+      "sha256": "2f090ac9dfc162efaf5da1333a5059adb47e1e52e8b4f7e7ac087a94651f22f9",
+      "group": "R08",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-083-asset-1.png",
+      "bytes": 47018,
+      "sha256": "7af9a1633b08b83a849176f4264d7f158e82b066bbbf1a6650898d691982ab3d",
+      "group": "R08",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-084-asset-1.png",
+      "bytes": 35501,
+      "sha256": "dec9ff929139444be20578d70aa13ecd90f75d4aec2b240b8142886ff1c1a7e2",
+      "group": "R08",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-085-asset-1.png",
+      "bytes": 36579,
+      "sha256": "56c0b3cef8a3dd11bf66ce1ee57bd839d24a3acfd24a956ed6d98f026a231efd",
+      "group": "R08",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "src/content/docs/10-deployment-operations/build-deploy-domain-dns.md",
+      "bytes": 39113,
+      "sha256": "157c675aa181f355939e29963f62d9c246129ea800261256f004f5ce9195d28c",
+      "group": "R09",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r09-build-deploy-codex-review.md",
+      "bytes": 36285,
+      "sha256": "3d4424c8733c5261a5bac6a2ec56caea3f2d4a7a49c361537f20de3a0a2fd88c",
+      "group": "R09",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r09-build-deploy-adjudication.md",
+      "bytes": 6944,
+      "sha256": "4f883381b79f5b21ed4f67b6b8ed8c7a7ad4f0bd3d919ccdd2e4f0b9db3462f9",
+      "group": "R09",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r09-build-deploy-codex-rereview.md",
+      "bytes": 27096,
+      "sha256": "a2bcbec87bcb4b0db84b28b83ae565a9672bbf29cb918ca62d1d588ffe0b4198",
+      "group": "R09",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r09-closeout-adjudication.md",
+      "bytes": 2146,
+      "sha256": "f8d21c7e9aea558d8d53a4dda0e4dab400be023938fb901853e8eb6edaf4c68a",
+      "group": "R09",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r09-closeout-review.md",
+      "bytes": 9702,
+      "sha256": "f389242882988e58273293e99ee56e7eebeef686acbbbbfb6fc5d19c94bd0ff0",
+      "group": "R09",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r09-controller-closeout.md",
+      "bytes": 4061,
+      "sha256": "f34239f766345cf209d2a664f4ba311cd7bb7ad16bd5ea8c291013a5478ef712",
+      "group": "R09",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r09-metadata-rereview.md",
+      "bytes": 5695,
+      "sha256": "333190029a734bc002e95e1d90581d8d67395a041b6995188e3b880f4ce211a6",
+      "group": "R09",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r09-build-deploy-2026-11-15.md",
+      "bytes": 6710,
+      "sha256": "f99e69f8c2840237a9a2d9c3d8d442dc944f567983862fa166e9f68e71ca0252",
+      "group": "R09",
+      "kind": "full-text"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-090-asset-1.png",
+      "bytes": 61331,
+      "sha256": "68ed2e2ab581c0ee7d2829223a87c95160d69bb08aa07a8cdd46be3dce68e7d8",
+      "group": "R09",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-091-asset-1.png",
+      "bytes": 62438,
+      "sha256": "5d9d84f58a35c7ad5de74489951284ddfc63d4ad37bfbc53ba1557fa4b9e74c1",
+      "group": "R09",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-092-asset-1.png",
+      "bytes": 39774,
+      "sha256": "d227703a4479f3d301dff4f146d2d1e6bf19e0723304ab8cc194f9cbadec3d3b",
+      "group": "R09",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-093-asset-1.png",
+      "bytes": 40905,
+      "sha256": "665ebb5391ffd396584b59d4fca256b48f2e51e8995002b38238bec3c3770ce5",
+      "group": "R09",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "src/content/docs/10-deployment-operations/logs-monitoring-backup.md",
+      "bytes": 47820,
+      "sha256": "17aa3d355ad4432d1fda08fade29284442bdb6f07bcb6340721df0bae9437975",
+      "group": "R10",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r10-operations-codex-review.md",
+      "bytes": 37311,
+      "sha256": "d9f273cfc8f48a08c9ba3af54b30b91348ffb0079edde21a4cd59a0911a5a88f",
+      "group": "R10",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r10-operations-adjudication.md",
+      "bytes": 5048,
+      "sha256": "3f0d1887e430cb513484824eb61dd5047b0d976519f813f5789cdb2748c3df2a",
+      "group": "R10",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r10-operations-codex-rereview.md",
+      "bytes": 28948,
+      "sha256": "d020af0cb8b56a978e2b3238fdfa877fcc19219abbd9c2e848d95d2e980f6bf2",
+      "group": "R10",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r10-closeout-adjudication.md",
+      "bytes": 2103,
+      "sha256": "1466f0ff7bbead712f895b9bbfc7eed3dc0fce00ac3727851718d0798e625c69",
+      "group": "R10",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r10-closeout-review.md",
+      "bytes": 17831,
+      "sha256": "8694ad87ad69327b6f5abd0f48bf65ca11e98e746ffd2164676f044f11de02a9",
+      "group": "R10",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r10-controller-closeout.md",
+      "bytes": 3585,
+      "sha256": "556182155be01b2a3dd37491e7eee65d345db5a5e345f8ad71107fbcd60d1d30",
+      "group": "R10",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r10-operations-2026-11-15.md",
+      "bytes": 8280,
+      "sha256": "4b759bea6da6bf8a96dc17a5f44050105ca4d5884098d7730c6382843632e3d8",
+      "group": "R10",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r10-operations-key-recovery-2026-11-15.md",
+      "bytes": 1196,
+      "sha256": "e17a1e7d2a03690cf5587e6d6ce0fae61ea7ec6cd61a6fdeea2c3a0723ab0884",
+      "group": "R10",
+      "kind": "full-text"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-098-asset-1.png",
+      "bytes": 70722,
+      "sha256": "63d36fb05315e021e68f1f8460e90684f5a407cb40c7f0b096f89de0138aad90",
+      "group": "R10",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-099-asset-1.png",
+      "bytes": 71224,
+      "sha256": "a4604d8acad9e9e10f122db15e27abccfb452c283626c6ac2c7f6f709aeee873",
+      "group": "R10",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-100-asset-1.png",
+      "bytes": 47183,
+      "sha256": "802abe998e1f22074ab05011eb4cd77af7252f0a1cf126d77de1c3f86f8e6d72",
+      "group": "R10",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-101-asset-1.png",
+      "bytes": 47708,
+      "sha256": "04bf652b317278afdc9208e5cdbcbd024b3b29341d5768411866d5c79c7ed3e4",
+      "group": "R10",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "src/content/docs/11-ai-native/working-with-coding-agents.md",
+      "bytes": 46430,
+      "sha256": "ac63eb2a468416b43c57432ac4297e0af3c27edf6d694b86a40bca7131311711",
+      "group": "R11",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r11-coding-agents-codex-review.md",
+      "bytes": 31240,
+      "sha256": "69e036963050ec16ff659d8151d92e33cfeed4c7ae348c60f7957cbbb10cc612",
+      "group": "R11",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r11-coding-agents-adjudication.md",
+      "bytes": 7528,
+      "sha256": "fbfa326cbd55dc42728c58a9a8d5fff0e913f9e75fe44f3dd84d6b95e7a946aa",
+      "group": "R11",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r11-coding-agents-codex-rereview.md",
+      "bytes": 29319,
+      "sha256": "8e85040a67db574f85f2822900c434028848de1141e3d25e053949fb3fa7eb06",
+      "group": "R11",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r11-controller-closeout-review.md",
+      "bytes": 14911,
+      "sha256": "f948b26d4e515f9674b281f674fd05e89ba6b1cf10899b7bc91138f8c3fd21fd",
+      "group": "R11",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r11-controller-closeout.md",
+      "bytes": 4024,
+      "sha256": "f2decbea36c9933d67dd0a2a5397a2d796d596bd8841420123b883b4bf1260fd",
+      "group": "R11",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r11-procedure-review.md",
+      "bytes": 7538,
+      "sha256": "87d3eca31be610c4890039b565a669fd98597ca400654e73b9707a29940c477e",
+      "group": "R11",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r11-coding-agents-2026-11-15.md",
+      "bytes": 6810,
+      "sha256": "2fba13d7f98e7e3268e2e2530b1596138e887384369fc7f315a51cd2a4c93f84",
+      "group": "R11",
+      "kind": "full-text"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-112-asset-1.png",
+      "bytes": 71641,
+      "sha256": "03d572050986d0b5296e2f44a72e1cd4e934afb687ae663557a00c2197c3abbf",
+      "group": "R11",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-113-asset-1.png",
+      "bytes": 72505,
+      "sha256": "f29767ad5800b5e93f87704df3950b7b020fa9f549e912fb7a432bc6f3a6fdd5",
+      "group": "R11",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-114-asset-1.png",
+      "bytes": 46667,
+      "sha256": "33d83d14ab17018270e694016f421f9cfb221e953937796e3e4ea9ae2af491c3",
+      "group": "R11",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-115-asset-1.png",
+      "bytes": 47422,
+      "sha256": "7c396b26d179c302e7b3ea03d3b9a095536287cfe525ff1023dc160ec8e9a5e1",
+      "group": "R11",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "src/content/docs/12-case-studies/first-full-stack-project.md",
+      "bytes": 48131,
+      "sha256": "c492b1be6c3f7f85287de61c32c3e0f959c98c48e7959a8ced35b9e3c01c4851",
+      "group": "R12",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r12-meeting-capstone-codex-review.md",
+      "bytes": 37880,
+      "sha256": "a87da9f39fdb643edb89d7f117c9f4d78136722557f1ab078614956f96541e5e",
+      "group": "R12",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r12-meeting-capstone-adjudication.md",
+      "bytes": 5105,
+      "sha256": "ff40a01d42e2ebdd4c64e564e2f95dbb1bb56b47e9b04f645bbddd5258a7b5b6",
+      "group": "R12",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r12-meeting-capstone-codex-rereview.md",
+      "bytes": 31347,
+      "sha256": "16a5814ff4b3d8cfb649134de3a88a1984cb5d218accd83ccc97e79f8ba1bd3c",
+      "group": "R12",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r12-closeout-review.md",
+      "bytes": 19784,
+      "sha256": "b3e7c9ff7bfaad04c082b4454a183a1e21ec457f3ee8f30fe0ccc7b4a117438c",
+      "group": "R12",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r12-controller-closeout.md",
+      "bytes": 3144,
+      "sha256": "ed311780342e1cfc0475a0807a4228e36417d7d98c15ca92537ed6382689ad25",
+      "group": "R12",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r12-meeting-capstone-2026-11-15.md",
+      "bytes": 4063,
+      "sha256": "72f4fc22d60920932a9cc46bd08469ad37760ec5275b0090c84be76e83dda541",
+      "group": "R12",
+      "kind": "full-text"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-120-asset-1.png",
+      "bytes": 71118,
+      "sha256": "cacd5394bc638375f8738c1d1c6731eec04468d72390d2e67159267bf7817490",
+      "group": "R12",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-121-asset-1.png",
+      "bytes": 72994,
+      "sha256": "4af1a6f6f7d30550558c4fae2a8ff8c798e77f8ad8c5f2c88cd8d778a4be357c",
+      "group": "R12",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-122-asset-1.png",
+      "bytes": 45083,
+      "sha256": "4b35602bad9ad3cc4fe4fed603e2720413c812af269793f8fd736da8422e5063",
+      "group": "R12",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-123-asset-1.png",
+      "bytes": 46355,
+      "sha256": "71cc7c12ef9281afb88495eae36a9c015133def6d55e18fb0a13d56c54103c9d",
+      "group": "R12",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "src/content/docs/12-case-studies/analytics-dashboard-case-study.md",
+      "bytes": 70748,
+      "sha256": "4be57134aca3ace3b0d6e3400ddfefd515b7f04b42affa4c1e1c4ab71d0d9502",
+      "group": "R13",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r13-stock-capstone-codex-review.md",
+      "bytes": 41459,
+      "sha256": "340588c0dda151d9faaf5274fb0fbfa86e8d11b4bc514fee0b2d9c636336faae",
+      "group": "R13",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r13-stock-capstone-adjudication.md",
+      "bytes": 5768,
+      "sha256": "d2568175ea4c8fdce1c1b57435977490a417d4b8e4787aaf7a4ebdf547a28788",
+      "group": "R13",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r13-stock-capstone-codex-rereview.md",
+      "bytes": 25355,
+      "sha256": "21eb05c1c8152cd40dfff4a30edde61629c0759afc159b47ac92a4679ffa4ecc",
+      "group": "R13",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r13-closeout-independent-review.md",
+      "bytes": 20275,
+      "sha256": "25b916b35c36de9fa782ac32a7d9f66c55351e58d6d2560f2e934214e84507db",
+      "group": "R13",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r13-controller-closeout.md",
+      "bytes": 3704,
+      "sha256": "4eca504716bb42447780f8368e46def9ec93b43e2bff08ad94055987c442d5dd",
+      "group": "R13",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r13-stock-capstone-fix-round-1.md",
+      "bytes": 25355,
+      "sha256": "21eb05c1c8152cd40dfff4a30edde61629c0759afc159b47ac92a4679ffa4ecc",
+      "group": "R13",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r13-stock-capstone-2026-11-15.md",
+      "bytes": 4372,
+      "sha256": "f1fb2e812d5dd0170a6d703dfe7e6999b07de426d54f94741f0ab8fc2ebdf6eb",
+      "group": "R13",
+      "kind": "full-text"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-116-asset-1.png",
+      "bytes": 90343,
+      "sha256": "5ff73da605b7a7d19753eff7fbf8618c53b808e4955105a93ca1fcad78f6e784",
+      "group": "R13",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-117-asset-1.png",
+      "bytes": 92121,
+      "sha256": "56a72f73eec4a32f329004f78cdfc3d24bbb38e2f840ccfe8a6e9baae9fb7239",
+      "group": "R13",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-118-asset-1.png",
+      "bytes": 56519,
+      "sha256": "4e1bc93b8bc8b9a45a59f5c35fbce22543f9ed75d74b3ea5e510e6e1abe34df8",
+      "group": "R13",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-119-asset-1.png",
+      "bytes": 57512,
+      "sha256": "54da7cf0662dfbc1f6c57e0c023039e57b294369052fa6e3d300845c0358a3a6",
+      "group": "R13",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "src/content/docs/01-mental-models/abstraction-and-tradeoffs.md",
+      "bytes": 18894,
+      "sha256": "39e01f64db9883c58de86b9fa22713fe092cab3e7e19a24cbbd65d1f42ea8126",
+      "group": "R14",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/01-mental-models/developer-thinking.md",
+      "bytes": 30155,
+      "sha256": "6fa248d88d051549a677e35d6ab2a3ab0b97d3b5435b04678cb6dace73fe1184",
+      "group": "R14",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r14-mental-support-codex-review.md",
+      "bytes": 29885,
+      "sha256": "69a60f94e42df010237d84fdaacdfad04447a3171d6e1d788a560893d55602ad",
+      "group": "R14",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r14-mental-support-adjudication.md",
+      "bytes": 4279,
+      "sha256": "5f4fe3775cff6f9ec13b43b4a4a95de10014dc3d1f286ccb1bb859a05d7eadfa",
+      "group": "R14",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r14-mental-support-codex-rereview.md",
+      "bytes": 23928,
+      "sha256": "9681619cb0ab2d94971e92b6092fcc6865d1035e0c09f321e17145da5b67eef8",
+      "group": "R14",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r14-closeout-independent-review.md",
+      "bytes": 20506,
+      "sha256": "b30a1110a049ef72985897fef7e26ef2e670dd54ba788c3d4ebc32a6c4f77500",
+      "group": "R14",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r14-controller-closeout.md",
+      "bytes": 3325,
+      "sha256": "bf60ee6a2e2fd8c6f4e1645ca49358b1c3a6fb8da71ae69fec435c74490fb2e5",
+      "group": "R14",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r14-mental-support-2026-11-15.md",
+      "bytes": 5459,
+      "sha256": "c9caf97dd5d7cd0d59c5e720939cf427e8b849a93dab77aea093c32a4dc1fff4",
+      "group": "R14",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/02-work-environment/dependencies-package-managers-environments.md",
+      "bytes": 21718,
+      "sha256": "017796aa03a0ad2e37ac33bb8d847fe11fa351bfb7ca7249b105ac6597a2ebfe",
+      "group": "R15",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/02-work-environment/files-folders-paths.md",
+      "bytes": 42407,
+      "sha256": "df9f467541e9628f9805a82490ab5c02f6bf45bb586b3938510df6596cec7cd8",
+      "group": "R15",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/02-work-environment/terminal-processes-ports.md",
+      "bytes": 28996,
+      "sha256": "e4eabb8996442e78dae3dc9639fa3c009c88fbca7c90f516b626a33d5e92ab1a",
+      "group": "R15",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r15-work-environment-codex-review.md",
+      "bytes": 42482,
+      "sha256": "aa00fe4dc07cc1e7091abb1b73f971fd364283dc8c06d3fe80fe23d4b2c63e4b",
+      "group": "R15",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r15-work-environment-adjudication.md",
+      "bytes": 4537,
+      "sha256": "269e790e8f5d290ea90cbfa02ed61a4ab2a6977c812746c46c003c06be645a91",
+      "group": "R15",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r15-work-environment-codex-rereview.md",
+      "bytes": 23875,
+      "sha256": "b96c8fa11006bd3d874280ac2229a9bcce2bb25cff24c57684596b26a289a5c5",
+      "group": "R15",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r15-closeout-independent-review.md",
+      "bytes": 17109,
+      "sha256": "1c536460bef05bd60c4ddc580053f5b0cf2c8914f7febc76985de040d16e0c95",
+      "group": "R15",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r15-controller-closeout.md",
+      "bytes": 3609,
+      "sha256": "c068e1735ce8803823883c0be9b07f8608cf76831eba96877fb9380f16fc6373",
+      "group": "R15",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r15-work-environment-2026-11-15.md",
+      "bytes": 12036,
+      "sha256": "a0d24d39b30738e80570799b297d85c79531dd861882fab7e20d8f1d3014273e",
+      "group": "R15",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/03-full-stack/frontend-backend-boundary.md",
+      "bytes": 22911,
+      "sha256": "f50bf106d5b3ee45ceffff3fca06eb2edca27aa9b1193af8d396c96161b023cd",
+      "group": "R16",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/04-backend-data/data-model-schema-migration.md",
+      "bytes": 29537,
+      "sha256": "2bbe29c1fa3aaca28dc83d89ab1146176e2230974867a36bc4cf36ec8f6d086f",
+      "group": "R16",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/04-backend-data/state-cache-queue.md",
+      "bytes": 33115,
+      "sha256": "dd00a9865c2865a1852f5c60d2fdbb0100f655db2c505810d192ddfe88ee2e4f",
+      "group": "R16",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r16-data-support-codex-review.md",
+      "bytes": 44628,
+      "sha256": "d153405b8227a6b95a085b0c491804bea5cfd6e13de9cad859665d7fa53498c7",
+      "group": "R16",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r16-data-support-adjudication.md",
+      "bytes": 5206,
+      "sha256": "13d18af50bae5c4f95cdc4fbe5affb9456dadefd67f611768ede6c2220ce3994",
+      "group": "R16",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r16-data-support-codex-rereview.md",
+      "bytes": 24518,
+      "sha256": "e72a052e024b7ca45dbb7157d98508c15cb087af739c82248cb5ebd767c57440",
+      "group": "R16",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r16-closeout-independent-review.md",
+      "bytes": 17558,
+      "sha256": "a210a395327a0525d32c47f2a4553d8337cd59dbe8039022270ca8fcb606b1ec",
+      "group": "R16",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r16-controller-closeout.md",
+      "bytes": 3266,
+      "sha256": "06bae81b5885b97a2fe5d1e2417c24a062ff85d42141455e1e04e033dcbb711f",
+      "group": "R16",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r16-data-support-2026-11-15.md",
+      "bytes": 6906,
+      "sha256": "b1907e5b0bae8db0710f5163a257e95add32dc52ac609b2ed6c2ef60915ef02c",
+      "group": "R16",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/05-frontend/accessibility-responsive-design.md",
+      "bytes": 28658,
+      "sha256": "f771876d195f11c237b1b548bec3d26056f6d1bf1e98b84df81fc0f91e97ef21",
+      "group": "R17",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/05-frontend/ui-state-and-ux.md",
+      "bytes": 31291,
+      "sha256": "32e0a610adf75d6b9f4942c2cf8fb94980948ce346950e934660fcb57c2db5ad",
+      "group": "R17",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r17-frontend-support-codex-review.md",
+      "bytes": 43882,
+      "sha256": "7a7d7a48373a96783ffd5223d678e9c2742cc1615dfc81ae2ae560844fa668f7",
+      "group": "R17",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r17-frontend-support-adjudication.md",
+      "bytes": 5141,
+      "sha256": "a16fbe826db931e00cbee520bff487eccba2015e8b5b709dfa884706aa1c652f",
+      "group": "R17",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r17-frontend-support-codex-rereview.md",
+      "bytes": 37177,
+      "sha256": "27dcd3e25f1c1c4ef996381da11a892a4ee01ddac5da3b8830c1df4b6b5da0e0",
+      "group": "R17",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r17-closeout-independent-review.md",
+      "bytes": 11108,
+      "sha256": "5d2d48d869e0a609bcabfbf093b3588bfd260b3cc6e1871c8f145d22a2f793db",
+      "group": "R17",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r17-controller-closeout.md",
+      "bytes": 3748,
+      "sha256": "2ba7591e60e70f6fc64a0340de013103fab0a72b5503395034e327245035ae22",
+      "group": "R17",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r17-frontend-support-evidence-followup.md",
+      "bytes": 6178,
+      "sha256": "7321cb0241164fd170361dd10a2ea58ee2630e59563df3ba780b543d1ca1cb94",
+      "group": "R17",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r17-frontend-support-2026-11-15.md",
+      "bytes": 7513,
+      "sha256": "7d0962c0c38d66b3c479d1660e1a499ab7ff67cbd2c3d19a690c71808b68fabb",
+      "group": "R17",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/06-requirements-design/adr-and-tradeoffs.md",
+      "bytes": 28553,
+      "sha256": "a3b14ed20f674eb88379a33c0866ee3dadb3ce7d86cc88f748e5e49928885e06",
+      "group": "R18",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/06-requirements-design/architecture-and-frameworks.md",
+      "bytes": 28452,
+      "sha256": "72798fd19f5e063a31f0ff56cb4ee8ecb59d49a67304a3a869a996ed420310d0",
+      "group": "R18",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r18-design-support-codex-review.md",
+      "bytes": 39551,
+      "sha256": "77d51dd540753fd085c40bc4bd4935a51962770a77ec484553c7fee00863d7fb",
+      "group": "R18",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r18-design-support-adjudication.md",
+      "bytes": 4027,
+      "sha256": "f830b5e737a5867fffa10db3836c638b95b77fe1872e20c42e85b3be0202b308",
+      "group": "R18",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r18-design-support-codex-rereview.md",
+      "bytes": 31230,
+      "sha256": "085a9f416847cf3816e08dd36b05129479d005eba7801444928a2d108beb7a74",
+      "group": "R18",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r18-closeout-independent-review.md",
+      "bytes": 16239,
+      "sha256": "6756f260002456c1d914e9df8f3485749e2463cf60ede006dbd3a5adea3f366f",
+      "group": "R18",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r18-controller-closeout.md",
+      "bytes": 3375,
+      "sha256": "b0541024783e703f905284e82050698c5fa567b8fe697a5825a7394c5d57dd88",
+      "group": "R18",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r18-design-support-2026-11-15.md",
+      "bytes": 5334,
+      "sha256": "da529aa37aba5d5fc9e3331024d70b6a7c30d5418889b53d903ee17ded21d02c",
+      "group": "R18",
+      "kind": "full-text"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-052-asset-1.png",
+      "bytes": 32760,
+      "sha256": "216feda8db64846239856c16f90d41997354ffd4f9352d36ccce6008c6158cef",
+      "group": "R18",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-053-asset-1.png",
+      "bytes": 33330,
+      "sha256": "c14c57a8c989bac218e43ae431d71a7aa2e8f78eeff9fe6788bc7fb7f6f4ef58",
+      "group": "R18",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-054-asset-1.png",
+      "bytes": 21946,
+      "sha256": "639f283c16c76960d9ce2e5267889b059f0ff552b32b47ea8b066973f144bc71",
+      "group": "R18",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-055-asset-1.png",
+      "bytes": 22360,
+      "sha256": "aa3aee8c6982d04daf55c5de2096224b117cdb160404043aaf52194c423ac74c",
+      "group": "R18",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "src/content/docs/07-workflow-methods/code-review-ci-cd.md",
+      "bytes": 20554,
+      "sha256": "3d020021cfe50ddda9c219360b20361bac82b99b47e4135dbe4c6d1dbf0e25f4",
+      "group": "R19",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/07-workflow-methods/incremental-delivery.md",
+      "bytes": 21738,
+      "sha256": "65f76f635bcec37285abb42b171734ca6899526418ba2113e836824685ae9be5",
+      "group": "R19",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/07-workflow-methods/software-development-lifecycle.md",
+      "bytes": 23214,
+      "sha256": "2939fcdcf0ef802f66d78c3c1903fb5a16f1a8008c618f51f7c444a26dc36381",
+      "group": "R19",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r19-workflow-support-codex-review.md",
+      "bytes": 45896,
+      "sha256": "595bab1e2d2dca94031c4a913300e7dfd3dbfa40fe0cf9855410305db8886a64",
+      "group": "R19",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r19-workflow-support-adjudication.md",
+      "bytes": 6050,
+      "sha256": "8068a1d81fa6fcc8011749dde808bfc9f2af921e8e6589717ac3635197d98922",
+      "group": "R19",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r19-workflow-support-codex-rereview.md",
+      "bytes": 25269,
+      "sha256": "889cb57a9f5aaaf942069b5c98f86ad1f5d602de4cafac77344ee19c7f81658b",
+      "group": "R19",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r19-closeout-independent-review.md",
+      "bytes": 14337,
+      "sha256": "a68605a197f63e9d98acb43715aa2383466b3f6dae7c445fffcfb692ecc65bb7",
+      "group": "R19",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r19-controller-closeout.md",
+      "bytes": 4082,
+      "sha256": "03ced833bcdca755c44fd7442319c2ea541d875091e4a6b283f358c5cd357d30",
+      "group": "R19",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r19-record-followup-review.md",
+      "bytes": 6391,
+      "sha256": "28ae1e8375be40e1bc88fd070ab51603d84e005ef03e8033dac6610004f830a5",
+      "group": "R19",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r19-workflow-support-2026-11-16.md",
+      "bytes": 7357,
+      "sha256": "ec1fb9b9e0495a8c759829dcc55faeecd464f8231918b48cf892da6a7d50c9a1",
+      "group": "R19",
+      "kind": "full-text"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-068-asset-1.png",
+      "bytes": 55865,
+      "sha256": "b933c9cb34f5a546be85c3f012df0d03103d05de5209a2cb8bcfa65e35ebcb5c",
+      "group": "R19",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-069-asset-1.png",
+      "bytes": 56471,
+      "sha256": "3a17683dfe1d07e9aef96da71fdd98f609f043d660a394431758ef3d438f94c9",
+      "group": "R19",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-070-asset-1.png",
+      "bytes": 43613,
+      "sha256": "7dd24156a6db91fa2d57cf235e6efa8cfc5d56c820141a97a050c04c3ffd0f54",
+      "group": "R19",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-071-asset-1.png",
+      "bytes": 44603,
+      "sha256": "f075aa954e9bca09fbcc7ddad02ac1df45d5bfefe513187cf1455974d5a2ec72",
+      "group": "R19",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "src/content/docs/08-quality/debugging-observability.md",
+      "bytes": 26535,
+      "sha256": "edc46880d09b9bb0288ff76e8dd58f13eab67ade82a16d35530d17f55d90b0f6",
+      "group": "R20",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/08-quality/performance-security.md",
+      "bytes": 28907,
+      "sha256": "3a4cf7084e72f2224cf38b0af9c4d4056bf0a0ae4d5442d7a6b1afe06dbcdedf",
+      "group": "R20",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r20-quality-support-codex-review.md",
+      "bytes": 46615,
+      "sha256": "e1d2a9ba15a7d3a23046f25c56b82e8880ed6ae7c1f660cca826734d35bb5dda",
+      "group": "R20",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r20-quality-support-adjudication.md",
+      "bytes": 6057,
+      "sha256": "7c1ac1faca48e4c9773d159ca0537a4d2966bf5d715953a390eb54405f25afa8",
+      "group": "R20",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r20-quality-support-codex-rereview.md",
+      "bytes": 21902,
+      "sha256": "0bcd7a25aaaf3473a767f500c30bf0d374972e9938fa49bf9e59d0bbf4ff2461",
+      "group": "R20",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r20-controller-closeout-review.md",
+      "bytes": 16490,
+      "sha256": "be7190fc6ddaf4e142a9674d8a633f9e570a129e6f153804ccd906970b9d5e3f",
+      "group": "R20",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r20-controller-closeout.md",
+      "bytes": 4131,
+      "sha256": "b40c386edfe5e4e223d3f407b21b2a4c8b3c26615ffac9ba600218b1dc7c693b",
+      "group": "R20",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r20-fix2-followup-review.md",
+      "bytes": 17028,
+      "sha256": "9df4ac72e148240defd4902e8c301b17d536daa982d163196253a0ed7f080595",
+      "group": "R20",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r20-quality-support-2026-11-16.md",
+      "bytes": 10180,
+      "sha256": "0eefc55e002a259d212f31d40cd31c0736ac95e82329c7b6f35b4c43d86134f5",
+      "group": "R20",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/09-git-github/branch-commit-pull-request.md",
+      "bytes": 20016,
+      "sha256": "5d76d3aff4a4e330e5f87fc901666e084016bee5a2466038e29f7176f3664c09",
+      "group": "R21",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/09-git-github/undo-merge-conflict-release.md",
+      "bytes": 21085,
+      "sha256": "3c39c8d3728e6a46c6ff88138e63eae8da1122ed48bea605e984d892d6132d30",
+      "group": "R21",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r21-git-support-codex-review.md",
+      "bytes": 45291,
+      "sha256": "1580931224cd68c8793b7ffcc9607c918ce2aedaa41e676f18dd6e900eb05b5c",
+      "group": "R21",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r21-git-support-adjudication.md",
+      "bytes": 5188,
+      "sha256": "bde25e4ed27b9b4ba281aba77171c050e0cae166db940012e0d1a62a23749f88",
+      "group": "R21",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r21-git-support-codex-rereview.md",
+      "bytes": 42206,
+      "sha256": "5bad99bbd0b608b2724a78c2790a5c3b910c6c06472a0d3234c44ab59adbe651",
+      "group": "R21",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r21-controller-closeout-review.md",
+      "bytes": 14622,
+      "sha256": "0313b4325a222ea29d2fe495c565fa7fd0d7600834a5649606e7c3c8571feacd",
+      "group": "R21",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r21-controller-closeout.md",
+      "bytes": 3487,
+      "sha256": "95855ccdb5c1ac2b903c8d0e3ee0f8e663e28326cea4693d02a4b82c1e7a18f6",
+      "group": "R21",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r21-git-support-2026-11-16.md",
+      "bytes": 8644,
+      "sha256": "5f947ceceb2af07757148d15a920844ad4eaa8617485575a686ba0dc7db2907c",
+      "group": "R21",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/10-deployment-operations/environment-variables-config.md",
+      "bytes": 23991,
+      "sha256": "68e09c8d1027060e47a2a3f88a158f43aa475a60451f9d0c412b62fe1a60cce8",
+      "group": "R22",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r22-deploy-config-codex-review.md",
+      "bytes": 38236,
+      "sha256": "15c39ce5df3e6d08cea3702a7a416f7e37cb01f8942432c8f34be6abafa74363",
+      "group": "R22",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r22-deploy-config-adjudication.md",
+      "bytes": 4262,
+      "sha256": "f3510d803ae46ffaab1819d0de59f294c72160f385cf5f369bdf34b23e650543",
+      "group": "R22",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r22-deploy-config-codex-rereview.md",
+      "bytes": 31901,
+      "sha256": "4f6d135d60fd4b24dcdc2dc0aa5a9789e2b605ae12abc9c3dd13984817ddae2a",
+      "group": "R22",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r22-controller-closeout-review.md",
+      "bytes": 12769,
+      "sha256": "15b06202143ea78a74995871f6a9af790b4c97d5353721997452077e5edabddd",
+      "group": "R22",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r22-controller-closeout.md",
+      "bytes": 2721,
+      "sha256": "a00441af81d1149c2443be8d70a0729354360b2676324bf8b15730154d9f2a1e",
+      "group": "R22",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r22-deploy-config-2026-11-16.md",
+      "bytes": 29804,
+      "sha256": "d3d3b7516012d8d7094e3ed0e77b3407a14fedd3d0b5db60ed2611689b69381f",
+      "group": "R22",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/11-ai-native/agent-review-and-verification.md",
+      "bytes": 18558,
+      "sha256": "b362a31b7397b97b7f4652bf0b6c9e5ffd696d7f8c9e4c634711b3400d992741",
+      "group": "R23",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/11-ai-native/context-spec-harness-loop.md",
+      "bytes": 19715,
+      "sha256": "b0b441d1bde4ac968d75561523834bee6f36cd22384cedf83aab6018f6b1e725",
+      "group": "R23",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/11-ai-native/permissions-sandbox-worktrees.md",
+      "bytes": 23540,
+      "sha256": "e3f1aefb39a8fdb748ff10208c1b8c5d84f323a953154484814c19539fc4c6f6",
+      "group": "R23",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r23-ai-support-codex-review.md",
+      "bytes": 37084,
+      "sha256": "3ff0984f78417595696a0d2d80c5566a1ad9d048a13061a9a1901c6e679bfbc4",
+      "group": "R23",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r23-ai-support-adjudication.md",
+      "bytes": 3446,
+      "sha256": "8bf67dff1449e40b246a1af2d700a71ab4168d5c89dd663a08a8bcabc6777965",
+      "group": "R23",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r23-ai-support-codex-rereview.md",
+      "bytes": 22025,
+      "sha256": "bf3d73d16afe87da8c7371305047b0fb84677de272c4a3fcd09856e03b16eb58",
+      "group": "R23",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r23-controller-closeout-review.md",
+      "bytes": 16037,
+      "sha256": "49cbe5d804d660329d1c30bf06e8b5bce3f7538e001c75f1a590d1ea7712de14",
+      "group": "R23",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r23-controller-closeout.md",
+      "bytes": 3002,
+      "sha256": "80f95770de50fa6f00359da0b8496aea5ac481f336734b0e4dde089bc5370be1",
+      "group": "R23",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r23-ai-support-2026-11-16.md",
+      "bytes": 85426,
+      "sha256": "e74f15cec9d5899d9b45ac2fde6bd56843258fa0c922d0298a5975f9265d4338",
+      "group": "R23",
+      "kind": "full-text"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-104-asset-1.png",
+      "bytes": 56367,
+      "sha256": "170162787f69676e3abf5e0ebae1ad40caf57e6d36b76bd42e065c3062ea58f3",
+      "group": "R23",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-105-asset-1.png",
+      "bytes": 56722,
+      "sha256": "489668b046bf6956ae0994b6a0def49c88123d721f319882c767d5cfcdfa18a5",
+      "group": "R23",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-106-asset-1.png",
+      "bytes": 43588,
+      "sha256": "b66c684ff412cddd864e680ab52e42e62acbf1087f03bde59f074be81bfc2428",
+      "group": "R23",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-107-asset-1.png",
+      "bytes": 44538,
+      "sha256": "860183cd8cfbad05ba050de4d229e9f7c5d7e8a6f20d6d9df77d74a682482635",
+      "group": "R23",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "src/content/docs/index.md",
+      "bytes": 6149,
+      "sha256": "af2b371b4308292f4f855d22ac3e33f505598338f3f0ff4b67bc6b9b87ce65d2",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/start-here/index.md",
+      "bytes": 2711,
+      "sha256": "7d9a47e894061126de83fc4df53e01df19b3393ed8ed526b2d7ee7d5da84fa8a",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/start-here/how-to-use-this-guide.md",
+      "bytes": 7089,
+      "sha256": "40c539f1d0f1d52b1f1c2626722ab9ca29204930b227d0699d788afc03b7fb7c",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/start-here/learning-paths.md",
+      "bytes": 9616,
+      "sha256": "8ae3482139ced197a22552533ed527f1fe01b5cae49a42d7b0734e22d5787e74",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/start-here/why-this-guide.md",
+      "bytes": 5248,
+      "sha256": "c45c9c35a7cd37443b8955966e6df24da69f78750f764cc75a96399807320cef",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/01-mental-models/index.md",
+      "bytes": 2406,
+      "sha256": "1560f6ee1fb9c1b8462036649712d763a1097bb71befe61cc4afd2b31eaf6399",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/02-work-environment/index.md",
+      "bytes": 2281,
+      "sha256": "1506eb8dd60c0442f5df810a07c71953b56e13b95c40dd042e164a1113bbaabf",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/03-full-stack/index.md",
+      "bytes": 2333,
+      "sha256": "7e801b01d1e139c34f8b52612168d1c471830912d15a41f0bcb566461e1e4388",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/04-backend-data/index.md",
+      "bytes": 2568,
+      "sha256": "94979407bed69dce08cf30aefed40362ae70a334fcfbb35b3d00ae26000e0aed",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/05-frontend/index.md",
+      "bytes": 2546,
+      "sha256": "f1fc8b591c7052593cc293ad93e5065d19218eb0d2c08a5ee9ff3ff40a6d2701",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/06-requirements-design/index.md",
+      "bytes": 2540,
+      "sha256": "0b09a9281b0735a906b7e578e2103e1360ef7baca85d98fac0c8e91ff5babe48",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/07-workflow-methods/index.md",
+      "bytes": 2447,
+      "sha256": "d2d878921c3035339d79c3612b715e2587a5c51e278a3c01a235d4ab094f6fa2",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/08-quality/index.md",
+      "bytes": 2422,
+      "sha256": "bf776df0c65c10b528a46a62ead8751c099a81f13ebde020769364229f66e9e0",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/09-git-github/index.md",
+      "bytes": 2437,
+      "sha256": "d31c2409ab4f0151330e61b2cda7c07acf9c21c823e91cccaf89ba571b5e9b37",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/10-deployment-operations/index.md",
+      "bytes": 2591,
+      "sha256": "9d9857b8ca69593b2526013e688c4a4149d6cab51160e4301727510db948809c",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/11-ai-native/index.md",
+      "bytes": 2925,
+      "sha256": "69f9aa4418857a1fbe0fcc2e364599bb0fd71d17eebeb12f6383e8fb65c156aa",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/12-case-studies/index.md",
+      "bytes": 2780,
+      "sha256": "467a69706d3088eb7cda2149ba0524ba170911fbd9fa6a0dbfd16d3c1521ae10",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/reference/index.md",
+      "bytes": 2798,
+      "sha256": "8e5c317c35678632def94a26afda8849ba074aeef1a87d62a63e07808bcf3a0a",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r24-navigation-codex-review.md",
+      "bytes": 35013,
+      "sha256": "1d321416fbebcf83961e3d5f7716a24164c606782db07985a857f1be1a67458b",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r24-navigation-adjudication.md",
+      "bytes": 4135,
+      "sha256": "78efb157dd899412f82faa02e66d6fcd0b28e74cb06bf1205c42727749b8e394",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r24-navigation-codex-rereview.md",
+      "bytes": 19177,
+      "sha256": "8ffc3d83cabe9bd27574cf40815adfc7c60e6fb4cebd5dcba8dd8cf52d3a5013",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r24-controller-closeout-review.md",
+      "bytes": 17693,
+      "sha256": "0102a2ac5e1bea635476597c0a4d15421c0367d792f8faf12e01564d03133e42",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r24-controller-closeout.md",
+      "bytes": 3186,
+      "sha256": "bb102ca1575f569bd14f360c80866aefd04184c4622a04819292e82ae6a515bf",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r24-navigation-context-2026-11-16.md",
+      "bytes": 166420,
+      "sha256": "c454bca0c1c5be2688adf782d8169afc46c56b1d0071fb3a208e516cdf6a4e19",
+      "group": "R24",
+      "kind": "full-text"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-126-asset-1.png",
+      "bytes": 51923,
+      "sha256": "16432820c41d8f5077a70140b52a49c1ee35cfef449b04b6dfa23ddff7b9aeaf",
+      "group": "R24",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-127-asset-1.png",
+      "bytes": 52384,
+      "sha256": "bcb548f11afa62af8047177d5807de0b35fbb66922fc31e01d260c0caab96fd2",
+      "group": "R24",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-128-asset-1.png",
+      "bytes": 40856,
+      "sha256": "143675333a4decf53de74aaef0076739696a49c2764a17ac9a32638ae392d088",
+      "group": "R24",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "output/playwright/task21-site-qa-evidence/task21-20260827184258346-5e225b2d-1f15-490c-91b5-60f0b237edc5-129-asset-1.png",
+      "bytes": 41026,
+      "sha256": "a5f9df88f1d08e76119f9fd1c9830ae6ecbb90c242fccb638bf741d359dcc093",
+      "group": "R24",
+      "kind": "original-PNG"
+    },
+    {
+      "path": "src/content/docs/reference/development-glossary.md",
+      "bytes": 56551,
+      "sha256": "8baea08e721236af9e6a0f088539b3007366d3e16c888618e6bed92109db5c6e",
+      "group": "R25",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/reference/agent-output-glossary.md",
+      "bytes": 24304,
+      "sha256": "f5961f6cb90f0a279c8a4a22376849a040d886a8095ff4f5b3eac2781d66fb73",
+      "group": "R25",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/reference/methodology-map.md",
+      "bytes": 35277,
+      "sha256": "26e314f9dcdbcfba74aacbe2aaf36dc9aca8cfcb49d706473ec1a9d541398f65",
+      "group": "R25",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/reference/checklists.md",
+      "bytes": 23060,
+      "sha256": "60b8f586e447e690fe87052186a790eb5044245f8e869f47b42ed58d40ca1b22",
+      "group": "R25",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/content/docs/reference/current-tool-mapping.md",
+      "bytes": 30529,
+      "sha256": "ac9f9b1079eaf269ade123c2d3198629366c33ffd28169d09034a7a157bda248",
+      "group": "R25",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r25-reference-codex-review.md",
+      "bytes": 30128,
+      "sha256": "bc62ca1eba193285b9b8a8414192819967a80be03dee218cda72dee98e122528",
+      "group": "R25",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r25-reference-adjudication.md",
+      "bytes": 3247,
+      "sha256": "52d3b1644c7f8ba0230727eb1d4f3b1290039ff6a928c326abeaa094f98cf3ec",
+      "group": "R25",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r25-reference-codex-rereview.md",
+      "bytes": 14326,
+      "sha256": "a9d016bf6672989a5207f5995211f64394978d54891bb02b9396c6cb312ed2c2",
+      "group": "R25",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r25-controller-closeout-review.md",
+      "bytes": 15797,
+      "sha256": "be34fdbfb19a36a926298bacbed0588a1778e5f60e8b6b69ea7b557e6de9a94b",
+      "group": "R25",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r25-controller-closeout.md",
+      "bytes": 1467,
+      "sha256": "e527d313517d228e2b611256d1da67d65aad573a7f967160c74640e35cb6320e",
+      "group": "R25",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r25-reference-codex-rereview-fix1.md",
+      "bytes": 23326,
+      "sha256": "4ac607c1e77cd57e2b27669d67a0dc52b18d6967e08fee3ccc0a9ecadc4bd864",
+      "group": "R25",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r25-reference-followup-2026-11-22.md",
+      "bytes": 4979,
+      "sha256": "4ed360eb3d5c7649b5a0ca96419db708c1173d0086815fb4d3ead44b7f6d82d8",
+      "group": "R25",
+      "kind": "full-text"
+    },
+    {
+      "path": ".superpowers/sdd/2026-08-12-public-beta-master-plan/r26-returned-source-excerpts.json",
+      "bytes": 106405,
+      "sha256": "e9c9f396ebb95b06433ad0ea57b6fb9d2abac32423d9f9824d3f2075eed2816f",
+      "group": "R25",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/public-beta-content-audit.md",
+      "bytes": 58188,
+      "sha256": "cdc463f4aafe16562ff591f7debe7ab015c686ed8b4c9e43e50d4c45fa593bc6",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/public-beta-source-gap-register.md",
+      "bytes": 54386,
+      "sha256": "01868aa36509e2334f6a6c3702ff0f239f0e43f0629a343033b92aff8385936d",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/public-beta-visual-audit.md",
+      "bytes": 32352,
+      "sha256": "fa8fb01ec74718c80f81e5c016f212a7629c61f218591cc742551f144dfd98e4",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "CONTENT_MAP.md",
+      "bytes": 12373,
+      "sha256": "7b04a87a626c0a39c5688d98493a04c43970ca194b70cc44550c9716c1a955d3",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/codex-review-contract.md",
+      "bytes": 17073,
+      "sha256": "e0df0f1092868097207189175ee9d0ead5d7fc15aecf56dd0d2937b8f44fd946",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/review-matrix.md",
+      "bytes": 96765,
+      "sha256": "4c69ec7fe687bf21d7d5e44960950963a04a2a340b377969d61ae00032b7f401",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "docs/project/quality-rubric.md",
+      "bytes": 2125,
+      "sha256": "4e58ff5e7c70b1939c5f44efe063f13777cc53ccd4c5de4f45ae6277a47f5037",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/source-map.md",
+      "bytes": 249489,
+      "sha256": "f8ba5e6b6e81ad0ea1a48db0b0f7403b6752967c5743fd6efeeef20965820872",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "research/current-tool-mapping-research-brief.md",
+      "bytes": 55853,
+      "sha256": "ce127c5b56e97aa1cbc6c192c5f93297b214e59d4f1ef170713b15632a77116b",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/analytics-dashboard-architecture.svg",
+      "bytes": 6120,
+      "sha256": "0627d5671fdd25b07fac3c54e65f7bee9ef24c384dd45e8741bd64469590e143",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/source/analytics-dashboard-architecture.mmd",
+      "bytes": 1858,
+      "sha256": "c43970fb0dc454261cd04c7fd276f68c83ab550d37a265dcb931a44ca5932f3a",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/full-stack-flow.svg",
+      "bytes": 5781,
+      "sha256": "557d9733646768fd262ee47c7234b08df0bc2d8f78ccf77c7c3f305edb9531f5",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/source/full-stack-flow.mmd",
+      "bytes": 1759,
+      "sha256": "ab9a56c0a81adf9d2fd1fa5faf31bc4159da2c6033be873173586a5c0a1e4f1d",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/api-database-auth-flow.svg",
+      "bytes": 3169,
+      "sha256": "101172be6d1eafec459d644223b3a949a7947845096fa8dbe943c5e11070bb91",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/source/api-database-auth-flow.mmd",
+      "bytes": 991,
+      "sha256": "a18108afa04e5c828143dd5435c576634463299e0ee82a79a268bd4989a6323e",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/api-database-auth-sequence.svg",
+      "bytes": 8145,
+      "sha256": "083dc1fc68112c63ca97288fec87910a284f2061bea466be83838d3f218bdded",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/source/api-database-auth-sequence.mmd",
+      "bytes": 1379,
+      "sha256": "2f99e8c8b32a9303b1dd1777ec37b3e71cbe8d3eb9a6d14fbb7cb0d82f157f40",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/architecture-decision-layers.svg",
+      "bytes": 2959,
+      "sha256": "d1661e6c97ed9044473b13953285f48ce030308dd718b250782beacb43b72dc7",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/source/architecture-decision-layers.mmd",
+      "bytes": 268,
+      "sha256": "d08af89c648817dc4484276baf23ab3ece95ef21dedd9d2b053ee63b17042c58",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/prd-sdd-tdd.svg",
+      "bytes": 6014,
+      "sha256": "f5a832df82192f336ac41f64f9ece4a780843457d8ca81336ca198e38826c846",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/source/prd-sdd-tdd.mmd",
+      "bytes": 1655,
+      "sha256": "87edc50d99848c2fc7645e4e1e3e4bc5b76804ebaa7a9386d7b05cc177988109",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/software-lifecycle.svg",
+      "bytes": 5675,
+      "sha256": "1be404e914ee705f3839aa13fe87a6816d2ef44acae3c580c6e0008b2d108227",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/source/software-lifecycle.mmd",
+      "bytes": 1363,
+      "sha256": "198c7c714622ea11df74b00f48845758794d3d996fadbb90cda4ddbe209019eb",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/git-flow.svg",
+      "bytes": 4667,
+      "sha256": "b09f074d2260e131c69e482b4e8bed9c97dfb0235c87787069e643e19bfd07cf",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/source/git-flow.mmd",
+      "bytes": 1351,
+      "sha256": "016603ad56eb6794abb2af553b1c24f80597b48af828910cb0f5727b376aa883",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/deploy-flow.svg",
+      "bytes": 5586,
+      "sha256": "be3798c0984fed38d4262bdc6b3d86b1b4800d5564e4d47394f25a3f9133d726",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/source/deploy-flow.mmd",
+      "bytes": 1322,
+      "sha256": "4ad88f9765658cd4d3814760479997215c2fe9e6bf0c426a9942858aeddc78dc",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/operations-recovery-loop.svg",
+      "bytes": 5173,
+      "sha256": "09d5e977d0ab6ffc078f23a7e505acdacbfc9a34cde36dd5128554e026366509",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/source/operations-recovery-loop.mmd",
+      "bytes": 1187,
+      "sha256": "f8da34fcf26739e80041d8dcfdc2bc7084efe018379e9d17b256f019ef8a27f8",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/context-harness-loop.svg",
+      "bytes": 4745,
+      "sha256": "0bdeefc144bc547554b815a7d50eca9e249eb8cb686e41804e55803d81d9a2be",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/source/context-harness-loop.mmd",
+      "bytes": 1292,
+      "sha256": "1b263d47a495408448aed42eb8416e6635db568bfc24fde534321e40c3d8abdc",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/agent-feedback-loop.svg",
+      "bytes": 5225,
+      "sha256": "a0e6b969975c8bb71ea435ee2acce03df834d3c3dd975228c8b164c96dd8ef5f",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/source/agent-feedback-loop.mmd",
+      "bytes": 1326,
+      "sha256": "9d58dee1e64fbd69e3d3198518cef570c8f4f2a41837b22d7452b24c73969468",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/meeting-webapp-architecture.svg",
+      "bytes": 4766,
+      "sha256": "d82fe6acd7659e4466401d05545cc044d5a7975a3264439bde0842f0a7e23fae",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/source/meeting-webapp-architecture.mmd",
+      "bytes": 1703,
+      "sha256": "e867219713f8698d5169a518e6b1cb3f8dac8e4c4670b274ba657a06d05c2301",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/learning-map.svg",
+      "bytes": 4347,
+      "sha256": "ecc38d522838bb3fdcea921d723f61a7919681133745a5fdecf29250953fa515",
+      "group": "shared",
+      "kind": "full-text"
+    },
+    {
+      "path": "src/assets/diagrams/source/learning-map.mmd",
+      "bytes": 1055,
+      "sha256": "d7cf3ddd7b4a1cb671aa4395732d70d6bb2fefac142e682a2f69aa42439670d4",
+      "group": "shared",
+      "kind": "full-text"
+    }
+  ]
+}

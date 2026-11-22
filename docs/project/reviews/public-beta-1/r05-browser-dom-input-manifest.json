@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "review_id": "R05",
+  "state": "input-fixed",
+  "baseline_commit": "a18ca3de49be706496725ed65b7188aab3fdfb0a",
+  "combined_sha256": "21bae99956c6de10afdbfbba22cb3f91b88fe4c9c5f6737dc27ab26daea4c9a4",
+  "entries": [
+    {
+      "path": "docs/project/reviews/public-beta-1/codex-review-contract.md",
+      "sha256": "e0df0f1092868097207189175ee9d0ead5d7fc15aecf56dd0d2937b8f44fd946",
+      "bytes": 17073
+    },
+    {
+      "path": "src/content/docs/05-frontend/browser-dom-rendering.md",
+      "sha256": "0f255ccafa28948290f8db309fd5e0b88565869acc83923e50ed860803d1d9d8",
+      "bytes": 32856
+    },
+    {
+      "path": "src/assets/diagrams/full-stack-flow.svg",
+      "sha256": "557d9733646768fd262ee47c7234b08df0bc2d8f78ccf77c7c3f305edb9531f5",
+      "bytes": 5781
+    },
+    {
+      "path": "src/assets/diagrams/source/full-stack-flow.mmd",
+      "sha256": "ab9a56c0a81adf9d2fd1fa5faf31bc4159da2c6033be873173586a5c0a1e4f1d",
+      "bytes": 1759
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r05-browser-dom-2026-11-15.md",
+      "sha256": "3474b87b37121c2bfda4301a1264eefdf2c04205c74b8215b2233ae5c0cd84d0",
+      "bytes": 5642
+    },
+    {
+      "path": "src/content/docs/05-frontend/ui-state-and-ux.md",
+      "sha256": "bc3e7ff832ba0accd22924d96c2ac611a3b594321a08d34f08c3823466350fc6",
+      "bytes": 27969
+    },
+    {
+      "path": "src/content/docs/05-frontend/accessibility-responsive-design.md",
+      "sha256": "8e3aba3b43bffca4bf4a94f4108f6a07455fa0b37a36b80024ba74dbaa19571c",
+      "bytes": 27958
+    },
+    {
+      "path": "src/content/docs/reference/development-glossary.md",
+      "sha256": "728022ddc235e2196e60c52bc0dca8c07d0c4cd160dfdb5d4d196e5afe4b260d",
+      "bytes": 56291
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r05-browser-dom-request.md",
+      "sha256": "1718dd10bcba69f30b53da01c2a73bd428366fc4b311f3be4f30c2889faf9594",
+      "bytes": 116636
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/top-viewports/pb-032-desktop-light-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f.png",
+      "sha256": "17af730006a037063c90f6a22f7ff9fd2c486f3263db5c723e69ed3dcad5b53c",
+      "bytes": 291931
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-032-desktop-light-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "c27d7da51857d17b2c86de2617f64e566f9dc7d7c3e0f17a9b2a633d569e038c",
+      "bytes": 80650
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/accepted/pb-032-1440x1000-light-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-context.png",
+      "sha256": "b31501032c873352501f609fdc014387b4a3ee3139c6c390962479fa52a71417",
+      "bytes": 171599
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/top-viewports/pb-032-desktop-dark-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f.png",
+      "sha256": "91664b0ffc86f722c1ed3ede7a49265ea7f6e3a3829974128879fc7facbba7a4",
+      "bytes": 291090
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-032-desktop-dark-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "61afbca2f691f14ce2e7bdbe5373617cadbc592cd5f54d685dd273f3ae065d90",
+      "bytes": 82196
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/accepted/pb-032-1440x1000-dark-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-context.png",
+      "sha256": "efef812a9f3d4ca8d7962d7f689755a9a3d2a55261a7e16dd199f96285f5e52d",
+      "bytes": 215430
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/top-viewports/pb-032-tablet-light-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f.png",
+      "sha256": "c8949d0a4820492dd0c0951a6ac1f73993eabd15ac9bc228a4d534086866fcfe",
+      "bytes": 157530
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-032-tablet-light-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "18e7ce6477abd39ebcd0a1798111862c238042741599a7601ff7a6eff6f2b6c2",
+      "bytes": 80645
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/accepted/pb-032-1024x768-light-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-context.png",
+      "sha256": "ec34994695f6618c038f1f4f7d2e84f0d966b67acbfe56dfc164903fefe1c000",
+      "bytes": 163796
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/top-viewports/pb-032-tablet-dark-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f.png",
+      "sha256": "3cc7bf9978dab34f660dbcdc7c6c1c65a57a6a801e69c22b0ee20c0b648825f9",
+      "bytes": 156162
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-032-tablet-dark-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "f319be16d88525f356ef50e92d6b64fed76c00f9d6be25b753023d5834403bc0",
+      "bytes": 82220
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/accepted/pb-032-1024x768-dark-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-context.png",
+      "sha256": "5800c0ddf3d10f380c2c784c1db699cbc445a9c47eca646de90ad5764dea7aed",
+      "bytes": 193498
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/top-viewports/pb-032-mobile-light-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f.png",
+      "sha256": "6f2b2ddbb9137cdc3561ff7a3aca929d85c005e26ac4dccc4944ce0af7045ac2",
+      "bytes": 87168
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-032-mobile-light-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "878d7d198d3b6970524b478dbfb0b670228e464ece1c8d70cb0b3db0451394bf",
+      "bytes": 52596
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/accepted/pb-032-390x844-light-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-context.png",
+      "sha256": "6fd966f6214d5bbb181f7c2c67dbb9f5fb5a71a35720a21e260711ef0af34b0f",
+      "bytes": 114097
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/top-viewports/pb-032-mobile-dark-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f.png",
+      "sha256": "2495570801ac536608cd0e4848bb6e243260eaa047e12b1275f047fe0bc1d7bb",
+      "bytes": 85519
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/diagram-crops/pb-032-mobile-dark-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-fullstack-direct.png",
+      "sha256": "e9e47927bb4331444abd889529ccc5e0588c6fe3d758c941700f203a2eb14b59",
+      "bytes": 54829
+    },
+    {
+      "path": "output/playwright/task20-fullstack-evidence/accepted/pb-032-390x844-dark-task20-pbv06-20260827171151038-1aa7798e-6bc9-4691-a088-3f6696f7293f-context.png",
+      "sha256": "61ae021f15318c277699b502f82501fee1f38b928fe7d146aa4178a77cde672b",
+      "bytes": 121433
+    }
+  ]
+}

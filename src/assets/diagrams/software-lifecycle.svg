@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1080" viewBox="0 0 480 1080" role="img" aria-labelledby="software-lifecycle-title software-lifecycle-desc">
+<title id="software-lifecycle-title">소프트웨어 개발 생명주기와 피드백</title>
+<desc id="software-lifecycle-desc">문제 이해, 요구사항, 설계, 구현, 검증, 배포·운영의 여섯 책임 묶음을 위에서 아래로 읽습니다. 실선은 책임의 연결이며 점선 A는 검증에서 설계로, 점선 B는 운영에서 요구사항으로 돌아가는 대표 피드백입니다. 검증 실패는 설계 또는 요구사항의 재검토로, 운영 증거는 요구사항과 우선순위의 변경으로 이어집니다. 본문의 발견은 문제 이해에, 학습은 피드백에 대응하며 배포와 운영은 묶어 표시해도 완료 증거는 다릅니다. 고정 실행 순서나 가능한 모든 피드백 경로를 증명하지 않습니다.</desc>
+<defs>
+  <marker id="lifecycle-arrow-light" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L0,12 L12,6 z" fill="#344054"/></marker>
+  <marker id="lifecycle-arrow-dark" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L0,12 L12,6 z" fill="#d0d5dd"/></marker>
+  <marker id="lifecycle-feedback-light" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L0,12 L12,6 z" fill="#067647"/></marker>
+  <marker id="lifecycle-feedback-dark" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M0,0 L0,12 L12,6 z" fill="#75e0a7"/></marker>
+</defs>
+<style>.box{fill:#fff;stroke:#344054;stroke-width:2}.focal{fill:#ecfdf3;stroke:#067647}.main{font:700 28px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#101828}.sub{font:600 24px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#475467}.arrow{stroke:#344054;stroke-width:3;fill:none;marker-end:url(#lifecycle-arrow-light)}.feedback{stroke:#067647;stroke-width:3;fill:none;stroke-dasharray:8 8;marker-end:url(#lifecycle-feedback-light)}.mask{fill:#fff}.key{font:700 24px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#067647}.note{font:600 20px system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#344054}.rule{stroke:#d0d5dd;stroke-width:1}@media(prefers-color-scheme:dark){.box{fill:#182230;stroke:#d0d5dd}.focal{fill:#053321;stroke:#75e0a7}.main{fill:#f9fafb}.sub,.note{fill:#e4e7ec}.mask{fill:#182230}.key{fill:#75e0a7}.arrow{stroke:#d0d5dd;marker-end:url(#lifecycle-arrow-dark)}.feedback{stroke:#75e0a7;marker-end:url(#lifecycle-feedback-dark)}.rule{stroke:#475467}}</style>
+<path class="arrow" data-from="P" data-to="R" d="M240 124 V148"/>
+<path class="arrow" data-from="R" data-to="D" d="M240 256 V280"/>
+<path class="arrow" data-from="D" data-to="I" d="M240 388 V412"/>
+<path class="arrow" data-from="I" data-to="V" d="M240 520 V544"/>
+<path class="arrow" data-from="V" data-to="O" d="M240 652 V676"/>
+<path class="feedback" data-from="V" data-to="D" d="M416 600 H440 V336 H416"/>
+<path class="feedback" data-from="O" data-to="R" d="M64 732 H40 V204 H64"/>
+<g class="node" data-node="P"><rect class="box" x="72" y="24" width="336" height="96" rx="8"/><text class="main" x="240" y="60" text-anchor="middle">문제 이해</text><text class="sub" x="240" y="96" text-anchor="middle">왜·누구를 위해</text></g>
+<g class="node" data-node="R"><rect class="box" x="72" y="156" width="336" height="96" rx="8"/><text class="main" x="240" y="192" text-anchor="middle">요구사항</text><text class="sub" x="240" y="228" text-anchor="middle">무엇을 만족할지</text></g>
+<g class="node" data-node="D"><rect class="box" x="72" y="288" width="336" height="96" rx="8"/><text class="main" x="240" y="324" text-anchor="middle">설계</text><text class="sub" x="240" y="360" text-anchor="middle">어떻게 나눌지</text></g>
+<g class="node" data-node="I"><rect class="box" x="72" y="420" width="336" height="96" rx="8"/><text class="main" x="240" y="456" text-anchor="middle">구현</text><text class="sub" x="240" y="492" text-anchor="middle">작은 변경</text></g>
+<g class="node" data-node="V"><rect class="box focal" x="72" y="552" width="336" height="96" rx="8"/><text class="main" x="240" y="588" text-anchor="middle">검증</text><text class="sub" x="240" y="624" text-anchor="middle">테스트·리뷰</text></g>
+<g class="node" data-node="O"><rect class="box focal" x="72" y="684" width="336" height="96" rx="8"/><text class="main" x="240" y="720" text-anchor="middle">배포·운영</text><text class="sub" x="240" y="756" text-anchor="middle">관찰·복구</text></g>
+<rect class="mask" x="424" y="448" width="32" height="40" rx="4"/><text class="key" x="440" y="476" text-anchor="middle">A</text>
+<rect class="mask" x="24" y="580" width="32" height="40" rx="4"/><text class="key" x="40" y="608" text-anchor="middle">B</text>
+<line class="rule" x1="24" y1="812" x2="456" y2="812"/>
+<text class="note" x="24" y="844">실선: 책임 연결 · 점선: 대표 피드백</text>
+<text class="key" x="24" y="884">A. 검증 → 설계</text>
+<text class="note" x="24" y="916">검증 실패는 설계 또는 요구사항으로</text>
+<text class="note" x="24" y="944">되돌아갑니다.</text>
+<text class="key" x="24" y="988">B. 운영 → 요구사항</text>
+<text class="note" x="24" y="1020">운영 증거가 요구사항과</text>
+<text class="note" x="24" y="1048">우선순위를 바꿉니다.</text>
+</svg>

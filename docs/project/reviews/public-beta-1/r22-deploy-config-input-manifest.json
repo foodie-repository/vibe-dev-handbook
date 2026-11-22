@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "review_id": "R22",
+  "state": "input-fixed",
+  "baseline_commit": "6558918ca709e7f5024ccf45d5cafc4cc76ffdff",
+  "combined_sha256": "58c56c624506bca4d5ec56cf09f384ebdf607044bede66a5a81a4ddc1194d280",
+  "entries": [
+    {
+      "path": "docs/project/reviews/public-beta-1/codex-review-contract.md",
+      "sha256": "e0df0f1092868097207189175ee9d0ead5d7fc15aecf56dd0d2937b8f44fd946",
+      "bytes": 17073
+    },
+    {
+      "path": "src/content/docs/10-deployment-operations/environment-variables-config.md",
+      "sha256": "5b66ae59710b87f39c1ebdee38a6f86046117ca53194911b85c1fbdc020c6971",
+      "bytes": 18952
+    },
+    {
+      "path": "research/public-beta-review-source-excerpts/r22-deploy-config-2026-11-16.md",
+      "sha256": "d3d3b7516012d8d7094e3ed0e77b3407a14fedd3d0b5db60ed2611689b69381f",
+      "bytes": 29804
+    },
+    {
+      "path": "research/meeting-webapp-case-brief.md",
+      "sha256": "ee7611ec9889a8a2ab2bfdec1975c6b1078e3d849cfe435e5f070af6a17fa2b1",
+      "bytes": 6901
+    },
+    {
+      "path": "src/content/docs/reference/development-glossary.md",
+      "sha256": "728022ddc235e2196e60c52bc0dca8c07d0c4cd160dfdb5d4d196e5afe4b260d",
+      "bytes": 56291
+    },
+    {
+      "path": "src/content/docs/10-deployment-operations/build-deploy-domain-dns.md",
+      "sha256": "157c675aa181f355939e29963f62d9c246129ea800261256f004f5ce9195d28c",
+      "bytes": 39113
+    },
+    {
+      "path": "src/content/docs/10-deployment-operations/logs-monitoring-backup.md",
+      "sha256": "17aa3d355ad4432d1fda08fade29284442bdb6f07bcb6340721df0bae9437975",
+      "bytes": 47820
+    },
+    {
+      "path": "src/content/docs/08-quality/performance-security.md",
+      "sha256": "3a4cf7084e72f2224cf38b0af9c4d4056bf0a0ae4d5442d7a6b1afe06dbcdedf",
+      "bytes": 28907
+    },
+    {
+      "path": "src/styles/custom.css",
+      "sha256": "2236f2a8a9b30515cb641d48de7089d15590834766ada3f60de9f649ef36c137",
+      "bytes": 874
+    },
+    {
+      "path": "templates/agent-task-brief-template.md",
+      "sha256": "6bd36d1537b20962aebfd261467693b70ce1abe7fe279202ea851c7b4ad57b19",
+      "bytes": 1894
+    },
+    {
+      "path": "WORKSPACE_MAP.md",
+      "sha256": "db9897c6d86e9f5ffd0ef7b3e3c8de996680cdb8b5ce00e3620817bfd291f368",
+      "bytes": 1678
+    },
+    {
+      "path": "package.json",
+      "sha256": "8c7e64860b4dbfaba9d018878277b057f1a33eca717dc0d4472b89fdfda1fd75",
+      "bytes": 1101
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "5e013a1e16f4e5b7943f7716f544963ef333781ed8307c02121f9d33294501e5",
+      "bytes": 217
+    },
+    {
+      "path": "astro.config.mjs",
+      "sha256": "baa48f6186f1f9b48cff9a3086e755e4a092b5a0c7bc919f08eedf4976385783",
+      "bytes": 2653
+    },
+    {
+      "path": "src/content.config.ts",
+      "sha256": "080280bb959afcddf4d62253482ad2151446abf59666746eb27c554d75080bf8",
+      "bytes": 588
+    },
+    {
+      "path": "docs/project/reviews/public-beta-1/r22-deploy-config-request.md",
+      "sha256": "d475593b7d09aba0ddb220991e96ae791d29c5df3a8436c7bd1d51ea964359c5",
+      "bytes": 96829
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-pilot/environment-variables-config-1440-light-top.png",
+      "sha256": "3b1d8adb9df276112204a2431f34f0f92ded39cc926401c1d605c2e5d12319a7",
+      "bytes": 335645
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-pilot/environment-variables-config-1440-light-item0-x0-y0.png",
+      "sha256": "e71167dd9e5836f805fb49d472c161bd8cc2e6aab0dfe501349d251a74ce6124",
+      "bytes": 53997
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-pilot/environment-variables-config-1440-light-item1-x0-y0.png",
+      "sha256": "c779b7e5f59438f2d428029a260c799a6106b19da51a26a2f0b6d705a48293ae",
+      "bytes": 35819
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-pilot/environment-variables-config-1440-light-item2-x0-y0.png",
+      "sha256": "48c6fbed34fc1c3812df22b3ce1e6fcb4ef52b8d69092c13aa4881279efcffd1",
+      "bytes": 24699
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-pilot/environment-variables-config-1440-light-item3-x0-y0.png",
+      "sha256": "cd95708b24d68a3f3a0095cb5c9698c7a7460e1afe1d94f96070e90a79768d10",
+      "bytes": 69291
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-pilot/environment-variables-config-1440-light-item4-x0-y0.png",
+      "sha256": "f270efc6c57f910867526196470252bd6381154b3c52a8dc485f5b39ae237e94",
+      "bytes": 69476
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-pilot/environment-variables-config-390-dark-top.png",
+      "sha256": "a48c2ab7694e5459927fb2f2d3e60a41d0e1c09eb14b6559cf858df021a29133",
+      "bytes": 99701
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-pilot/environment-variables-config-390-dark-item0-x0-y0.png",
+      "sha256": "7a67a2f27a876e4d7cb8f3d51c566cf6a94287b2bb06e2d96af70b9a606db00e",
+      "bytes": 42719
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-pilot/environment-variables-config-390-dark-item0-x1-y0.png",
+      "sha256": "6e482444f5b69c01c310918a80c740fdc19821e3acf5f03804356b79674d1853",
+      "bytes": 46970
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-pilot/environment-variables-config-390-dark-item1-x0-y0.png",
+      "sha256": "511fc8791b8d424cea60f52cdd7789e94211498cce0353dd171ccad117c27042",
+      "bytes": 25113
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-pilot/environment-variables-config-390-dark-item1-x1-y0.png",
+      "sha256": "70a3b432f5d089c453064034c8d9290ad30271b4b26698a858d70b0367fd00a5",
+      "bytes": 33061
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-pilot/environment-variables-config-390-dark-item2-x0-y0.png",
+      "sha256": "f88b38122c38d0cb7598c5608e9f558753ce7408d7d0aa1159c399d647038daf",
+      "bytes": 17285
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-pilot/environment-variables-config-390-dark-item2-x1-y0.png",
+      "sha256": "1a3cba03ae4bb27ad556f8eb98f2aeba78973035e23cb6e6447392758d6891bd",
+      "bytes": 5593
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-pilot/environment-variables-config-390-dark-item2-x2-y0.png",
+      "sha256": "fc4bc6b12fba3a8f0eaac72462a10c3bd8bc3249c501a371b39fb72c87a650f7",
+      "bytes": 5393
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-pilot/environment-variables-config-390-dark-item3-x0-y0.png",
+      "sha256": "7635f4398e9ef3200e446e34356cdafdc646121a35e090e021ae4a46ec13571e",
+      "bytes": 29609
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-pilot/environment-variables-config-390-dark-item3-x1-y0.png",
+      "sha256": "340779322c64e97a2e6fadd01304086330785f4663d39a73c854de19710c4497",
+      "bytes": 46942
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-pilot/environment-variables-config-390-dark-item4-x0-y0.png",
+      "sha256": "bf65db444af7b6ad3dbf35854fcbe73431b84d5ffa7bebe0cf46d2d374654f83",
+      "bytes": 53158
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-pilot/environment-variables-config-390-dark-item4-x1-y0.png",
+      "sha256": "498e9ae0ef8ca1905f629bcdc164108942abd9dc1c8061ed0e4e9ae5b3148b3f",
+      "bytes": 25556
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-remaining/environment-variables-config-1440-dark-top.png",
+      "sha256": "e7a2561accfb5859007ed0405f81f9bc5860fb024333cd4beebc82e062c7bc09",
+      "bytes": 341147
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-remaining/environment-variables-config-1440-dark-item0-x0-y0.png",
+      "sha256": "43feb391a5a390879b4aca2f2aa5e3916c847a81cdcdeb08e3f77477150fa046",
+      "bytes": 55116
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-remaining/environment-variables-config-1440-dark-item1-x0-y0.png",
+      "sha256": "6623fa6f6eeceb1499cfd90d8310bf3946a9d59a1cc1a8285a72d9fefd442bf3",
+      "bytes": 36698
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-remaining/environment-variables-config-1440-dark-item2-x0-y0.png",
+      "sha256": "92925aa201b05b7054228d1f3e0df36bb9eb437206bd351dfe4938bbe27bbe50",
+      "bytes": 24596
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-remaining/environment-variables-config-1440-dark-item3-x0-y0.png",
+      "sha256": "204185701612ee92a668d52f6637fb8553a567a3f0d178a227fe6e6dce2eacda",
+      "bytes": 69856
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-remaining/environment-variables-config-1440-dark-item4-x0-y0.png",
+      "sha256": "970f9faad9bb7a9c7c13531c1d3bb6979a80dfc83691526ea47a389fb5c6e5d0",
+      "bytes": 69280
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-remaining/environment-variables-config-390-light-top.png",
+      "sha256": "944ad9cce7faeddb9b0592167e6eb4768dfac4f4504ef2b71c76b6277b160ddc",
+      "bytes": 96834
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-remaining/environment-variables-config-390-light-item0-x0-y0.png",
+      "sha256": "c195e722ea8a745dfbf51640c7b5a5d0576d18a6d2d0fafc9c88c65895d2fefb",
+      "bytes": 41619
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-remaining/environment-variables-config-390-light-item0-x1-y0.png",
+      "sha256": "b17c3a5b930236510526a9047be4a128c713fb4c2fa90c6d9b44239bda57056f",
+      "bytes": 45806
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-remaining/environment-variables-config-390-light-item1-x0-y0.png",
+      "sha256": "8cca224f8b5d9c159523297f57800c488fe53306dd26bff6edf86057136cffd8",
+      "bytes": 24548
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-remaining/environment-variables-config-390-light-item1-x1-y0.png",
+      "sha256": "4ac52bc2637d275d647e0ff4862880ed69ae7895967668489f45169fe5279347",
+      "bytes": 32255
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-remaining/environment-variables-config-390-light-item2-x0-y0.png",
+      "sha256": "0cbc8d70c343422245b7063ee519b875349b3946409e75265f668331ae365e05",
+      "bytes": 17406
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-remaining/environment-variables-config-390-light-item2-x1-y0.png",
+      "sha256": "ee9237b2e5647c2000ad0dae5029ddb16b2704c72f268b22cbe31ce14c2d3adc",
+      "bytes": 5732
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-remaining/environment-variables-config-390-light-item2-x2-y0.png",
+      "sha256": "fd6afd78050ad84eb3c13164d2bd71c11d0c5a634f59d45cdfad5a28435be788",
+      "bytes": 5450
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-remaining/environment-variables-config-390-light-item3-x0-y0.png",
+      "sha256": "cb4b7b0fc0540dca3b53337d33425cea9aae740148f1e17a3e38bf4e24e33175",
+      "bytes": 29524
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-remaining/environment-variables-config-390-light-item3-x1-y0.png",
+      "sha256": "002be607f083209b5d06ec43aee58cf516e414dae1f3c5b94104aff38b4c5eb3",
+      "bytes": 45563
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-remaining/environment-variables-config-390-light-item4-x0-y0.png",
+      "sha256": "c8f60c8e498220167d56e7887a33598632814bc5dfb42bed0c944912117089f8",
+      "bytes": 53237
+    },
+    {
+      "path": "output/playwright/r22-inputs-20261116-remaining/environment-variables-config-390-light-item4-x1-y0.png",
+      "sha256": "5a734ebf5fbaccb3b035888184f19523224386c1f1b95ecc3ac00a101aee4834",
+      "bytes": 25631
+    }
+  ]
+}

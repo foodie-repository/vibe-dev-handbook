@@ -1,0 +1,25 @@
+flowchart TD
+    accTitle: 교육용 주가 데이터 대시보드의 책임과 증거 흐름
+    accDescr: 교육용 가상 fixture 또는 승인된 공식 원천에서 정의와 시간대와 이용 조건을 확인하고 상품과 거래 기준을 정규화한 뒤 품질 게이트, 분석 저장소, 버전이 있는 전달 계약, 대시보드 UI, 정정과 복원의 사용자·운영 증거까지 이어지는 일곱 단계 흐름입니다. 점선 피드백은 정정과 복원 증거가 원인이 있는 앞 단계로 돌아감을 나타냅니다.
+
+    S["1. 원천·권리<br/>fixture 또는 승인된 공식 원천<br/>정의·시간대·이용 조건"]
+    I["2. 수집·정규화<br/>상품 ID·거래일·시장<br/>통화·가격 기준·원천 버전"]
+    Q["3. 품질 게이트<br/>중복·결측·단위·거래일<br/>조정 상태·게시 판정"]
+    D["4. 분석 저장소<br/>가격·거래량·값 상태<br/>lineage·dataset_version"]
+    A["5. 전달 계약<br/>정적 파일 또는 읽기 전용 API<br/>버전·오류·호환성"]
+    U["6. 대시보드 UI<br/>상품·기간·표·차트<br/>단위·기준 시점·품질 상태"]
+    E["7. 사용자·운영 증거<br/>fixture 표시·갱신 감지<br/>정정·복원·공개 흐름"]
+
+    S --> I --> Q --> D --> A --> U --> E
+    E -. 정정·복원 피드백 .-> S
+
+    classDef step fill:#ffffff,stroke:#344054,color:#101828,stroke-width:2px;
+    classDef source fill:#eff8ff,stroke:#175cd3,color:#101828,stroke-width:2px;
+    classDef quality fill:#fffaeb,stroke:#b54708,color:#101828,stroke-width:2px;
+    classDef delivery fill:#f9f5ff,stroke:#6941c6,color:#101828,stroke-width:2px;
+    classDef evidence fill:#ecfdf3,stroke:#067647,color:#101828,stroke-width:2px;
+    class S source;
+    class I,D,U step;
+    class Q quality;
+    class A delivery;
+    class E evidence;

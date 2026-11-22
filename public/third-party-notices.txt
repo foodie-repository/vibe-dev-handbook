@@ -1,0 +1,417 @@
+바이브 개발 핸드북 — 확인된 제3자 고지의 배포 전달
+확인일: 2026-08-30
+
+이 파일은 현재 로컬 배포물에서 확인한 구성요소에 대응하는 원 고지를 전달합니다. 전체 의존성·권리 감사 완료, 독립 검토 통과, 법률 자문 또는 공개 승인을 뜻하지 않습니다. 프로젝트의 MIT/CC BY 4.0이 아래 제3자 원문과 권리를 대체하지 않으며 모든 의존성이 MIT라고 주장하지 않습니다.
+
+원 고지는 아래 구획 안에 별표·따옴표·저작권 이메일·기존 줄바꿈까지 그대로 보존했습니다. 원문 구획 바깥의 한국어 설명은 이 프로젝트의 안내입니다. 정확한 포함물 전체, 그 밖의 WASM/Rust 링크 구성, 아이콘별 정확한 계보·CSS SVG의 더 이전 출처와 별도 UI 배포본 provenance는 추가 확인이 필요합니다. adequate-little-templates 1.0.2는 Pagefind component UI의 직접 import·호출과 배포 JS의 parser/evaluator 코드로 포함을 확인해 아래 고지를 전달하며, 이 한 구성요소로 RIGHTS-03/04 전체를 닫지 않습니다. Node wrapper·vscode-ripgrep/Microsoft 코드를 브라우저 포함물로 표시하지 않습니다.
+
+============================================================
+Astro 7.1.6 — 확인된 브라우저 prefetch 코드
+공식 프로젝트·원문 URL:
+https://github.com/withastro/astro
+설치 astro/LICENSE 전문을 보존합니다. 이 원문 안의 SvelteKit·Vite 유래 부분 고지도 함께 보존하며, 해당 프로젝트 전체 코드가 배포됐다고 뜻하지 않습니다.
+
+[원 고지 시작: astro]
+MIT License
+
+Copyright (c) 2021 Fred K. Schott
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+"""
+This license applies to parts of the `packages/create-astro` and `packages/astro` subdirectories originating from the https://github.com/sveltejs/kit repository:
+
+Copyright (c) 2020 [these people](https://github.com/sveltejs/kit/graphs/contributors)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+"""
+
+"""
+This license applies to parts of the `packages/create-astro` and `packages/astro` subdirectories originating from the https://github.com/vitejs/vite repository:
+
+MIT License
+
+Copyright (c) 2019-present, Yuxi (Evan) You and Vite contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+"""
+
+[원 고지 끝: astro]
+
+============================================================
+Starlight 0.41.4 — 사이트 UI 코드·스타일·inline 아이콘
+공식 프로젝트·원문 URL:
+https://github.com/withastro/starlight
+설치 @astrojs/starlight/LICENSE 전문입니다. 2023년 유지관리자 기록으로 당시 비로고 아이콘의 Unicons 세트 기원을 확인해 별도 고지를 아래에 추가했으며, 이 MIT 고지를 해당 아이콘 원문에 확대 적용하지 않습니다.
+
+[원 고지 시작: starlight]
+MIT License
+
+Copyright (c) 2023 [Astro contributors](https://github.com/withastro/starlight/graphs/contributors)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+[원 고지 끝: starlight]
+
+============================================================
+Unicons 4.0.8 시점 — Starlight 비로고 inline 아이콘의 확인된 세트 기원
+공식 프로젝트·고정 원문·기원 기록 URL:
+https://github.com/Iconscout/unicons
+https://github.com/Iconscout/unicons/blob/691ff29fd130557a2ce7d991cef24bcd6644ad44/LICENSE
+https://github.com/withastro/starlight/discussions/967
+https://github.com/withastro/starlight/commit/2ee1e7d19b7afa5b258382ee6c4d1084ccb66056
+Starlight 유지관리자는 최초 아이콘 컴포넌트가 만들어진 뒤 당시 비로고 아이콘이 Unicons 세트에서 왔다고 밝혔습니다. 그 컴포넌트 직전 Unicons 4.0.8 고정 commit의 원문을 보존하고 원 제작자 IconScout를 표시합니다. 현재 배포 아이콘의 이름·도형 이력은 세트 기원을 보강하지만 모든 개별 파일의 byte-exact 계보·수정 범위·조건 해석을 확정하지 않으므로 RIGHTS-03/04 전체 해소가 아닙니다.
+
+[원 고지 시작: unicons]
+IconScout Simple License
+
+Copyright © 2022 Design Barn Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of the asset files available for download at the IconScout site (“Files”). To download, modify, and use digitally such Files, for commercial purposes, provided that any display, publication, or performance of Files must contain (and be subject to) the same terms and conditions of this license. Modifications to Files are deemed derivative works and can be used for commercial as well as personal projects but are not allowed to resell or republish( as a separate entity under any other profile) to any platform. You may not purport to impose any additional or different terms or conditions on or apply any technical measures that restrict the exercise of, the rights granted under this license.
+
+This license does not include the right to collect or compile Files from IconScout to replicate or develop a similar or competing service.
+
+Use of Files in your product or project without attributing the creator(s) of the Files is permitted under this license, though attribution is strongly encouraged. If attributions are included, such attributions should be visible to the end-user. However, Any assets uploaded or published by you of which you are **not the original designer** but you have edited in some way must have the original creator attributed and a link provided to the original animation in the description. If you fail to do this, the upload falls under the category of plagiarised content can be reported and may be removed from IconScout.
+
+FILES ARE PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, IN NO EVENT WILL THE CREATOR(S) OF FILES OR DESIGN BARN, INC. BE LIABLE ON ANY LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES ARISING OUT OF THIS LICENSE OR THE USE OF SUCH FILES.
+`
+[원 고지 끝: unicons]
+
+============================================================
+Vite 8.2.0 — 검색 번들의 preload helper에 한정
+공식 프로젝트·원문 URL:
+https://github.com/vitejs/vite
+설치 vite/LICENSE.md 중 Vite core license 구획(1~25행)을 그대로 보존합니다. 뒤따르는 bundled dependencies 전체가 이 helper에 포함됐다는 근거는 없으며 Vite 배포본 전체의 고지를 완료했다는 뜻이 아닙니다.
+
+[원 고지 시작: vite-helper]
+# Vite core license
+Vite is released under the MIT license:
+
+MIT License
+
+Copyright (c) 2019-present, VoidZero Inc. and Vite contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+[원 고지 끝: vite-helper]
+
+============================================================
+Expressive Code 0.44.1 — core·plugin-frames·plugin-text-markers의 확인된 JS/CSS
+공식 프로젝트·원문 URL:
+https://github.com/expressive-code/expressive-code
+위 세 설치 패키지의 LICENSE가 byte 단위로 동일하여 한 번 보존합니다. Shiki 엔진 등 모든 빌드 의존성이 브라우저에 포함됐다고 표시하지 않습니다.
+
+[원 고지 시작: expressive-code]
+MIT License
+
+Copyright (c) 2023 Tibor Schiemann
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+[원 고지 끝: expressive-code]
+
+============================================================
+Pagefind 1.5.2 — 검색 JS/WASM 및 UI 배포물의 프로젝트 원 고지
+공식 프로젝트·원문 URL:
+https://github.com/Pagefind/pagefind/blob/bf17396721be637cc67c8ed7ead1dc7b8ac43d96/LICENSE
+v1.5.2 릴리스의 공식 소스 commit bf17396721be637cc67c8ed7ead1dc7b8ac43d96 루트 LICENSE 전문입니다. WASM 내부 전이 의존성·실제 링크 구성까지 모두 확인한 것은 아닙니다.
+
+[원 고지 시작: pagefind]
+Copyright 2022 Pagefind
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[원 고지 끝: pagefind]
+
+============================================================
+adequate-little-templates 1.0.2 — Pagefind component UI의 확인된 template parser·renderer
+고정 패키지·원문 URL:
+https://registry.npmjs.org/adequate-little-templates/-/adequate-little-templates-1.0.2.tgz
+https://github.com/bglw/adequate-little-templates/blob/47d207b7840a5e7ea847e1f630454d81ee3ad16e/LICENSE
+고정 Pagefind 소스의 직접 import·호출과 배포 pagefind-component-ui.js의 고유 parser·evaluator 코드를 연결해 npm 1.0.2 tarball의 MIT 전문을 전달합니다. 이 추가는 아이콘·CSS SVG의 이전 출처, WASM/Rust 링크 구성, registry provenance 전체 또는 RIGHTS-03/04 전체 해소가 아닙니다.
+
+[원 고지 시작: adequate-little-templates]
+MIT License
+
+Copyright (c) 2026 Liam Bigelow
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+[원 고지 끝: adequate-little-templates]
+
+============================================================
+minicbor 2.2.1 — Pagefind 검색 WASM의 확인된 CBOR decode 경로
+공식 프로젝트·원문 URL:
+https://github.com/twittner/minicbor
+https://docs.rs/crate/minicbor/2.2.1/source/LICENSE.md
+https://blueoakcouncil.org/license/1.0.0
+고정 Pagefind 소스의 직접 decode 사용과 배포 WASM의 minicbor 2.2.1 경로를 연결해 원문 전문을 전달합니다. 이 추가는 pagefind_stem/Snowball·unicode-ident·Rust std의 고지 범위 또는 RIGHTS-08 전체 해소가 아닙니다.
+
+[원 고지 시작: minicbor]
+# Blue Oak Model License
+
+Version 1.0.0
+
+## Purpose
+
+This license gives everyone as much permission to work with
+this software as possible, while protecting contributors
+from liability.
+
+## Acceptance
+
+In order to receive this license, you must agree to its
+rules.  The rules of this license are both obligations
+under that agreement and conditions to your license.
+You must not do anything with this software that triggers
+a rule that you cannot or will not follow.
+
+## Copyright
+
+Each contributor licenses you to do everything with this
+software that would otherwise infringe that contributor's
+copyright in it.
+
+## Notices
+
+You must ensure that everyone who gets a copy of
+any part of this software from you, with or without
+changes, also gets the text of this license or a link to
+<https://blueoakcouncil.org/license/1.0.0>.
+
+## Excuse
+
+If anyone notifies you in writing that you have not
+complied with [Notices](#notices), you can keep your
+license by taking all practical steps to comply within 30
+days after the notice.  If you do not do so, your license
+ends immediately.
+
+## Patent
+
+Each contributor licenses you to do everything with this
+software that would otherwise infringe any patent claims
+they can license or become able to license.
+
+## Reliability
+
+No contributor can revoke this license.
+
+## No Liability
+
+***As far as the law allows, this software comes as is,
+without any warranty or condition, and no contributor
+will be liable to anyone for any damages related to this
+software or this license, under any kind of legal claim.***
+
+[원 고지 끝: minicbor]
+
+============================================================
+Svelte — 배포에서 확인한 major 4 runtime; 공식 Pagefind 소스 lock 4.2.20
+공식 프로젝트·원문 URL:
+https://github.com/sveltejs/svelte/blob/svelte%404.2.20/LICENSE.md
+정확한 4.2.20 태그의 원 고지입니다. 배포 표식은 major 4를 확인하며 이 고지 작성이 registry 번들의 재현 빌드나 patch 버전 provenance 증명이 되는 것은 아닙니다.
+
+[원 고지 시작: svelte]
+Copyright (c) 2016-23 [these people](https://github.com/sveltejs/svelte/graphs/contributors)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[원 고지 끝: svelte]
+
+============================================================
+mark.js 8.11.1 — Pagefind highlight 배포 파일
+공식 프로젝트·원문 URL:
+https://github.com/julkue/mark.js/blob/8.11.1/LICENSE
+배포 파일의 기존 짧은 저작권·MIT 링크 고지는 제거하지 않고 아래 원문 전문을 함께 제공합니다.
+
+[원 고지 시작: markjs]
+The MIT License (MIT)
+
+Copyright (c) 2014–2018 Julian Kühnel
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+[원 고지 끝: markjs]
+
+============================================================
+bcp-47 2.1.0 · is-alphabetical 2.0.1 · is-alphanumerical 2.0.1 · is-decimal 2.0.1
+공식 프로젝트·원문 URL:
+https://github.com/wooorm/bcp-47/blob/2.1.0/license
+https://github.com/wooorm/is-alphabetical/blob/2.0.1/license
+https://github.com/wooorm/is-alphanumerical/blob/2.0.1/license
+https://github.com/wooorm/is-decimal/blob/2.0.1/license
+Pagefind standalone UI의 언어 태그 처리와 설치 prebundle·공식 lock을 연결한 고지입니다. 네 정확 버전의 원문이 byte 단위로 동일하여 한 번 보존합니다. 최적화된 모든 UI 번들에 네 모듈이 전부 남았다고 단정하지 않습니다.
+
+[원 고지 시작: bcp47]
+(The MIT License)
+
+Copyright (c) 2016 Titus Wormer <tituswormer@gmail.com>
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[원 고지 끝: bcp47]
+
+============================================================
+Night Owl — Starlight 0.41.4에 포함된 dark/light 테마의 파생 사용
+공식 프로젝트·원문 URL:
+https://github.com/sdras/night-owl-vscode-theme
+설치 night-owl-dark.jsonc와 night-owl-light.jsonc 첫 1~25행의 MIT 주석이 byte 단위로 동일하여 한 번 보존합니다. 주석 wrapper·별표·저작권 줄·허락·면책 문구를 제거하거나 다시 쓰지 않았습니다. 별도의 Night Owl upstream 릴리스 버전은 확인하지 않았습니다.
+
+[원 고지 시작: night-owl]
+/**
+ * Night Owl VS Code Theme - https://github.com/sdras/night-owl-vscode-theme
+ *
+ * MIT License
+ *
+ * Copyright (c) 2018 Sarah Drasner
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+[원 고지 끝: night-owl]
