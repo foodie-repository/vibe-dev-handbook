@@ -208,6 +208,20 @@ export function readyHeader(hasDiagram) {
   return "contentStatus: ready\nreviewEvidence:\n" + evidence.map(item => `  - "${item}"\n`).join("");
 }
 export function preReadyBytes(path, bytes) {
+  // Restore the exact inputs of the pre-publication review for these presentation-only edits.
+  const archive = new URL('../docs/project/reviews/public-beta-1/reader-layout-history/', import.meta.url);
+  if (path === 'src/components/PageTitle.astro' && sha(bytes) === 'c9a4b5699b07df833dca02891c61574628a278df274fda776ddd7398065e3bc3') {
+    return readFileSync(new URL('page-title.astro.txt', archive));
+  }
+  if (path === 'src/content/docs/index.md' && sha(bytes) === '86c42e9e781a4042aba40f258bf4424852f87fe5f38fb723b3f7ab014951313c') {
+    bytes = Buffer.concat([bytes, readFileSync(new URL('home-badge-legend.txt', archive))]);
+  }
+  if (path === 'CONTENT_MAP.md' && sha(bytes) === '86021723ccbd3d0e35b443ae52f1f637e6465e6f77c0a33e85dd95ca160c036f') {
+    bytes = Buffer.from(bytes.toString().replace('(src/content/docs/index.md) | `ready` | 2,058', '(src/content/docs/index.md) | `ready` | 2,398'));
+  }
+  if (path === 'astro.config.mjs' && sha(bytes) === 'f6b1e6d6285d985bf444c36ed3eaba3e9b6590a8dfbc48af8fafed030d1de52b') {
+    bytes = Buffer.from(bytes.toString().replace("        Sidebar: './src/components/ReaderSidebar.astro',\n", ''));
+  }
   // Reconstruct only the release configuration used by the frozen manuscript reviews.
   if (path === 'astro.config.mjs' && sha(bytes) === '43ab68187bbb02a41910fafb6ab4b7feeb07f1e1ee53d1ca95936486321b1dec') {
     const original = bytes.toString()

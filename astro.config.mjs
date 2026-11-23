@@ -26,6 +26,7 @@ export default defineConfig({
       pagefind: true,
       customCss: ['./src/styles/custom.css', './src/styles/reader.css'],
       components: {
+        Sidebar: './src/components/ReaderSidebar.astro',
         TableOfContents: './src/components/ReaderToc.astro',
         PageTitle: './src/components/PageTitle.astro',
       },

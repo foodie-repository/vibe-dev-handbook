@@ -47,12 +47,32 @@
   .right-sidebar-container[data-toc-collapsed] + .main-pane {
     --sl-content-width: 60rem;
   }
-  reader-toc { display: block; }
+  [data-toc-collapsed] #reader-toc-links { display: none; }
   #reader-toc-links nav > ul {
     max-height: calc(100dvh - var(--sl-nav-height) - 4rem);
     overflow-y: auto;
   }
-  reader-toc button {
+}
+
+@media (width < 50rem) {
+  .sidebar-caption, reader-panel[data-side="left"] > :is(button, .panel-divider) { display: none; }
+}
+
+@media (min-width: 50rem) {
+  :root[data-has-sidebar] { --sl-sidebar-width: var(--sidebar-open-width, 18.75rem); }
+  :root[data-has-sidebar][data-sidebar-collapsed] { --sl-sidebar-width: 3rem; }
+  [data-sidebar-collapsed] :is(#reader-sidebar-links, .sidebar-caption) { display: none; }
+  .sidebar-caption {
+    display: block;
+    position: sticky;
+    top: 0;
+    background: var(--sl-color-bg-sidebar);
+    padding-inline-end: 2rem;
+    margin-bottom: 1rem;
+    color: var(--sl-color-white);
+  }
+  reader-panel { display: block; }
+  reader-panel > button, reader-panel[data-side="left"] > button {
     position: absolute;
     inset: calc(var(--sl-nav-height) + 0.65rem) 0.4rem auto auto;
     display: grid;
@@ -65,8 +85,9 @@
     border-radius: 0.4rem;
     cursor: pointer;
   }
-  reader-toc button[aria-expanded="false"] svg { transform: rotate(180deg); }
-  .toc-divider {
+  reader-panel[data-side="right"] > button[aria-expanded="false"] svg,
+  reader-panel[data-side="left"] > button[aria-expanded="true"] svg { transform: rotate(180deg); }
+  .panel-divider {
     position: absolute;
     inset: var(--sl-nav-height) auto 0 -5px;
     width: 10px;
@@ -74,7 +95,7 @@
     touch-action: none;
     user-select: none;
   }
-  .toc-divider::before {
+  .panel-divider::before {
     content: '';
     position: absolute;
     top: 45%;
@@ -84,7 +105,7 @@
     border-radius: 4px;
     background: var(--sl-color-gray-4);
   }
-  .toc-divider:is(:hover, :focus-visible, :active)::after {
+  .panel-divider:is(:hover, :focus-visible, :active)::after {
     content: '';
     display: block;
     height: 100%;
@@ -92,5 +113,14 @@
     margin: auto;
     background: var(--sl-color-text-accent);
   }
-  reader-toc [hidden] { display: none; }
+  reader-panel[data-side="left"] > button {
+    position: fixed;
+    inset-inline: calc(var(--sl-sidebar-width) - 2.65rem) auto;
+  }
+  reader-panel[data-side="left"] > .panel-divider {
+    display: block;
+    position: fixed;
+    inset-inline: calc(var(--sl-sidebar-width) - 8px) auto;
+  }
+  reader-panel > [hidden], reader-panel[data-side="left"] > [hidden] { display: none; }
 }

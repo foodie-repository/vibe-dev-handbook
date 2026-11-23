@@ -150,7 +150,7 @@ src/content/docs/
 
 | 문서 | 상태 | 본문 문자 수 | 공개 경로 |
 |---|---:|---:|---|
-| [바이브 개발 핸드북](src/content/docs/index.md) | `ready` | 2,398 | `/` |
+| [바이브 개발 핸드북](src/content/docs/index.md) | `ready` | 2,058 | `/` |
 
 ### 참고편
 

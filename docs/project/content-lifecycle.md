@@ -11,7 +11,7 @@
 | `review` | 검토 중 | 자체 품질 점검을 마치고 독립 검토와 재판정에 필요한 원고·입력·검토 요청을 고정함 |
 | `ready` | 출판 준비 | 독립 검토, 재판정, 요구사항 적합성, 출처, 자동·브라우저 검증과 소유자 묶음 승인을 증거로 확인함 |
 
-섹션 인덱스와 홈도 공개 문서이므로 상태를 표시하지만, Phase 1 진행률은 `src/content/docs/start-here/learning-paths.md`에 정의된 공식 Build Track 장만 집계합니다.
+각 문서의 상태는 홈과 섹션 인덱스를 포함해 원고 메타데이터와 콘텐츠 지도에 기록합니다. Phase 1 진행률은 `src/content/docs/start-here/learning-paths.md`에 정의된 공식 Build Track 장만 집계합니다.
 
 ## 승격 규칙
 

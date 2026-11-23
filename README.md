@@ -14,7 +14,7 @@ Claude Code나 Codex의 버튼과 명령만 나열하지 않습니다. 프런트
 - Astro Starlight 기반 문서 사이트와 GitHub Pages 자동 배포 설정
 - 문서 메타데이터·미완성 표식·이미지 대체 텍스트와 내부 링크·SVG 접근성을 검사하는 검증기
 
-**공개 베타 1 배포 대상:** [핸드북 사이트](https://foodie-repository.github.io/vibe-dev-handbook/) · [GitHub 저장소](https://github.com/foodie-repository/vibe-dev-handbook). 이 스냅샷은 `0.1.0-beta.1`의 배포 입력입니다. 원고 59개는 소유자 승인과 로컬 검증을 거쳐 모두 `ready`가 됐습니다. 제목 아래의 ‘출판 준비’는 [원고 검토 상태](docs/project/content-lifecycle.md)이며, 이 표시만으로 원격 배포 성공을 뜻하지 않습니다. 로컬 근거는 [검증 기록](VERIFICATION_REPORT.md)에 있습니다.
+**공개 베타 1 배포 대상:** [핸드북 사이트](https://foodie-repository.github.io/vibe-dev-handbook/) · [GitHub 저장소](https://github.com/foodie-repository/vibe-dev-handbook). 이 스냅샷은 `0.1.0-beta.1`의 배포 입력입니다. 원고 59개는 소유자 승인과 로컬 검증을 거쳐 모두 `ready`가 됐습니다. 원고별 검토 상태와 근거는 저장소에서 관리합니다. [원고 검토 기준](docs/project/content-lifecycle.md)을 참고하세요. 로컬 근거는 [검증 기록](VERIFICATION_REPORT.md)에 있습니다.
 
 ## 누구를 위한 자료인가요?
 
