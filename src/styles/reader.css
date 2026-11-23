@@ -3,6 +3,10 @@
   --sl-text-h2: clamp(1.5rem, 2.2vw, 1.875rem);
 }
 
+.sl-markdown-content {
+  --sl-text-h3: var(--sl-text-2xl);
+}
+
 /* Keep detailed captions readable while reducing the scale of portrait diagrams. */
 .sl-markdown-content img.handbook-diagram {
   max-width: min(100%, 27rem);
