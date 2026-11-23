@@ -12,6 +12,7 @@
 |---|---|---|
 | `src/content/docs/**` | CC BY 4.0 | 직접 작성한 학습 본문·표·가상 예시·교육용 코드/명령 블록과 frontmatter를 포함한 문서 전체 |
 | `src/assets/diagrams/**/*.svg` | CC BY 4.0 | 직접 제작한 교육용 다이어그램 |
+| `public/diagrams/*-wide.svg` | CC BY 4.0 | 같은 교육용 다이어그램의 넓은 화면용 배치 |
 | `src/assets/diagrams/source/**/*.mmd` | CC BY 4.0 | 교육용 다이어그램의 Mermaid 원본 |
 | `src/components/**` | MIT | 사이트 컴포넌트와 그 안의 문구 |
 | `src/styles/**` | MIT | 사이트 스타일; 선언된 폰트 이름의 권리까지 허락하지 않음 |

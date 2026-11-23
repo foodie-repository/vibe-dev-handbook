@@ -1,0 +1,96 @@
+:root {
+  --sl-text-h1: clamp(1.875rem, 3vw, 2.75rem);
+  --sl-text-h2: clamp(1.5rem, 2.2vw, 1.875rem);
+}
+
+/* Keep detailed captions readable while reducing the scale of portrait diagrams. */
+.sl-markdown-content img.handbook-diagram {
+  max-width: min(100%, 27rem);
+  height: auto;
+}
+.sl-markdown-content img.handbook-diagram:where([width="480"]) {
+  max-width: min(100%, 23rem);
+}
+/* The sequence diagram carries smaller message labels between participants. */
+.sl-markdown-content img.handbook-diagram:where([width="688"]) {
+  max-width: min(100%, 38rem);
+}
+@media (min-width: 80rem), (40rem <= width < 50rem) {
+  .sl-markdown-content picture img.handbook-diagram {
+    width: 100%;
+    max-width: 50rem;
+  }
+}
+
+@media (min-width: 72rem) {
+  .right-sidebar-container {
+    --toc-width: var(--toc-open-width, 256px);
+    flex: 0 0 var(--toc-width);
+  }
+  .right-sidebar-container[data-toc-collapsed] { --toc-width: 3rem; }
+  .right-sidebar {
+    inset-inline-end: 0;
+    width: var(--toc-width);
+    overflow: visible;
+  }
+  .right-sidebar-panel {
+    height: 100%;
+    overflow-y: auto;
+    padding-inline: 1.25rem 0.75rem;
+  }
+  .right-sidebar-panel .sl-container { width: 100%; max-width: none; }
+  [data-has-toc] .main-pane {
+    flex: 1 1 0%;
+    min-width: 0;
+    --sl-content-margin-inline: auto;
+  }
+  .right-sidebar-container[data-toc-collapsed] + .main-pane {
+    --sl-content-width: 60rem;
+  }
+  reader-toc { display: block; }
+  #reader-toc-links nav > ul {
+    max-height: calc(100dvh - var(--sl-nav-height) - 4rem);
+    overflow-y: auto;
+  }
+  reader-toc button {
+    position: absolute;
+    inset: calc(var(--sl-nav-height) + 0.65rem) 0.4rem auto auto;
+    display: grid;
+    place-items: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    background: var(--sl-color-bg);
+    color: var(--sl-color-gray-2);
+    border: 1px solid var(--sl-color-hairline);
+    border-radius: 0.4rem;
+    cursor: pointer;
+  }
+  reader-toc button[aria-expanded="false"] svg { transform: rotate(180deg); }
+  .toc-divider {
+    position: absolute;
+    inset: var(--sl-nav-height) auto 0 -5px;
+    width: 10px;
+    cursor: col-resize;
+    touch-action: none;
+    user-select: none;
+  }
+  .toc-divider::before {
+    content: '';
+    position: absolute;
+    top: 45%;
+    left: 3px;
+    width: 4px;
+    height: 2rem;
+    border-radius: 4px;
+    background: var(--sl-color-gray-4);
+  }
+  .toc-divider:is(:hover, :focus-visible, :active)::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 2px;
+    margin: auto;
+    background: var(--sl-color-text-accent);
+  }
+  reader-toc [hidden] { display: none; }
+}

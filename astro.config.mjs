@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import { responsiveDiagrams } from './scripts/responsive-diagrams.mjs';
 
 const repository = process.env.GITHUB_REPOSITORY;
 const site = process.env.PUBLIC_SITE_URL;
@@ -9,6 +10,7 @@ const repositoryUrl = repository ? `https://github.com/${repository}` : undefine
 export default defineConfig({
   ...(site ? { site } : {}),
   ...(base ? { base } : {}),
+  markdown: { rehypePlugins: [[responsiveDiagrams, { base }]] },
   integrations: [
     starlight({
       title: '바이브 개발 핸드북',
@@ -22,8 +24,9 @@ export default defineConfig({
       },
       lastUpdated: true,
       pagefind: true,
-      customCss: ['./src/styles/custom.css'],
+      customCss: ['./src/styles/custom.css', './src/styles/reader.css'],
       components: {
+        TableOfContents: './src/components/ReaderToc.astro',
         PageTitle: './src/components/PageTitle.astro',
       },
       sidebar: [

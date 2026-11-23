@@ -208,6 +208,16 @@ export function readyHeader(hasDiagram) {
   return "contentStatus: ready\nreviewEvidence:\n" + evidence.map(item => `  - "${item}"\n`).join("");
 }
 export function preReadyBytes(path, bytes) {
+  // Reconstruct only the release configuration used by the frozen manuscript reviews.
+  if (path === 'astro.config.mjs' && sha(bytes) === '43ab68187bbb02a41910fafb6ab4b7feeb07f1e1ee53d1ca95936486321b1dec') {
+    const original = bytes.toString()
+      .replace("import { responsiveDiagrams } from './scripts/responsive-diagrams.mjs';\n", '')
+      .replace("  markdown: { rehypePlugins: [[responsiveDiagrams, { base }]] },\n", '')
+      .replace(", './src/styles/reader.css'", '')
+      .replace("        TableOfContents: './src/components/ReaderToc.astro',\n", '');
+    if (sha(original) !== 'baa48f6186f1f9b48cff9a3086e755e4a092b5a0c7bc919f08eedf4976385783') throw Error('Reader layout predecessor mismatch');
+    return Buffer.from(original);
+  }
   bytes = beforeTask23Summary(path,bytes);
   let expected = approvedHashes.get(path), original;
   if (expected) {
